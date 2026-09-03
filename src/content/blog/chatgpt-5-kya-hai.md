@@ -2,6 +2,7 @@
 title: 'ChatGPT 5 Kya Hai? Complete Guide Hinglish Mein'
 description: 'ChatGPT 5 ke naye features, capabilities aur ye kaise aapki life change karega — sab kuch simple Hinglish mein samjho!'
 pubDate: 2026-09-01
+image: '/images/chatgpt-cover.jpg'
 category: ai
 tags: ['chatgpt', 'ai', 'openai', 'gpt-5', 'artificial-intelligence']
 author: 'TechVerse Team'

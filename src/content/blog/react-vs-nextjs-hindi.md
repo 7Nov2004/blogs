@@ -2,6 +2,7 @@
 title: 'React vs Next.js — Kya Use Karein? Complete Comparison'
 description: 'React aur Next.js mein kya fark hai? Kab kaunsa use karein? Beginners ke liye easy Hinglish comparison!'
 pubDate: 2026-08-25
+image: '/images/react-nextjs-cover.jpg'
 category: webdev
 tags: ['react', 'nextjs', 'javascript', 'web-development', 'frontend']
 author: 'TechVerse Team'

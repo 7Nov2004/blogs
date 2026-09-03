@@ -2,6 +2,7 @@
 title: 'Best Laptops for Students 2026 — Budget Se Premium Tak'
 description: 'Students ke liye 2026 ke best laptops — budget friendly se lekar premium tak, har range mein top picks!'
 pubDate: 2026-08-28
+image: '/images/laptops-cover.jpg'
 category: gadgets
 tags: ['laptops', 'students', 'budget-laptops', 'best-laptops-2026', 'gadgets']
 author: 'TechVerse Team'

@@ -50,7 +50,13 @@ const categories = [
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
       {featuredPosts.map((post) => (
         <a href={`/blog/${post.slug}`} class="group bg-white dark:bg-gray-800 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 overflow-hidden border border-gray-100 dark:border-gray-700 flex flex-col h-full">
-          <div class={`h-2 w-full bg-gradient-to-r ${categories.find(c => c.slug === post.data.category)?.color || 'from-blue-500 to-purple-500'}`}></div>
+          {post.data.image ? (
+            <div class="h-44 w-full overflow-hidden bg-gray-100 dark:bg-gray-800">
+              <img src={post.data.image} alt={post.data.title} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+            </div>
+          ) : (
+            <div class={`h-2 w-full bg-gradient-to-r ${categories.find(c => c.slug === post.data.category)?.color || 'from-blue-500 to-purple-500'}`}></div>
+          )}
           <div class="p-6 flex flex-col flex-grow">
             <span class="inline-block px-3 py-1 bg-gray-100 dark:bg-gray-700 text-sm font-semibold rounded-full mb-4 w-fit dark:text-gray-200">
               {categories.find(c => c.slug === post.data.category)?.name || post.data.category}
@@ -93,10 +99,14 @@ const categories = [
     <div class="flex flex-col gap-6">
       {allPosts.map((post) => (
         <a href={`/blog/${post.slug}`} class="group bg-white dark:bg-gray-800 rounded-2xl shadow-sm hover:shadow-md transition-all duration-300 border border-gray-100 dark:border-gray-700 overflow-hidden flex flex-col sm:flex-row">
-          <div class="w-full sm:w-48 h-48 sm:h-auto bg-gray-200 dark:bg-gray-700 flex-shrink-0 flex items-center justify-center">
-             <span class="text-gray-400 dark:text-gray-500 text-sm">Image Placeholder</span>
+          <div class="w-full sm:w-56 h-48 sm:h-auto overflow-hidden flex-shrink-0 bg-gray-100 dark:bg-gray-800">
+            {post.data.image ? (
+              <img src={post.data.image} alt={post.data.title} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+            ) : (
+              <div class="w-full h-full flex items-center justify-center text-gray-400 dark:text-gray-500">TechVerse</div>
+            )}
           </div>
-          <div class="p-6 flex flex-col justify-center">
+          <div class="p-6 flex flex-col justify-center flex-grow">
             <span class="inline-block px-3 py-1 bg-gray-100 dark:bg-gray-700 text-xs font-semibold rounded-full mb-3 w-fit dark:text-gray-300">
               {categories.find(c => c.slug === post.data.category)?.name || post.data.category}
             </span>

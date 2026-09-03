@@ -46,7 +46,9 @@ const relatedPosts = allPosts
           </h1>
           
           <div class="flex items-center gap-4 text-gray-600 dark:text-gray-400 pb-8 border-b border-gray-200 dark:border-gray-700">
-            <div class="w-10 h-10 rounded-full bg-gradient-to-tr from-blue-400 to-purple-500 flex items-center justify-center text-white text-xs">A</div>
+            <div class="w-10 h-10 rounded-full overflow-hidden flex items-center justify-center flex-shrink-0 border border-blue-200 dark:border-gray-700">
+              <img src="/images/author-avatar.jpg" alt={post.data.author || 'TechVerse Admin'} class="w-full h-full object-cover" />
+            </div>
             <div>
               <p class="font-medium text-gray-900 dark:text-gray-200">{post.data.author || 'TechVerse Admin'}</p>
               <div class="flex items-center gap-2 text-sm">
@@ -61,8 +63,8 @@ const relatedPosts = allPosts
         </header>
 
         {post.data.image && (
-          <div class="mb-10 rounded-2xl overflow-hidden shadow-lg border border-gray-100 dark:border-gray-800 bg-gray-100 dark:bg-gray-800 aspect-video flex items-center justify-center">
-            <span class="text-gray-500">Image: {post.data.image}</span>
+          <div class="mb-10 rounded-2xl overflow-hidden shadow-lg border border-gray-100 dark:border-gray-800 bg-gray-100 dark:bg-gray-800 aspect-video">
+            <img src={post.data.image} alt={post.data.title} class="w-full h-full object-cover" />
           </div>
         )}
 
@@ -102,7 +104,9 @@ const relatedPosts = allPosts
 
         <!-- Author Bio Card -->
         <div class="bg-gray-50 dark:bg-gray-800/50 rounded-2xl p-6 mb-16 border border-gray-200 dark:border-gray-700 flex flex-col sm:flex-row items-center sm:items-start gap-6">
-           <div class="w-20 h-20 rounded-full bg-gradient-to-tr from-blue-400 to-purple-500 flex-shrink-0 flex items-center justify-center text-white text-2xl font-bold">A</div>
+           <div class="w-20 h-20 rounded-full overflow-hidden flex-shrink-0 border-2 border-blue-500 shadow-md">
+             <img src="/images/author-avatar.jpg" alt={post.data.author || 'TechVerse Admin'} class="w-full h-full object-cover" />
+           </div>
            <div class="text-center sm:text-left">
              <h4 class="text-xl font-bold dark:text-white mb-2">{post.data.author || 'TechVerse Admin'}</h4>
              <p class="text-gray-600 dark:text-gray-400 text-sm mb-4">Tech enthusiast, developer, and writer. passionate about making technology accessible to everyone through Hinglish content.</p>
