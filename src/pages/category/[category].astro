@@ -1,0 +1,74 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const categoryData: Record<string, { name: string; emoji: string; description: string }> = {
+  ai: { name: 'AI & Machine Learning', emoji: '🤖', description: 'Artificial Intelligence, ChatGPT, Machine Learning aur AI tools ke baare mein sab kuch!' },
+  webdev: { name: 'Web Development', emoji: '💻', description: 'React, Next.js, JavaScript, CSS aur web dev tutorials Hinglish mein!' },
+  gadgets: { name: 'Gadgets & Reviews', emoji: '📱', description: 'Latest phones, laptops, gadgets ke honest reviews aur comparisons!' },
+  tips: { name: 'Tips & Tricks', emoji: '💡', description: 'Productivity hacks, tech tips, aur useful tricks jo life easy bana de!' },
+};
+
+export async function getStaticPaths() {
+  const categories = ['ai', 'webdev', 'gadgets', 'tips'];
+  return categories.map((category) => ({
+    params: { category },
+  }));
+}
+
+const { category } = Astro.params;
+const catInfo = categoryData[category] || { name: category, emoji: '📁', description: '' };
+const posts = (await getCollection('blog'))
+  .filter((post) => post.data.category === category)
+  .sort((a, b) => new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime());
+---
+
+<BaseLayout title={`${catInfo.name} - TechVerse`} description={catInfo.description}>
+  <div class="max-w-6xl mx-auto px-4 py-12">
+    <!-- Category Hero -->
+    <div class="bg-gradient-to-br from-blue-50 to-purple-50 dark:from-gray-800 dark:to-gray-900 rounded-3xl p-10 md:p-16 text-center mb-12 border border-blue-100 dark:border-gray-700 shadow-sm">
+      <div class="text-6xl mb-6">{catInfo.emoji}</div>
+      <h1 class="text-4xl md:text-5xl font-extrabold mb-4 dark:text-white">{catInfo.name}</h1>
+      <p class="text-lg md:text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
+        {catInfo.description}
+      </p>
+    </div>
+
+    <!-- Posts Grid -->
+    {posts.length > 0 ? (
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+        {posts.map((post) => (
+          <a href={`/blog/${post.slug}`} class="group bg-white dark:bg-gray-800 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 overflow-hidden border border-gray-100 dark:border-gray-700 flex flex-col h-full">
+            <div class="h-48 w-full bg-gray-200 dark:bg-gray-700 flex items-center justify-center relative">
+               <span class="text-gray-400 dark:text-gray-500">Image</span>
+            </div>
+            <div class="p-6 flex flex-col flex-grow">
+              <h2 class="text-xl font-bold mb-3 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors line-clamp-2">
+                {post.data.title}
+              </h2>
+              <p class="text-gray-600 dark:text-gray-400 line-clamp-2 mb-6 flex-grow text-sm">
+                {post.data.description}
+              </p>
+              <div class="flex items-center justify-between text-xs text-gray-500 dark:text-gray-400 pt-4 border-t border-gray-100 dark:border-gray-700">
+                <span>{new Date(post.data.pubDate).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</span>
+                <span>{Math.ceil(post.body.length / 1000)} min read</span>
+              </div>
+            </div>
+          </a>
+        ))}
+      </div>
+    ) : (
+      <div class="text-center py-20 bg-gray-50 dark:bg-gray-800/50 rounded-2xl border border-dashed border-gray-300 dark:border-gray-700 mb-12">
+        <div class="text-5xl mb-4">🚧</div>
+        <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-2">Coming Soon!</h2>
+        <p class="text-gray-600 dark:text-gray-400">Abhi is category mein koi post nahi hai. Jaldi aayega!</p>
+      </div>
+    )}
+
+    <div class="text-center">
+      <a href="/blog" class="inline-flex items-center justify-center px-6 py-3 border border-gray-300 dark:border-gray-600 rounded-full text-base font-medium text-gray-700 dark:text-gray-300 bg-white dark:bg-gray-800 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors">
+        ← Back to All Posts
+      </a>
+    </div>
+  </div>
+</BaseLayout>

@@ -1,0 +1,37 @@
+---
+interface Props {
+  slot?: 'header' | 'sidebar' | 'in-article' | 'footer';
+  format?: 'auto' | 'horizontal' | 'vertical' | 'rectangle';
+}
+const { slot = 'in-article', format = 'auto' } = Astro.props;
+
+let heightClass = 'h-[90px]';
+if (slot === 'sidebar') {
+  heightClass = 'h-[250px]';
+} else if (slot === 'in-article') {
+  heightClass = 'min-h-[250px] my-8';
+}
+
+const wrapperClasses = `w-full ${heightClass} flex flex-col items-center justify-center rounded-xl bg-gray-50 dark:bg-gray-800/50 border-2 border-dashed border-gray-300 dark:border-gray-600 relative overflow-hidden`;
+---
+
+<div class={wrapperClasses}>
+  <!-- AdSense approved hone ke baad ye uncomment karo:
+  <ins class="adsbygoogle"
+    style="display:block"
+    data-ad-client="ca-pub-XXXXX"
+    data-ad-slot="XXXXX"
+    data-ad-format="{format}"
+    data-full-width-responsive="true"></ins>
+  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  -->
+  
+  <div class="text-center p-4">
+    <p class="text-gray-500 dark:text-gray-400 font-medium mb-1">
+      <span class="text-xl">📢</span> Ad Space ({slot})
+    </p>
+    <p class="text-xs text-gray-400 dark:text-gray-500">
+      AdSense approval ke baad yahan ads dikhenge
+    </p>
+  </div>
+</div>

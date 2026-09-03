@@ -1,0 +1,116 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Contact - TechVerse" description="Humse contact karein kisi bhi query, feedback ya partnership ke liye.">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div class="text-center mb-16">
+      <h1 class="text-4xl md:text-5xl font-extrabold mb-4 dark:text-white">
+        Humse Baat Karo! 💬
+      </h1>
+      <p class="text-xl text-gray-600 dark:text-gray-300">
+        Koi sawal hai, feedback dena hai, ya collaborate karna hai? Drop a message!
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
+      <!-- Contact Form -->
+      <div class="lg:col-span-2 bg-white dark:bg-gray-800 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 p-8">
+        <h2 class="text-2xl font-bold mb-6 dark:text-white">Message Bhejo</h2>
+        <!-- Form backend integration needed -->
+        <form action="#" method="POST" class="space-y-6">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <label for="name" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Aapka Naam</label>
+              <input type="text" id="name" name="name" required
+                class="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-gray-50 dark:bg-gray-700 dark:text-white transition-colors"
+                placeholder="John Doe"
+              />
+            </div>
+            <div>
+              <label for="email" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Email Address</label>
+              <input type="email" id="email" name="email" required
+                class="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-gray-50 dark:bg-gray-700 dark:text-white transition-colors"
+                placeholder="john@example.com"
+              />
+            </div>
+          </div>
+          
+          <div>
+            <label for="subject" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Subject</label>
+            <select id="subject" name="subject" required
+              class="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-gray-50 dark:bg-gray-700 dark:text-white transition-colors"
+            >
+              <option value="general">General Inquiry</option>
+              <option value="sponsorship">Sponsorship</option>
+              <option value="collaboration">Collaboration</option>
+              <option value="feedback">Feedback</option>
+            </select>
+          </div>
+          
+          <div>
+            <label for="message" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Message</label>
+            <textarea id="message" name="message" rows="5" required
+              class="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-gray-50 dark:bg-gray-700 dark:text-white transition-colors resize-y"
+              placeholder="Aapka message yahan likhein..."
+            ></textarea>
+          </div>
+          
+          <button type="submit"
+            class="w-full px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-bold rounded-lg hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-300 text-lg"
+          >
+            Message Bhejo 🚀
+          </button>
+        </form>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="lg:col-span-1 space-y-6">
+        <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 p-8">
+          <h3 class="text-xl font-bold mb-4 dark:text-white flex items-center gap-2">
+            📧 Email
+          </h3>
+          <p class="text-gray-600 dark:text-gray-300 mb-2">Humme email karein:</p>
+          <a href="mailto:hello@techverse.com" class="text-blue-600 dark:text-blue-400 font-semibold hover:underline">
+            hello@techverse.com
+          </a>
+        </div>
+        
+        <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 p-8">
+          <h3 class="text-xl font-bold mb-4 dark:text-white flex items-center gap-2">
+            🌐 Social Media
+          </h3>
+          <p class="text-gray-600 dark:text-gray-300 mb-4">Humse connect karein:</p>
+          <div class="flex gap-3">
+            <a href="#" class="w-10 h-10 rounded-full bg-blue-50 dark:bg-gray-700 flex items-center justify-center text-blue-600 dark:text-blue-400 hover:bg-blue-100 dark:hover:bg-gray-600 transition-colors">X</a>
+            <a href="#" class="w-10 h-10 rounded-full bg-blue-50 dark:bg-gray-700 flex items-center justify-center text-blue-600 dark:text-blue-400 hover:bg-blue-100 dark:hover:bg-gray-600 transition-colors">IN</a>
+            <a href="#" class="w-10 h-10 rounded-full bg-blue-50 dark:bg-gray-700 flex items-center justify-center text-blue-600 dark:text-blue-400 hover:bg-blue-100 dark:hover:bg-gray-600 transition-colors">IG</a>
+          </div>
+        </div>
+        
+        <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 p-8">
+          <h3 class="text-xl font-bold mb-2 dark:text-white flex items-center gap-2">
+            ⏱️ Response Time
+          </h3>
+          <p class="text-gray-600 dark:text-gray-300">
+            Hum koshish karte hain ki har message ka reply <strong>24-48 hours</strong> mein de dein.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Brand Partnerships -->
+    <div class="mt-16 bg-gradient-to-r from-blue-50 to-purple-50 dark:from-gray-800 dark:to-gray-800 rounded-2xl p-8 md:p-12 border border-blue-100 dark:border-gray-700 text-center">
+      <h2 class="text-3xl font-bold mb-4 dark:text-white">Brand Partnerships 🤝</h2>
+      <p class="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto mb-6">
+        TechVerse ek growing community hai tech enthusiasts ki. Hum sponsors aur brands ke sath collaborate karne ke liye hamesha open hain jo humari audience ke liye valuable products banate hain.
+      </p>
+      <div class="flex flex-wrap justify-center gap-4 text-sm font-semibold text-gray-700 dark:text-gray-300">
+        <span class="px-4 py-2 bg-white dark:bg-gray-700 rounded-full shadow-sm">✓ Sponsored Posts</span>
+        <span class="px-4 py-2 bg-white dark:bg-gray-700 rounded-full shadow-sm">✓ Product Reviews</span>
+        <span class="px-4 py-2 bg-white dark:bg-gray-700 rounded-full shadow-sm">✓ Newsletter Ads</span>
+        <span class="px-4 py-2 bg-white dark:bg-gray-700 rounded-full shadow-sm">✓ Banner Ads</span>
+      </div>
+    </div>
+  </div>
+</BaseLayout>

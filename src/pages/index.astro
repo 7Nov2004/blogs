@@ -1,0 +1,129 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import AdBanner from '../components/AdBanner.astro';
+import NewsletterSignup from '../components/NewsletterSignup.astro';
+import { getCollection } from 'astro:content';
+
+const allPosts = (await getCollection('blog')).sort(
+  (a, b) => new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime()
+);
+const featuredPosts = allPosts.slice(0, 3);
+const categories = [
+  { name: 'AI & Machine Learning', slug: 'ai', emoji: '🤖', color: 'from-purple-500 to-pink-500' },
+  { name: 'Web Development', slug: 'webdev', emoji: '💻', color: 'from-blue-500 to-cyan-500' },
+  { name: 'Gadgets & Reviews', slug: 'gadgets', emoji: '📱', color: 'from-green-500 to-emerald-500' },
+  { name: 'Tips & Tricks', slug: 'tips', emoji: '💡', color: 'from-amber-500 to-orange-500' },
+];
+---
+
+<BaseLayout title='TechVerse — Tech ki Duniya, Hinglish Mein!' description='Latest AI updates, coding tutorials, gadget reviews aur tech tips — sab kuch easy Hinglish mein!'>
+  <!-- Hero Section -->
+  <section class="w-full bg-gradient-to-r from-blue-600 via-purple-600 to-blue-700 text-white py-20 px-4 text-center rounded-xl shadow-lg mb-12">
+    <div class="max-w-4xl mx-auto">
+      <div class="text-6xl mb-6">🚀</div>
+      <h1 class="text-4xl md:text-6xl font-extrabold mb-6 leading-tight">
+        Tech ki Duniya, <span class="bg-clip-text text-transparent bg-gradient-to-r from-yellow-300 to-orange-300">Hinglish Mein!</span>
+      </h1>
+      <p class="text-xl md:text-2xl mb-8 text-blue-100 max-w-2xl mx-auto">
+        Latest AI updates, coding tutorials, gadget reviews aur tech tips — sab kuch easy Hinglish mein!
+      </p>
+      <div class="flex flex-col sm:flex-row justify-center gap-4 mb-8">
+        <a href="/blog" class="px-8 py-4 bg-white text-blue-700 font-bold rounded-full hover:bg-blue-50 transition-colors shadow-md text-lg">
+          Blog Padho →
+        </a>
+        <a href="#newsletter" class="px-8 py-4 bg-purple-700 text-white font-bold rounded-full hover:bg-purple-800 transition-colors shadow-md text-lg border border-purple-500">
+          Subscribe Karo
+        </a>
+      </div>
+      <p class="text-sm text-blue-200 font-medium">✨ Trusted by 1,000+ tech enthusiasts</p>
+    </div>
+  </section>
+
+  <!-- Ad Banner Header -->
+  <div class="mb-12">
+    <AdBanner slot='header' />
+  </div>
+
+  <!-- Featured Posts -->
+  <section class="mb-16">
+    <h2 class="text-3xl font-bold mb-8 dark:text-white flex items-center gap-2">Featured Posts 🔥</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      {featuredPosts.map((post) => (
+        <a href={`/blog/${post.slug}`} class="group bg-white dark:bg-gray-800 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 overflow-hidden border border-gray-100 dark:border-gray-700 flex flex-col h-full">
+          <div class={`h-2 w-full bg-gradient-to-r ${categories.find(c => c.slug === post.data.category)?.color || 'from-blue-500 to-purple-500'}`}></div>
+          <div class="p-6 flex flex-col flex-grow">
+            <span class="inline-block px-3 py-1 bg-gray-100 dark:bg-gray-700 text-sm font-semibold rounded-full mb-4 w-fit dark:text-gray-200">
+              {categories.find(c => c.slug === post.data.category)?.name || post.data.category}
+            </span>
+            <h3 class="text-xl font-bold mb-3 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+              {post.data.title}
+            </h3>
+            <p class="text-gray-600 dark:text-gray-400 line-clamp-2 mb-6 flex-grow">
+              {post.data.description}
+            </p>
+            <div class="flex items-center justify-between text-sm text-gray-500 dark:text-gray-400 pt-4 border-t border-gray-100 dark:border-gray-700">
+              <span>{new Date(post.data.pubDate).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</span>
+              <span>{Math.ceil(post.body.length / 1000)} min read</span>
+            </div>
+          </div>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <!-- Categories -->
+  <section class="mb-16">
+    <h2 class="text-3xl font-bold mb-8 dark:text-white flex items-center gap-2">Categories 📂</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      {categories.map((cat) => (
+        <a href={`/category/${cat.slug}`} class={`group relative overflow-hidden bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 hover:shadow-md transition-all duration-300`}>
+          <div class={`absolute inset-0 bg-gradient-to-br ${cat.color} opacity-0 group-hover:opacity-10 transition-opacity duration-300`}></div>
+          <div class="flex flex-col items-center text-center gap-3">
+            <span class="text-4xl">{cat.emoji}</span>
+            <h3 class="text-lg font-bold dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">{cat.name}</h3>
+          </div>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <!-- Latest Posts -->
+  <section class="mb-16">
+    <h2 class="text-3xl font-bold mb-8 dark:text-white flex items-center gap-2">Latest Posts ✍️</h2>
+    <div class="flex flex-col gap-6">
+      {allPosts.map((post) => (
+        <a href={`/blog/${post.slug}`} class="group bg-white dark:bg-gray-800 rounded-2xl shadow-sm hover:shadow-md transition-all duration-300 border border-gray-100 dark:border-gray-700 overflow-hidden flex flex-col sm:flex-row">
+          <div class="w-full sm:w-48 h-48 sm:h-auto bg-gray-200 dark:bg-gray-700 flex-shrink-0 flex items-center justify-center">
+             <span class="text-gray-400 dark:text-gray-500 text-sm">Image Placeholder</span>
+          </div>
+          <div class="p-6 flex flex-col justify-center">
+            <span class="inline-block px-3 py-1 bg-gray-100 dark:bg-gray-700 text-xs font-semibold rounded-full mb-3 w-fit dark:text-gray-300">
+              {categories.find(c => c.slug === post.data.category)?.name || post.data.category}
+            </span>
+            <h3 class="text-xl font-bold mb-2 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+              {post.data.title}
+            </h3>
+            <p class="text-gray-600 dark:text-gray-400 line-clamp-2 mb-4">
+              {post.data.description}
+            </p>
+            <div class="flex items-center text-sm text-gray-500 dark:text-gray-400 mt-auto">
+              <span>{new Date(post.data.pubDate).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</span>
+              <span class="mx-2">•</span>
+              <span>{Math.ceil(post.body.length / 1000)} min read</span>
+            </div>
+          </div>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <!-- Newsletter -->
+  <div id="newsletter" class="mb-16 scroll-mt-24">
+    <NewsletterSignup />
+  </div>
+
+  <!-- Ad Banner Footer -->
+  <div class="mt-12">
+    <AdBanner slot='footer' />
+  </div>
+</BaseLayout>

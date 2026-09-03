@@ -1,0 +1,77 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="About Us - TechVerse" description="TechVerse ke baare mein jaaniye - Humara mission aur humari kahani.">
+  <!-- Hero Section -->
+  <section class="w-full bg-gradient-to-r from-blue-600 via-purple-600 to-blue-700 text-white py-16 px-4 text-center rounded-xl shadow-lg mb-12">
+    <h1 class="text-4xl md:text-5xl font-extrabold mb-4">
+      TechVerse Ke Baare Mein 👋
+    </h1>
+    <p class="text-xl text-blue-100 max-w-2xl mx-auto">
+      Tech samajhna ab hua aur bhi aasan!
+    </p>
+  </section>
+
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12 mb-16">
+    
+    <!-- About Section -->
+    <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 p-8 md:p-10">
+      <h2 class="text-3xl font-bold mb-6 dark:text-white">Humari Kahani</h2>
+      <div class="prose dark:prose-invert max-w-none text-lg text-gray-600 dark:text-gray-300">
+        <p class="font-medium text-xl mb-6 text-gray-800 dark:text-gray-200">
+          Hum TechVerse pe believe karte hain ki technology ko samajhna sabka haq hai — chahe aap English mein comfortable ho ya Hindi mein.
+        </p>
+        <p class="mb-6">
+          Internet par tech content mostly English mein hota hai, jisse kai baar complex concepts samajhna mushkil ho jata hai. TechVerse ka mission hai tech ko simple, relatable aur Hinglish bhasha mein aap tak pahunchana.
+        </p>
+        <h3 class="text-2xl font-semibold mb-4 text-gray-800 dark:text-gray-200">Hum Kya Cover Karte Hain?</h3>
+        <ul class="list-disc pl-6 space-y-3 marker:text-blue-500">
+          <li><strong>AI & Machine Learning:</strong> ChatGPT, AI tools, aur future tech ke updates.</li>
+          <li><strong>Web Development:</strong> Coding tutorials, React, Next.js aur web dev basics.</li>
+          <li><strong>Gadgets & Reviews:</strong> Naye smartphones, laptops, aur tech products ke honest reviews.</li>
+          <li><strong>Tips & Tricks:</strong> Productivity hacks aur aisi tips jo aapki digital life easy banaye.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Author Card -->
+    <div class="bg-gradient-to-br from-blue-50 to-purple-50 dark:from-gray-800 dark:to-gray-800 rounded-2xl p-8 border border-blue-100 dark:border-gray-700 flex flex-col md:flex-row items-center gap-8">
+      <div class="w-32 h-32 rounded-full bg-gradient-to-tr from-blue-400 to-purple-500 p-1 flex-shrink-0">
+        <div class="w-full h-full bg-white dark:bg-gray-700 rounded-full flex items-center justify-center text-4xl overflow-hidden">
+           <span class="text-gray-400">👤</span>
+        </div>
+      </div>
+      <div class="text-center md:text-left">
+        <h3 class="text-2xl font-bold mb-2 dark:text-white">TechVerse Admin</h3>
+        <p class="text-blue-600 dark:text-blue-400 font-medium mb-4">Tech Enthusiast & Blogger</p>
+        <p class="text-gray-600 dark:text-gray-300 mb-6">
+          Mujhe nayi technologies sikhna aur unhe aasan bhasha mein samjhana pasand hai. Let's explore the tech world together!
+        </p>
+        <div class="flex gap-4 justify-center md:justify-start">
+          <a href="#" class="w-10 h-10 rounded-full bg-blue-100 dark:bg-gray-700 flex items-center justify-center text-blue-600 dark:text-blue-400 hover:bg-blue-200 dark:hover:bg-gray-600 transition-colors">
+            X
+          </a>
+          <a href="#" class="w-10 h-10 rounded-full bg-blue-100 dark:bg-gray-700 flex items-center justify-center text-blue-600 dark:text-blue-400 hover:bg-blue-200 dark:hover:bg-gray-600 transition-colors">
+            IN
+          </a>
+          <a href="#" class="w-10 h-10 rounded-full bg-blue-100 dark:bg-gray-700 flex items-center justify-center text-blue-600 dark:text-blue-400 hover:bg-blue-200 dark:hover:bg-gray-600 transition-colors">
+            GH
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Collaborate CTA -->
+    <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 p-8 md:p-10 text-center">
+      <h2 class="text-3xl font-bold mb-4 dark:text-white">Humse Collaborate Karo 🤝</h2>
+      <p class="text-lg text-gray-600 dark:text-gray-300 mb-8 max-w-2xl mx-auto">
+        Sponsored Posts, Product Reviews, Brand Partnerships ke liye humse contact karo! Hum aapke brand ko right audience tak pahunchane mein madad kar sakte hain.
+      </p>
+      <a href="/contact" class="inline-block px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-bold rounded-full hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300">
+        Contact Us
+      </a>
+    </div>
+
+  </div>
+</BaseLayout>
