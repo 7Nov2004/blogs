@@ -18,20 +18,20 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       <div class="lg:col-span-2 bg-white dark:bg-gray-800 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 p-8">
         <h2 class="text-2xl font-bold mb-6 dark:text-white">Message Bhejo</h2>
         <!-- Form backend integration needed -->
-        <form action="#" method="POST" class="space-y-6">
+        <form id="contact-form" class="space-y-6">
           <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
               <label for="name" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Aapka Naam</label>
               <input type="text" id="name" name="name" required
                 class="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-gray-50 dark:bg-gray-700 dark:text-white transition-colors"
-                placeholder="John Doe"
+                placeholder="Aapka naam"
               />
             </div>
             <div>
               <label for="email" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Email Address</label>
               <input type="email" id="email" name="email" required
                 class="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-gray-50 dark:bg-gray-700 dark:text-white transition-colors"
-                placeholder="john@example.com"
+                placeholder="aapka@email.com"
               />
             </div>
           </div>
@@ -41,10 +41,10 @@ import BaseLayout from '../layouts/BaseLayout.astro';
             <select id="subject" name="subject" required
               class="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-gray-50 dark:bg-gray-700 dark:text-white transition-colors"
             >
-              <option value="general">General Inquiry</option>
-              <option value="sponsorship">Sponsorship</option>
-              <option value="collaboration">Collaboration</option>
-              <option value="feedback">Feedback</option>
+              <option value="General Inquiry">General Inquiry</option>
+              <option value="Sponsorship & Ads">Sponsorship & Ads</option>
+              <option value="Collaboration">Collaboration</option>
+              <option value="Feedback">Feedback</option>
             </select>
           </div>
           
@@ -61,7 +61,35 @@ import BaseLayout from '../layouts/BaseLayout.astro';
           >
             Message Bhejo 🚀
           </button>
+
+          <div id="contact-success" class="hidden p-4 bg-green-50 dark:bg-green-900/30 border border-green-200 dark:border-green-800 rounded-lg text-green-800 dark:text-green-300 text-center font-medium">
+            ✅ Message tayyar hai! Aapke email client me khul raha hai...
+          </div>
         </form>
+
+        <script is:inline>
+          const contactForm = document.getElementById('contact-form');
+          const contactSuccess = document.getElementById('contact-success');
+          if (contactForm) {
+            contactForm.addEventListener('submit', (e) => {
+              e.preventDefault();
+              const name = document.getElementById('name').value;
+              const email = document.getElementById('email').value;
+              const subject = document.getElementById('subject').value;
+              const message = document.getElementById('message').value;
+
+              const mailtoSubject = encodeURIComponent(`[TechVerse - ${subject}] from ${name}`);
+              const mailtoBody = encodeURIComponent(`Naam: ${name}\nEmail: ${email}\nSubject: ${subject}\n\nMessage:\n${message}`);
+
+              contactSuccess.classList.remove('hidden');
+              window.location.href = `mailto:aayush74550@gmail.com?subject=${mailtoSubject}&body=${mailtoBody}`;
+              contactForm.reset();
+              setTimeout(() => {
+                contactSuccess.classList.add('hidden');
+              }, 6000);
+            });
+          }
+        </script>
       </div>
 
       <!-- Contact Info -->

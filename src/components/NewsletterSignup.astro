@@ -16,8 +16,7 @@ const isFullWidth = variant === 'fullwidth';
         Har hafta latest AI news, coding tips, aur gadget reviews. Join karo 1,000+ tech lovers!
       </p>
       
-      <form action="#" class="flex flex-col sm:flex-row gap-3 max-w-lg mx-auto">
-        <!-- REPLACE action="#" WITH YOUR MAILCHIMP OR CONVERTKIT ENDPOINT -->
+      <form class="newsletter-form flex flex-col sm:flex-row gap-3 max-w-lg mx-auto">
         <input 
           type="email" 
           placeholder="apna@email.com" 
@@ -31,6 +30,9 @@ const isFullWidth = variant === 'fullwidth';
           Subscribe Karo 🚀
         </button>
       </form>
+      <p class="newsletter-success hidden text-sm font-semibold text-yellow-200 mt-4">
+        🎉 Shukriya! Aap TechVerse newsletter me jud chuke hain!
+      </p>
       <p class="text-sm text-white/80 mt-4 flex items-center justify-center gap-1">
         ✅ No spam, sirf quality content. Kabhi bhi unsubscribe kar sakte ho.
       </p>
@@ -44,8 +46,7 @@ const isFullWidth = variant === 'fullwidth';
       Har hafta latest AI news, coding tips, aur gadget reviews. Join karo 1,000+ tech lovers!
     </p>
     
-    <form action="#" class="flex flex-col gap-3">
-      <!-- REPLACE action="#" WITH YOUR MAILCHIMP OR CONVERTKIT ENDPOINT -->
+    <form class="newsletter-form flex flex-col gap-3">
       <input 
         type="email" 
         placeholder="apna@email.com" 
@@ -59,8 +60,28 @@ const isFullWidth = variant === 'fullwidth';
         Subscribe Karo 🚀
       </button>
     </form>
+    <p class="newsletter-success hidden text-sm font-semibold text-green-600 dark:text-green-400 mt-4">
+      🎉 Shukriya! Aap TechVerse newsletter me jud chuke hain!
+    </p>
     <p class="text-xs text-gray-500 dark:text-gray-400 mt-4 flex items-center justify-center gap-1">
       ✅ No spam, sirf quality content. Kabhi bhi unsubscribe kar sakte ho.
     </p>
   </div>
 )}
+
+<script is:inline>
+  document.querySelectorAll('.newsletter-form').forEach(form => {
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const parent = form.parentElement;
+      const successMsg = parent.querySelector('.newsletter-success');
+      if (successMsg) {
+        successMsg.classList.remove('hidden');
+        form.reset();
+        setTimeout(() => {
+          successMsg.classList.add('hidden');
+        }, 6000);
+      }
+    });
+  });
+</script>
