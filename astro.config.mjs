@@ -3,7 +3,7 @@ import tailwind from '@astrojs/tailwind';
 import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
-  site: 'https://techverse.in',
+  site: 'https://techverseblogs.in',
   integrations: [
     tailwind(),
     sitemap(),

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://techverse.in/sitemap-index.xml
+Sitemap: https://techverseblogs.in/sitemap-index.xml
