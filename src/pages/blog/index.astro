@@ -94,30 +94,42 @@ const categories = [
   const noResults = document.getElementById('no-results');
   const postsGrid = document.getElementById('posts-grid');
 
+  function performSearch(query) {
+    let visibleCount = 0;
+    postCards.forEach(card => {
+      const title = card.getAttribute('data-title') || '';
+      const desc = card.getAttribute('data-description') || '';
+      const cat = card.getAttribute('data-category') || '';
+      const tags = card.getAttribute('data-tags') || '';
+
+      if (!query || title.includes(query) || desc.includes(query) || cat.includes(query) || tags.includes(query)) {
+        card.classList.remove('hidden');
+        visibleCount++;
+      } else {
+        card.classList.add('hidden');
+      }
+    });
+
+    if (visibleCount === 0 && query !== '') {
+      noResults.classList.remove('hidden');
+    } else {
+      noResults.classList.add('hidden');
+    }
+  }
+
   if (searchInput) {
     searchInput.addEventListener('input', (e) => {
       const query = e.target.value.toLowerCase().trim();
-      let visibleCount = 0;
-
-      postCards.forEach(card => {
-        const title = card.getAttribute('data-title') || '';
-        const desc = card.getAttribute('data-description') || '';
-        const cat = card.getAttribute('data-category') || '';
-        const tags = card.getAttribute('data-tags') || '';
-
-        if (!query || title.includes(query) || desc.includes(query) || cat.includes(query) || tags.includes(query)) {
-          card.classList.remove('hidden');
-          visibleCount++;
-        } else {
-          card.classList.add('hidden');
-        }
-      });
-
-      if (visibleCount === 0 && query !== '') {
-        noResults.classList.remove('hidden');
-      } else {
-        noResults.classList.add('hidden');
-      }
+      performSearch(query);
     });
+
+    // Check if query exists in URL (e.g. from Header or Hero search)
+    const urlParams = new URLSearchParams(window.location.search);
+    const initialQuery = urlParams.get('q');
+    if (initialQuery) {
+      searchInput.value = initialQuery;
+      performSearch(initialQuery.toLowerCase().trim());
+      searchInput.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
   }
 </script>

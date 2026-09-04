@@ -109,14 +109,35 @@ const currentYear = new Date().getFullYear();
 <script is:inline>
   const footerForm = document.getElementById('footer-newsletter-form');
   const footerMsg = document.getElementById('footer-newsletter-msg');
+  const footerEmail = document.getElementById('footer-newsletter-email');
   if (footerForm && footerMsg) {
-    footerForm.addEventListener('submit', (e) => {
+    footerForm.addEventListener('submit', async (e) => {
       e.preventDefault();
+      const emailVal = footerEmail ? footerEmail.value : '';
+      footerMsg.innerText = 'Subscribing... ⏳';
       footerMsg.classList.remove('hidden');
-      footerForm.reset();
-      setTimeout(() => {
-        footerMsg.classList.add('hidden');
-      }, 5000);
+
+      try {
+        await fetch("https://formsubmit.co/ajax/aayush74550@gmail.com", {
+          method: "POST",
+          headers: { 
+            'Content-Type': 'application/json',
+            'Accept': 'application/json'
+          },
+          body: JSON.stringify({
+            Subscriber_Email: emailVal,
+            _subject: `[TechVerse] Naya Footer Newsletter Subscriber: ${emailVal}`
+          })
+        });
+      } catch (err) {
+        console.error(err);
+      } finally {
+        footerMsg.innerText = '✅ Shukriya! Subscribe ho gaya.';
+        footerForm.reset();
+        setTimeout(() => {
+          footerMsg.classList.add('hidden');
+        }, 6000);
+      }
     });
   }
 </script>

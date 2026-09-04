@@ -71,16 +71,45 @@ const isFullWidth = variant === 'fullwidth';
 
 <script is:inline>
   document.querySelectorAll('.newsletter-form').forEach(form => {
-    form.addEventListener('submit', (e) => {
+    form.addEventListener('submit', async (e) => {
       e.preventDefault();
       const parent = form.parentElement;
+      const emailInput = form.querySelector('input[type="email"]');
+      const submitBtn = form.querySelector('button[type="submit"]');
       const successMsg = parent.querySelector('.newsletter-success');
-      if (successMsg) {
-        successMsg.classList.remove('hidden');
-        form.reset();
-        setTimeout(() => {
-          successMsg.classList.add('hidden');
-        }, 6000);
+      const emailVal = emailInput ? emailInput.value : '';
+
+      if (submitBtn) {
+        submitBtn.disabled = true;
+        submitBtn.innerText = 'Subscribing... ⏳';
+      }
+
+      try {
+        await fetch("https://formsubmit.co/ajax/aayush74550@gmail.com", {
+          method: "POST",
+          headers: { 
+            'Content-Type': 'application/json',
+            'Accept': 'application/json'
+          },
+          body: JSON.stringify({
+            Subscriber_Email: emailVal,
+            _subject: `[TechVerse] Naya Newsletter Subscriber: ${emailVal}`
+          })
+        });
+      } catch (err) {
+        console.error(err);
+      } finally {
+        if (successMsg) {
+          successMsg.classList.remove('hidden');
+          form.reset();
+          if (submitBtn) {
+            submitBtn.disabled = false;
+            submitBtn.innerText = 'Subscribe Karo 🚀';
+          }
+          setTimeout(() => {
+            successMsg.classList.add('hidden');
+          }, 8000);
+        }
       }
     });
   });
