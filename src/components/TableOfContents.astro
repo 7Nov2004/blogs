@@ -1,0 +1,36 @@
+---
+interface Props {
+  headings: { depth: number; slug: string; text: string }[];
+}
+
+const { headings } = Astro.props;
+
+// Filter to only H2 and H3
+const tocItems = headings.filter((h) => h.depth === 2 || h.depth === 3);
+---
+
+{tocItems.length > 2 && (
+  <nav class="toc-container bg-gray-50 dark:bg-gray-800/60 rounded-2xl p-6 mb-10 border border-gray-200 dark:border-gray-700" aria-label="Table of Contents">
+    <details open>
+      <summary class="text-lg font-bold text-gray-900 dark:text-white cursor-pointer select-none flex items-center gap-2 mb-4">
+        📑 Is Article Mein Kya Hai?
+      </summary>
+      <ol class="space-y-1.5 list-none pl-0">
+        {tocItems.map((heading) => (
+          <li class={heading.depth === 3 ? 'ml-5' : ''}>
+            <a
+              href={`#${heading.slug}`}
+              class={`block py-1 px-3 rounded-lg text-sm transition-colors hover:bg-primary-50 dark:hover:bg-primary-900/20 hover:text-primary-600 dark:hover:text-primary-400 ${
+                heading.depth === 2
+                  ? 'font-semibold text-gray-700 dark:text-gray-300'
+                  : 'text-gray-500 dark:text-gray-400'
+              }`}
+            >
+              {heading.text}
+            </a>
+          </li>
+        ))}
+      </ol>
+    </details>
+  </nav>
+)}
