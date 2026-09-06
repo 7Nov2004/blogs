@@ -10,6 +10,9 @@ export default defineConfig({
     tailwind(),
     sitemap(),
   ],
+  image: {
+    domains: ['images.unsplash.com'],
+  },
   markdown: {
     shikiConfig: {
       theme: 'dracula',
