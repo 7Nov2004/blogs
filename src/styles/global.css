@@ -10,12 +10,24 @@
 
   /* Default body styling */
   body {
-    @apply font-sans text-gray-800 bg-white dark:bg-gray-950 dark:text-gray-200 transition-colors duration-300;
+    @apply font-sans text-gray-800 bg-slate-50/50 dark:bg-[#0b0f19] dark:text-gray-100 transition-colors duration-300 antialiased;
+  }
+
+  /* Custom WebKit Scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-gray-300 dark:bg-gray-700 rounded-full hover:bg-gray-400 dark:hover:bg-gray-600 transition-colors;
   }
 
   /* Headings */
   h1, h2, h3, h4, h5, h6 {
-    @apply font-bold leading-tight;
+    @apply font-bold leading-tight tracking-tight text-gray-900 dark:text-white;
   }
 
   /* Links */
@@ -25,83 +37,82 @@
 
   /* Selection color */
   ::selection {
-    @apply bg-primary-500/30 text-primary-900 dark:text-primary-100;
+    @apply bg-blue-500/20 text-blue-900 dark:text-blue-200;
   }
 }
 
 @layer components {
   /* Gradient text utility */
   .gradient-text {
-    @apply bg-gradient-to-r from-primary-500 to-accent-500 bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 dark:from-blue-400 dark:via-indigo-300 dark:to-purple-400 bg-clip-text text-transparent;
   }
 
   /* Card component */
   .card {
-    @apply bg-white dark:bg-gray-900 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 dark:border-gray-800;
+    @apply bg-white dark:bg-[#111827]/80 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 dark:border-gray-800/80 backdrop-blur-sm;
   }
 
   /* Button styles */
   .btn-primary {
-    @apply inline-flex items-center px-6 py-3 bg-gradient-to-r from-primary-500 to-accent-500 text-white font-semibold rounded-xl hover:from-primary-600 hover:to-accent-600 transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-0.5;
+    @apply inline-flex items-center justify-center px-6 py-3 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-semibold rounded-xl transition-all duration-300 shadow-md hover:shadow-lg hover:-translate-y-0.5;
   }
 
   .btn-outline {
-    @apply inline-flex items-center px-6 py-3 border-2 border-primary-500 text-primary-500 dark:text-primary-400 font-semibold rounded-xl hover:bg-primary-500 hover:text-white transition-all duration-300;
+    @apply inline-flex items-center justify-center px-6 py-3 border border-gray-300 dark:border-gray-700 text-gray-800 dark:text-gray-200 font-semibold rounded-xl hover:bg-gray-100 dark:hover:bg-gray-800 transition-all duration-300;
   }
 
   /* Tag/badge */
   .tag {
-    @apply inline-block px-3 py-1 text-xs font-semibold rounded-full bg-primary-100 text-primary-700 dark:bg-primary-900/30 dark:text-primary-300;
+    @apply inline-block px-3 py-1 text-xs font-semibold rounded-full bg-blue-50 text-blue-700 dark:bg-blue-900/30 dark:text-blue-300 border border-blue-100 dark:border-blue-800;
   }
 
   /* Blog post prose styling */
   .prose-blog {
-    @apply leading-relaxed text-lg;
+    @apply leading-relaxed text-[17px] text-gray-700 dark:text-gray-300;
   }
 
   .prose-blog h2 {
-    @apply text-2xl font-bold mt-10 mb-4 text-gray-900 dark:text-white;
+    @apply text-2xl md:text-3xl font-extrabold mt-12 mb-5 text-gray-900 dark:text-white pb-2 border-b border-gray-100 dark:border-gray-800;
   }
 
   .prose-blog h3 {
-    @apply text-xl font-bold mt-8 mb-3 text-gray-800 dark:text-gray-100;
+    @apply text-xl font-bold mt-8 mb-4 text-gray-900 dark:text-gray-100;
   }
 
   .prose-blog p {
-    @apply mb-5 text-gray-700 dark:text-gray-300;
+    @apply mb-6 leading-relaxed;
   }
 
   .prose-blog ul, .prose-blog ol {
-    @apply mb-5 pl-6;
+    @apply mb-6 pl-6 space-y-2;
   }
 
   .prose-blog li {
-    @apply mb-2 text-gray-700 dark:text-gray-300;
+    @apply text-gray-700 dark:text-gray-300;
   }
 
   .prose-blog code {
-    @apply bg-gray-100 dark:bg-gray-800 px-2 py-0.5 rounded text-sm font-mono text-primary-600 dark:text-primary-400;
+    @apply bg-gray-100 dark:bg-gray-800/80 px-2 py-0.5 rounded text-sm font-mono text-blue-600 dark:text-blue-400 border border-gray-200 dark:border-gray-700;
   }
 
   .prose-blog pre {
-    @apply rounded-xl my-6 p-4 overflow-x-auto;
+    @apply rounded-2xl my-8 p-5 overflow-x-auto shadow-sm border border-gray-200 dark:border-gray-800;
   }
 
   .prose-blog blockquote {
-    @apply border-l-4 border-primary-500 pl-4 italic text-gray-600 dark:text-gray-400 my-6;
+    @apply border-l-4 border-blue-500 pl-5 italic text-gray-600 dark:text-gray-400 my-6 bg-blue-50/50 dark:bg-blue-950/20 py-3 rounded-r-xl;
   }
 
   .prose-blog img {
-    @apply rounded-xl shadow-md my-6;
+    @apply rounded-2xl shadow-md my-8 border border-gray-100 dark:border-gray-800;
   }
 
   .prose-blog a {
-    @apply text-primary-500 hover:text-primary-700 dark:hover:text-primary-300 underline decoration-primary-500/30 hover:decoration-primary-500;
+    @apply text-blue-600 dark:text-blue-400 font-medium underline decoration-blue-500/30 hover:decoration-blue-500 transition-colors;
   }
 }
 
 @layer utilities {
-  /* Hide scrollbar */
   .scrollbar-hide {
     -ms-overflow-style: none;
     scrollbar-width: none;
@@ -110,15 +121,14 @@
     display: none;
   }
 
-  /* Animate fade in */
   .animate-fade-in {
-    animation: fadeIn 0.5s ease-out;
+    animation: fadeIn 0.4s ease-out;
   }
 
   @keyframes fadeIn {
     from {
       opacity: 0;
-      transform: translateY(10px);
+      transform: translateY(8px);
     }
     to {
       opacity: 1;

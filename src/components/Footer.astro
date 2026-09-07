@@ -2,19 +2,25 @@
 const currentYear = new Date().getFullYear();
 ---
 
-<footer class="bg-gray-900 dark:bg-gray-950 text-gray-300 mt-16 border-t border-gray-800">
-  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+<footer class="bg-slate-950 text-gray-300 mt-20 border-t border-slate-800/80">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
     <!-- 4-Column Grid -->
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
       
       <!-- Column 1: About -->
       <div>
-        <a href="/" class="inline-block text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary-500 to-accent-500 mb-4">
-          TechVerse
+        <a href="/" class="flex items-center gap-2.5 mb-4 group">
+          <div class="w-8 h-8 rounded-xl bg-gradient-to-tr from-blue-600 via-indigo-600 to-purple-600 flex items-center justify-center text-white font-extrabold text-lg shadow-md">
+            ⚡
+          </div>
+          <span class="text-2xl font-black tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-indigo-300 to-purple-400">
+            TechVerse
+          </span>
         </a>
-        <p class="text-gray-400 text-sm leading-relaxed">
-          Tech ki duniya, Hinglish mein! Latest tech news, tutorials, reviews aur bahut kuch.
+        <p class="text-gray-400 text-sm leading-relaxed mb-4">
+          Tech ki duniya, Hinglish mein! Latest AI tools, gadget reviews, coding roadmaps aur smart digital tips.
         </p>
+        <p class="text-xs text-slate-500 font-medium">Made with ❤️ for Indian Tech Lovers.</p>
       </div>
 
       <!-- Column 2: Quick Links -->
