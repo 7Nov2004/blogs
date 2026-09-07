@@ -8,7 +8,21 @@ export default defineConfig({
   integrations: [
     mdx(),
     tailwind(),
-    sitemap(),
+    sitemap({
+      serialize(item) {
+        if (item.url === 'https://techverseblogs.in' || item.url === 'https://techverseblogs.in/') {
+          item.changefreq = 'daily';
+          item.priority = 1.0;
+        } else if (item.url.includes('/blog/')) {
+          item.changefreq = 'weekly';
+          item.priority = 0.9;
+        } else {
+          item.changefreq = 'monthly';
+          item.priority = 0.6;
+        }
+        return item;
+      }
+    }),
   ],
   image: {
     domains: ['images.unsplash.com'],
