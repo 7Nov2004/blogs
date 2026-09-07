@@ -31,14 +31,12 @@ if (isFlipkart) storeColor = 'bg-blue-100 text-blue-800 dark:bg-blue-900/30 dark
     </div>
   )}
 
-  <div class="flex-shrink-0 flex justify-center items-center w-full md:w-48 h-48 bg-gray-50 dark:bg-gray-900 rounded-xl overflow-hidden border border-gray-100 dark:border-gray-700">
+  <div class="flex-shrink-0 flex justify-center items-center w-full md:w-48 h-48 bg-white dark:bg-gray-900 rounded-xl overflow-hidden border border-gray-100 dark:border-gray-700 p-3 shadow-inner">
     <img 
       src={productImage} 
       alt={productName} 
       loading="lazy"
-      referrerpolicy="no-referrer"
-      onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1526738549149-8e07eca6c147?auto=format&fit=crop&w=600&q=80';"
-      class="w-full h-full object-cover transition-transform duration-300 hover:scale-105" 
+      class="w-full h-full object-contain transition-transform duration-300 hover:scale-105" 
     />
   </div>
 
