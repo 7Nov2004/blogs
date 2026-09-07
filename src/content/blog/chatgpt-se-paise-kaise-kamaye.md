@@ -2,7 +2,7 @@
 title: 'ChatGPT Se Paise Kaise Kamayein: 10 Real Tarike (2026)'
 description: '2026 mein ChatGPT aur AI tools ki madad se ghar baithe online paise kaise kamayein? Step-by-step 10 proven tarike Hinglish mein samjho!'
 pubDate: 2026-08-30
-image: '/images/chatgpt-cover.jpg'
+image: '/images/ai-money-cover.jpg'
 category: ai
 tags: ['chatgpt', 'ai', 'online-earning', 'freelancing', 'passive-income']
 author: 'TechVerse Team'

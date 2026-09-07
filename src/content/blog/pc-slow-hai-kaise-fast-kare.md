@@ -2,7 +2,7 @@
 title: 'Computer Ya Laptop Slow Ho Gaya Hai? 10 Tarike Fast Karne Ke (2026)'
 description: 'Windows 11 aur Windows 10 PC/Laptop hang ya slow ho raha hai? Boot time fast karne, lag khatam karne aur speed 3x badhane ke practical hacks.'
 pubDate: 2026-08-16
-image: '/images/workspace-cover.jpg'
+image: '/images/pc-boost-cover.jpg'
 category: tips
 tags: ['windows-tips', 'pc-speed', 'laptop-performance', 'tech-hacks', 'troubleshooting']
 author: 'TechVerse Team'

@@ -2,7 +2,7 @@
 title: 'Jio AirFiber vs Airtel Xstream: 2026 Mein Kaunsa Connection Best Hai?'
 description: 'Ghar par fast internet lagwana hai par confuse hain? Jio AirFiber aur Airtel Xstream AirFiber ka poora sach aur speed comparison yahan padhein.'
 pubDate: 2026-09-07
-image: '/images/workspace-cover.jpg'
+image: '/images/airfiber-router-cover.jpg'
 category: 'tips'
 tags: ['internet', 'tech-guide', 'smart-home', 'comparison']
 author: 'TechVerse Team'

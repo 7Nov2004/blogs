@@ -2,7 +2,7 @@
 title: 'Top 10 Free AI Tools Jo Har Student Ko Pata Hone Chahiye (2026)'
 description: 'College aur school students ke liye 10 sabse powerful free AI tools jo padhai, homework, presentations aur research ko 10x aasan bana denge.'
 pubDate: 2026-08-27
-image: '/images/chatgpt-cover.jpg'
+image: '/images/free-ai-tools-cover.jpg'
 category: ai
 tags: ['ai-tools', 'students', 'study-hacks', 'productivity', 'free-tools']
 author: 'TechVerse Team'

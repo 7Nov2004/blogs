@@ -2,7 +2,7 @@
 title: 'Phone Ki Battery Life Kaise Badhayein? 12 Practical Tips (2026)'
 description: 'Android aur iPhone ki battery jaldi khatam ho rahi hai? Phone battery backup 2x badhane ke 12 scientific aur practical tarike Hinglish mein samjho!'
 pubDate: 2026-08-17
-image: '/images/phone-cover.jpg'
+image: '/images/battery-tips-cover.jpg'
 category: tips
 tags: ['battery-life', 'smartphone-tips', 'android-hacks', 'iphone-tips', 'tech-guide']
 author: 'TechVerse Team'

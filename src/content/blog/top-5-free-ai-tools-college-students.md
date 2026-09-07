@@ -2,7 +2,7 @@
 title: 'Top 5 Free AI Tools Jo Har College Student Ke Paas Hone Chahiye (2026)'
 description: 'College assignments, notes, aur presentations mein time bachana hai? Ye 5 free AI tools aapki student life bilkul aasan bana denge.'
 pubDate: 2026-09-07
-image: '/images/chatgpt-cover.jpg'
+image: '/images/student-ai-tools-cover.jpg'
 category: 'ai'
 tags: ['ai-tools', 'students', 'productivity', 'free-tools']
 author: 'TechVerse Team'

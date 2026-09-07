@@ -2,7 +2,7 @@
 title: 'Tech Freelancing Kaise Shuru Karein? Beginners Guide (Upwork, Fiverr)'
 description: 'Ghar baithe web development, video editing ya writing se dollars mein kamayi kaise shuru karein? Upwork aur Fiverr par clients pane ka roadmap.'
 pubDate: 2026-08-15
-image: '/images/workspace-cover.jpg'
+image: '/images/freelancing-cover.jpg'
 category: tips
 tags: ['freelancing', 'online-earning', 'upwork', 'fiverr', 'remote-jobs', 'career-guide']
 author: 'TechVerse Team'

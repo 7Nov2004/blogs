@@ -2,7 +2,7 @@
 title: 'Refurbished Laptops Lene Se Pehle Ye 5 Baatein Zaroor Check Karein (2026 Guide)'
 description: 'Second hand ya refurbished laptop kharidne ka soch rahe hain? Scam se bachne ke liye ye 5 important checks zaroor karein.'
 pubDate: 2026-09-06
-image: '/images/laptops-cover.jpg'
+image: '/images/refurbished-laptop-cover.jpg'
 category: 'gadgets'
 tags: ['laptops', 'budget-laptops', 'tech-guide', 'students']
 author: 'TechVerse Team'

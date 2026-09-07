@@ -2,7 +2,7 @@
 title: 'HTML & CSS Kya Hai? Web Development Shuru Karne Ka Tarika (2026)'
 description: 'HTML aur CSS kya hai, website kaise banayi jaati hai, responsive design aur Flexbox/Grid kya hai? Absolute beginners ke liye complete guide.'
 pubDate: 2026-08-22
-image: '/images/react-nextjs-cover.jpg'
+image: '/images/html-css-cover.jpg'
 category: webdev
 tags: ['html', 'css', 'web-development', 'responsive-design', 'beginners']
 author: 'TechVerse Team'

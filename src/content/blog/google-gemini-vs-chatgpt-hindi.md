@@ -2,7 +2,7 @@
 title: 'Google Gemini vs ChatGPT: Kaunsa AI Tool Behtar Hai (2026)?'
 description: 'Google Gemini aur OpenAI ChatGPT ke beech detailed comparison. Speed, accuracy, coding, reasoning aur Indian users ke liye kaunsa best hai?'
 pubDate: 2026-08-29
-image: '/images/chatgpt-cover.jpg'
+image: '/images/gemini-ai-cover.jpg'
 category: ai
 tags: ['google-gemini', 'chatgpt', 'ai-comparison', 'openai', 'gemini-advanced']
 author: 'TechVerse Team'

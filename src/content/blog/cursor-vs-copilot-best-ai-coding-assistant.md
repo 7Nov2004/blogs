@@ -2,7 +2,7 @@
 title: 'Cursor AI vs GitHub Copilot: 2026 Mein Kaunsa Best Hai? (Hinglish)'
 description: 'Janiye Cursor AI aur GitHub Copilot mein kya difference hai. Ek programmer ke liye 2026 mein kaunsa AI coding assistant sabse best hai?'
 pubDate: 2026-09-07
-image: '/images/chatgpt-cover.jpg'
+image: '/images/cursor-ai-cover.jpg'
 category: 'ai'
 tags: ['ai-tools', 'web-development', 'programming', 'developer-tools', 'vscode']
 author: 'TechVerse Team'

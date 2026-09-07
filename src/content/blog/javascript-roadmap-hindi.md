@@ -2,7 +2,7 @@
 title: 'JavaScript Kaise Sikhe? Zero Se Hero Roadmap (2026)'
 description: 'JavaScript programming language shuru se advance tak kaise sikhein? Modern ES6+, DOM manipulation, Async/Await aur frontend developer banne ka roadmap.'
 pubDate: 2026-08-23
-image: '/images/react-nextjs-cover.jpg'
+image: '/images/javascript-cover.jpg'
 category: webdev
 tags: ['javascript', 'js-roadmap', 'web-development', 'frontend', 'es6']
 author: 'TechVerse Team'
