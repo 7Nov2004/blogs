@@ -17,5 +17,6 @@ export async function GET(context) {
         categories: post.data.tags,
       })),
     customData: `<language>hi</language>`,
+    stylesheet: '/rss-style.xsl',
   });
 }
