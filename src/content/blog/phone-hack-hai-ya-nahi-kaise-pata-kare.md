@@ -6,6 +6,15 @@ image: '/images/phone-security-hack-cover.jpg'
 category: 'tips'
 tags: ['cyber-security', 'smartphone-tips', 'android-hacks', 'privacy', 'secret-codes']
 author: 'TechVerse Team'
+faqs:
+  - question: "Kya *#21# dial karne se pata chalta hai ki phone hack hai?"
+    answer: "Haan, *#21# ek official USSD code hai jo call, SMS aur data forwarding ka status dikhata hai. Agar yahan koi unknown number dikh raha hai, iska matlab aapki calls ya messages us number par forward ho rahi hain. Ye hacking ya spy app ka sign ho sakta hai. Turant ##002# dial karke forwarding band karein."
+  - question: "Phone garam hona hacking ka sign hai?"
+    answer: "Sirf phone garam hona hacking ka confirm sign nahi hai — heavy apps, poor signal area, ya charging ke time bhi phone garam hota hai. Lekin agar phone standby par bhi (screen off, koi app na chalte hue) bohot garam ho, aur battery bhi tezi se khatam ho rahi ho, toh background mein koi unauthorized app chal sakti hai."
+  - question: "Android phone se virus kaise remove karein?"
+    answer: "Pehle Google Play Store mein jaayein, profile icon par tap karein, aur Play Protect Scan chalayein. Fir Settings > Apps mein unknown ya suspicious apps dhundhein aur uninstall karein. Agar problem solve na ho, Settings > Device Admin Apps check karein aur unauthorized apps ko deactivate karke uninstall karein. Last resort: Factory Reset."
+  - question: "Kya iPhone bhi hack ho sakta hai?"
+    answer: "iPhone ka closed ecosystem Android se zyada secure hota hai, lekin iPhone bhi hack ho sakta hai — specially agar aapne jailbreak kiya ho, kisi phishing link par click kiya ho, ya unknown profile install ki ho. iPhone mein Settings > VPN & Device Management mein jaayein aur koi unknown profile ho toh turant remove karein."
 ---
 
 Aajkal hamari poori zindagi smartphone ke andar hoti hai — banking apps, personal photos, WhatsApp chats aur private documents. Lekin kya aapko pata hai ki bina aapke jane koi hacker ya spy app aapke phone ka microphone, camera ya calls record kar sakta hai?

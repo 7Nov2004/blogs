@@ -13,6 +13,10 @@ const blog = defineCollection({
     author: z.string().default('TechVerse Team'),
     sponsored: z.boolean().default(false),
     featured: z.boolean().default(false),
+    faqs: z.array(z.object({
+      question: z.string(),
+      answer: z.string(),
+    })).optional(),
   }),
 });
 

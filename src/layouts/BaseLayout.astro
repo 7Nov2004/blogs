@@ -13,6 +13,8 @@ interface Props {
   author?: string;
   category?: string;
   tags?: string[];
+  faqs?: { question: string; answer: string }[];
+  breadcrumbs?: { name: string; href?: string }[];
 }
 
 const { 
@@ -25,6 +27,8 @@ const {
   author = 'TechVerse Team',
   category,
   tags = [],
+  faqs = [],
+  breadcrumbs = [],
 } = Astro.props;
 
 const siteUrl = Astro.site || 'https://techverseblogs.in';
@@ -86,6 +90,40 @@ const articleSchema = article ? {
   ...(tags.length > 0 ? { "keywords": tags.join(', ') } : {}),
   "inLanguage": "hi"
 } : null;
+
+// FAQ Schema
+const faqSchema = faqs.length > 0 ? {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": faqs.map((faq) => ({
+    "@type": "Question",
+    "name": faq.question,
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": faq.answer
+    }
+  }))
+} : null;
+
+// BreadcrumbList Schema
+const breadcrumbSchema = breadcrumbs.length > 0 ? {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": siteUrl.toString()
+    },
+    ...breadcrumbs.map((crumb, index) => ({
+      "@type": "ListItem",
+      "position": index + 2,
+      "name": crumb.name,
+      ...(crumb.href ? { "item": new URL(crumb.href, siteUrl).toString() } : {})
+    }))
+  ]
+} : null;
 ---
 
 <!DOCTYPE html>
@@ -113,6 +151,9 @@ const articleSchema = article ? {
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:image" content={ogImageURL} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content={title} />
     <meta property="og:site_name" content="TechVerse" />
     <meta property="og:locale" content="hi_IN" />
     
@@ -177,6 +218,15 @@ const articleSchema = article ? {
       <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
     )}
 
+    <!-- Structured Data: FAQPage (articles with FAQs) -->
+    {faqSchema && (
+      <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+    )}
+
+    <!-- Structured Data: BreadcrumbList -->
+    {breadcrumbSchema && (
+      <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+    )}
     <script is:inline>
       const theme = (() => {
         if (typeof localStorage !== 'undefined' && localStorage.getItem('theme')) {

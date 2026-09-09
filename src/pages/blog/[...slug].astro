@@ -68,6 +68,11 @@ const breadcrumbItems = [
   author={post.data.author}
   category={categoryName}
   tags={post.data.tags}
+  faqs={post.data.faqs || []}
+  breadcrumbs={[
+    { name: categoryName, href: `/category/${post.data.category}` },
+    { name: post.data.title }
+  ]}
 >
   <!-- Reading Progress Bar -->
   <div id="reading-progress" class="fixed top-0 left-0 h-1.5 bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-600 z-[100] transition-all duration-75 w-0 shadow-[0_0_12px_rgba(59,130,246,0.8)]"></div>

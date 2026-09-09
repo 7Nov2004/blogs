@@ -7,6 +7,15 @@ category: ai
 tags: ['chatgpt', 'ai', 'openai', 'gpt-5', 'artificial-intelligence']
 author: 'TechVerse Team'
 featured: true
+faqs:
+  - question: "ChatGPT 5 free hai ya paid?"
+    answer: "ChatGPT 5 abhi free tier mein available nahi hai. Ise use karne ke liye ChatGPT Plus subscription lena padega jo $20/month (approximately Rs. 1,650) ka hai. Enterprise users ke liye alag pricing hai. Lekin OpenAI ka pattern raha hai ki naaye model aane ke baad purana model free kar diya jaata hai."
+  - question: "ChatGPT 5 aur ChatGPT 4 mein kya fark hai?"
+    answer: "ChatGPT 5 mein multimodal support (video + audio), 1 million token context window, super-human reasoning aur 1% se bhi kam hallucination rate hai. ChatGPT 4 ka context 128k tokens tak tha aur hallucination rate 5-10% thi. Speed aur coding abilities mein bhi ChatGPT 5 bohot aage hai."
+  - question: "ChatGPT 5 India mein available hai?"
+    answer: "Haan, ChatGPT 5 India mein available hai. chat.openai.com par jaayein, sign in karein aur top mein model selector se GPT-5 choose karein. ChatGPT Plus subscribers ke liye direct access hai. UPI aur Indian credit/debit cards se subscription le sakte hain."
+  - question: "ChatGPT 5 coding ke liye kitna useful hai?"
+    answer: "ChatGPT 5 coding ke liye bahut powerful hai. Ye poore project ka architecture design kar sakta hai, bugs automatically fix kar sakta hai, aur ek screenshot dekhkar pura frontend code likh sakta hai. Lekin serious developers ke liye Cursor AI jaise dedicated coding tools zyada efficient hain."
 ---
 
 ## Introduction: ChatGPT 5 Kya Hai aur Kyun Important Hai?

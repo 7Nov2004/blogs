@@ -6,6 +6,15 @@ image: '/images/sim-plans-comparison-cover.jpg'
 category: 'gadgets'
 tags: ['sim-plans', 'jio', 'airtel', 'bsnl-5g', 'telecom-deals', 'recharge-plans']
 author: 'TechVerse Team'
+faqs:
+  - question: "2026 mein sabse sasta recharge plan kaunsa hai?"
+    answer: "BSNL ka sabse sasta recharge plan hai. 28 din ke liye sirf Rs. 199 mein 1.5GB/day data milta hai, jabki Jio Rs. 299 aur Airtel Rs. 349 charge karta hai. Annual plan mein BSNL ka Rs. 2,399 Jio ke Rs. 3,599 se kaafi sasta hai."
+  - question: "Kya BSNL par port karna chahiye 2026 mein?"
+    answer: "BSNL par port karna tabhi sahi hai jab aapko secondary SIM chahiye, aap rural area mein rahte hain jahan BSNL ka coverage acha hai, ya aap sirf basic calling aur OTP ke liye SIM chahte hain. Heavy internet users, gamers aur frequent travellers ke liye Jio ya Airtel better hai."
+  - question: "Jio aur Airtel mein se kaunsa 5G better hai?"
+    answer: "Jio ka 5G (Standalone network) indoor coverage mein better hai aur unlimited 5G data milta hai basic plans mein bhi. Airtel ka 5G Plus call quality aur gaming ping mein thoda better hai. Speed dono ki 250-700 Mbps range mein hai."
+  - question: "SIM port kaise karein dono number rakhte hue?"
+    answer: "Apne phone ke SMS app mein jaayein, PORT <10 digit mobile number> likhein aur 1900 par send karein. Aapko UPC code milega. Ye code lekar kisi bhi SIM store par jaayein aur operator change karwa lein. Poora process 3-7 working days mein complete ho jata hai."
 ---
 
 Telecom companies ke recharge plans me 15% se 25% tak ke daam badhne ke baad se har Indian user ke dimaag me ek hi sawal ghoom raha hai — **"Kaunsi telecom company ka SIM sabse sasta aur best hai? Aur kya BSNL par switch karna chahiye?"**
