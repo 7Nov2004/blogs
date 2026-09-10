@@ -15,18 +15,6 @@ const breadcrumbs: BreadcrumbItem[] = [
   { name: 'Home', href: '/' },
   ...items,
 ];
-
-// JSON-LD BreadcrumbList schema
-const breadcrumbSchema = {
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": breadcrumbs.map((item, index) => ({
-    "@type": "ListItem",
-    "position": index + 1,
-    "name": item.name,
-    ...(item.href ? { "item": new URL(item.href, Astro.site || 'https://techverseblogs.in').toString() } : {}),
-  })),
-};
 ---
 
 <nav aria-label="Breadcrumb" class="mb-6">
@@ -51,5 +39,3 @@ const breadcrumbSchema = {
     ))}
   </ol>
 </nav>
-
-<script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />

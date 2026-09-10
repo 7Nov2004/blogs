@@ -15,6 +15,7 @@ interface Props {
   tags?: string[];
   faqs?: { question: string; answer: string }[];
   breadcrumbs?: { name: string; href?: string }[];
+  noindex?: boolean;
 }
 
 const { 
@@ -29,6 +30,7 @@ const {
   tags = [],
   faqs = [],
   breadcrumbs = [],
+  noindex = false,
 } = Astro.props;
 
 const siteUrl = Astro.site || 'https://techverseblogs.in';
@@ -134,7 +136,7 @@ const breadcrumbSchema = breadcrumbs.length > 0 ? {
     <meta name="google-site-verification" content="0jbeEAMkegAUbGnfE15LnqdZouejOzlPq_4jq168XDE" />
     <title>{title}</title>
     <meta name="description" content={description} />
-    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="robots" content={noindex ? "noindex, follow" : "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"} />
     <meta name="theme-color" content="#0b0f19" />
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />

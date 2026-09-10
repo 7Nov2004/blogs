@@ -37,7 +37,11 @@ const categories = [
 ];
 ---
 
-<BaseLayout title={`#${displayTag} — TechVerse`} description={`TechVerse par "${displayTag}" se related sabhi articles padhein.`}>
+<BaseLayout 
+  title={`#${displayTag} — TechVerse`} 
+  description={`TechVerse par "${displayTag}" se related sabhi articles padhein.`}
+  noindex={true}
+>
   <div class="max-w-6xl mx-auto px-4 py-12">
     <!-- Tag Hero -->
     <div class="relative overflow-hidden bg-gradient-to-br from-blue-900/20 via-indigo-950/20 to-purple-900/20 dark:from-gray-800/60 dark:to-gray-900/80 rounded-3xl p-10 md:p-14 text-center mb-12 border border-blue-100/80 dark:border-gray-700/80 shadow-sm backdrop-blur-sm">

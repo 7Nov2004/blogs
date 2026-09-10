@@ -9,6 +9,7 @@ export default defineConfig({
     mdx(),
     tailwind(),
     sitemap({
+      filter: (page) => !page.includes('/tag/'),
       serialize(item) {
         if (item.url === 'https://techverseblogs.in' || item.url === 'https://techverseblogs.in/') {
           item.changefreq = 'daily';
