@@ -4,7 +4,7 @@ description: "WhatsApp 2026 में Username Feature, Meta AI, Web Calling, Ad
 pubDate: 2026-09-11
 category: "tips"
 tags: ["whatsapp", "social-media", "privacy", "ai", "android"]
-coverImage: "/images/whatsapp-features-2026-cover.jpg"
+image: "/images/whatsapp-features-2026-cover.jpg"
 author: "Aayush"
 faqs:
   - question: "WhatsApp Username Feature क्या है?"

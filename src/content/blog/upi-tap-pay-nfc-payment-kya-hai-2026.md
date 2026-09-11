@@ -4,7 +4,7 @@ description: "UPI Tap & Pay feature September 10, 2026 को India में la
 pubDate: 2026-09-11
 category: "tips"
 tags: ["upi", "fintech", "payment", "nfc", "india", "digital-payment"]
-coverImage: "/images/upi-tap-pay-2026-cover.jpg"
+image: "/images/upi-tap-pay-2026-cover.jpg"
 author: "Aayush"
 faqs:
   - question: "UPI Tap & Pay क्या है?"

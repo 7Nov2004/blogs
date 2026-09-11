@@ -61,7 +61,7 @@ const breadcrumbItems = [
 <BaseLayout 
   title={`${post.data.title} - TechVerse`} 
   description={post.data.description}
-  image={post.data.image}
+  image={post.data.image || post.data.coverImage}
   article={true}
   pubDate={post.data.pubDate}
   updatedDate={post.data.updatedDate}
@@ -129,9 +129,9 @@ const breadcrumbItems = [
           </div>
         </header>
 
-        {post.data.image && (
+        {(post.data.image || post.data.coverImage) && (
           <div class="mb-10 rounded-2xl overflow-hidden shadow-lg border border-gray-100 dark:border-gray-800 bg-gray-100 dark:bg-gray-800 aspect-video">
-            <Image src={post.data.image} alt={post.data.title} class="w-full h-full object-cover" width={800} height={450} inferSize={true} />
+            <Image src={(post.data.image || post.data.coverImage)!} alt={post.data.title} class="w-full h-full object-cover" width={800} height={450} inferSize={true} />
           </div>
         )}
 

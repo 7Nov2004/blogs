@@ -44,8 +44,8 @@ const posts = (await getCollection('blog'))
         {posts.map((post) => (
           <a href={`/blog/${post.slug}`} class="group bg-white dark:bg-gray-800 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 overflow-hidden border border-gray-100 dark:border-gray-700 flex flex-col h-full">
             <div class="h-48 w-full bg-gray-100 dark:bg-gray-700 overflow-hidden relative">
-              {post.data.image ? (
-                <Image src={post.data.image} alt={post.data.title} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" width={600} height={350} />
+              {(post.data.image || post.data.coverImage) ? (
+                <Image src={(post.data.image || post.data.coverImage)!} alt={post.data.title} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" width={600} height={350} />
               ) : (
                 <div class="w-full h-full flex items-center justify-center text-gray-400">TechVerse</div>
               )}
@@ -64,7 +64,7 @@ const posts = (await getCollection('blog'))
                 </span>
                 <span class="flex items-center gap-1">
                   <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                  {Math.ceil(post.body.length / 1000)} min read
+                  {Math.ceil(post.body.split(/\s+/).length / 200)} min read
                 </span>
               </div>
             </div>
