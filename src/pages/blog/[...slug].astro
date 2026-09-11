@@ -17,7 +17,7 @@ export async function getStaticPaths() {
 
 const { post } = Astro.props;
 const { Content, headings } = await post.render();
-const readingTime = Math.ceil(post.body.length / 1000);
+const readingTime = Math.ceil(post.body.split(/\s+/).length / 200);
 
 // Category display names
 const categoryNames: Record<string, string> = {
@@ -202,9 +202,15 @@ const breadcrumbItems = [
            <div class="w-20 h-20 rounded-full overflow-hidden flex-shrink-0 border-2 border-blue-500 shadow-md">
              <img src="/images/author-avatar.jpg" alt={post.data.author || 'TechVerse Admin'} class="w-full h-full object-cover" width="80" height="80" />
            </div>
-           <div class="text-center sm:text-left">
-             <h4 class="text-xl font-bold dark:text-white mb-2">{post.data.author || 'TechVerse Admin'}</h4>
-             <p class="text-gray-600 dark:text-gray-400 text-sm mb-4">Tech enthusiast, developer, and writer. Passionate about making technology accessible to everyone through Hinglish content.</p>
+        <div class="text-center sm:text-left">
+             <h4 class="text-xl font-bold dark:text-white mb-2">{post.data.author || 'TechVerse Team'}</h4>
+             <p class="text-gray-600 dark:text-gray-400 text-sm mb-4">
+               {(post.data.author === 'Aayush') 
+                 ? 'Aayush TechVerse ke Founder aur Lead Editor hain. 5+ saalon se technology, AI tools, aur gadgets par Hindi mein research aur writing karte hain. Unka maqsad hai complex tech ko simple Hinglish mein samjhana.'
+                 : 'TechVerse team tech enthusiasts, developers aur writers ka ek samooha hai jo technology ko aasan Hinglish mein samjhane ke liye dedicated hai.'
+               }
+             </p>
+             <a href="/about" class="inline-flex items-center gap-1 text-blue-600 dark:text-blue-400 text-xs font-semibold hover:underline">Lekhak ke baare mein aur jaanein →</a>
            </div>
         </div>
 
@@ -282,7 +288,7 @@ const breadcrumbItems = [
             <h3 class="text-lg font-bold mb-4 dark:text-white pb-2 border-b border-gray-100 dark:border-gray-700">Popular Posts 🔥</h3>
             <ul class="space-y-4">
               {allPosts
-                .filter(p => p.slug !== post.slug)
+                .filter(p => p.slug !== post.slug && (p.data.featured || ['best-power-banks-india-2026','chatgpt-se-paise-kaise-kamaye','google-gemini-vs-chatgpt-hindi','whatsapp-new-features-2026-hindi','upi-tap-pay-nfc-payment-kya-hai-2026'].includes(p.slug)))
                 .slice(0, 5)
                 .map(p => (
                 <li>
