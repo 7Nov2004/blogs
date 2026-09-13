@@ -61,7 +61,7 @@ Anthropic ka **Claude 3.5 Sonnet** essay writing aur code analysis mein unmatche
 
 * **Best for:** Literature essays, philosophical topics, Python/Java debugging.
 
-👉 **Ye bhi padhein:** [ChatGPT 5 Kya Hai? Complete Guide](/blog/chatgpt-5-kya-hai)
+👉 **Ye bhi padhein:** [ChatGPT 5 Kya Hai? Complete Guide](/blog/chatgpt-5-kya-hai/)
 
 ---
 

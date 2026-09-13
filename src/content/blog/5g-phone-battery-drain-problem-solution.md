@@ -101,7 +101,7 @@ Instagram, Snapchat, Facebook, aur Telegram jaisi apps 5G connection ka istemal 
 
 ## 6. System-Wide Dark Mode (AMOLED Screen Ke Liye Ram-Baan)
 
-Agar aapke phone mein AMOLED display hai (jaise hamare [Best Smartphones Under ₹15,000 Guide](/blog/best-smartphones-under-15000) mein bataye gaye phones mein hota hai), toh black background dikhane ke liye display ke sub-pixels physical power cut kar dete hain.
+Agar aapke phone mein AMOLED display hai (jaise hamare [Best Smartphones Under ₹15,000 Guide](/blog/best-smartphones-under-15000/) mein bataye gaye phones mein hota hai), toh black background dikhane ke liye display ke sub-pixels physical power cut kar dete hain.
 
 - System-wide **Dark Mode** on rakhein.
 - Homescreen par True Black (#000000) wallpaper use karein.
@@ -116,7 +116,7 @@ India ke do sabse bade telecom operators alag-alag 5G architecture use karte hai
 - **Reliance Jio (Standalone - SA):** Jio ka network pure 5G par bana hai jisme 4G tower ki help nahi lagti. Agar signal strong hai toh Jio 5G par battery efficiency better milti hai.
 - **Bharti Airtel (Non-Standalone - NSA):** Airtel 4G core ke upar 5G layers chalata hai. Iska matlab hai ki aapka phone 4G signal aur 5G data dono channels ko ek sath maintain karta hai, jisse simultaneous dual-radio drain hota hai.
 
-Telecom recharge plans aur speed comparison ke liye hamara [Jio vs Airtel vs BSNL 2026 Plans Comparison](/blog/jio-vs-airtel-vs-bsnl-plans-comparison-2026) zaroor padhein!
+Telecom recharge plans aur speed comparison ke liye hamara [Jio vs Airtel vs BSNL 2026 Plans Comparison](/blog/jio-vs-airtel-vs-bsnl-plans-comparison-2026/) zaroor padhein!
 
 ---
 
@@ -126,7 +126,7 @@ Agar aap 67W, 80W ya 120W fast charger use karte hain aur phone ko raat bhar 100
 
 - Settings ➔ **Battery** ➔ **Battery Health** mein **"Stop charging at 80%"** ya **"Optimized Battery Charging"** ko on karein.
 - Phone ko 20% se neeche mat aane dein aur 85% se upar charge karne se bachein.
-- Travel ke waqt phone ko alive rakhne ke liye ek reliable power bank sath lein — hamara [Best Power Banks India 2026 Comparison](/blog/best-power-banks-india-2026) dekhein.
+- Travel ke waqt phone ko alive rakhne ke liye ek reliable power bank sath lein — hamara [Best Power Banks India 2026 Comparison](/blog/best-power-banks-india-2026/) dekhein.
 
 ---
 
@@ -134,7 +134,7 @@ Agar aap 67W, 80W ya 120W fast charger use karte hain aur phone ko raat bhar 100
 
 5G India ke digital revolution ka hissa hai, aur supersonic downloading ka maza lena aapka haq hai. Bas in 8 settings ko sahi tarike se configure karein — aapko 5G speed ka full maza bhi milega aur aapka phone bhi bina heating aur battery drain ke pura din smoothly chalega!
 
-Aur phone ki internal settings ke baare mein janne ke liye hamara [Phone Battery Life Tips](/blog/phone-battery-life-tips-hindi) aur [Phone Storage Khali Karein Guide](/blog/phone-storage-full-kaise-khali-kare-tips) zaroor padhein!
+Aur phone ki internal settings ke baare mein janne ke liye hamara [Phone Battery Life Tips](/blog/phone-battery-life-tips-hindi/) aur [Phone Storage Khali Karein Guide](/blog/phone-storage-full-kaise-khali-kare-tips/) zaroor padhein!
 
 ---
 

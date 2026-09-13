@@ -100,4 +100,4 @@ Toh kya aapko ChatGPT 5 use karna chahiye? Mera manna hai ki agar aap apne daily
 
 Aapka is baare mein kya sochna hai? Comments mein zaroor batayein!
 
-👉 **Ye bhi padho:** [Best Laptops for Students 2026](/blog/best-laptops-students-2026)
+👉 **Ye bhi padho:** [Best Laptops for Students 2026](/blog/best-laptops-students-2026/)

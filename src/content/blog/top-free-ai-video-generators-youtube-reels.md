@@ -107,7 +107,7 @@ Sirf videos banane se paise nahi aate; sahi strategy follow karni padti hai:
 ### Step 1: High-CPM Niche Chuniye
 Entertainment ya comedy channels par 1000 views ke sirf ₹10-₹20 milte hain. Iske bajaye high-paying topics chunein:
 - Personal Finance & Stock Market
-- Tech Gadgets & AI Reviews (Hamara [Best Power Banks 2026 Guide](/blog/best-power-banks-india-2026) refer karein)
+- Tech Gadgets & AI Reviews (Hamara [Best Power Banks 2026 Guide](/blog/best-power-banks-india-2026/) refer karein)
 - Mystery, History & Space Science
 - Business Case Studies
 
@@ -125,8 +125,8 @@ AI video clips ko CapCut ya VN editor mein arrange karein:
 ### Step 4: Monetization Channels
 1. **YouTube AdSense:** 10 Million shorts views par monetization on hota hai.
 2. **Affiliate Marketing:** Video description aur pinned comment mein Amazon/Flipkart ke affiliate links lagayein.
-3. **Freelance Video Creation:** Dusre YouTubers aur brands ke liye AI reels banakar deliver karein. Guide: [Freelancing Se Paise Kaise Kamayein](/blog/freelancing-se-paise-kaise-kamaye).
-4. **Digital Products:** E-books ya AI prompt packs bechein — [ChatGPT Se Paise Kaise Kamayein](/blog/chatgpt-se-paise-kaise-kamaye) methods apply karein.
+3. **Freelance Video Creation:** Dusre YouTubers aur brands ke liye AI reels banakar deliver karein. Guide: [Freelancing Se Paise Kaise Kamayein](/blog/freelancing-se-paise-kaise-kamaye/).
+4. **Digital Products:** E-books ya AI prompt packs bechein — [ChatGPT Se Paise Kaise Kamayein](/blog/chatgpt-se-paise-kaise-kamaye/) methods apply karein.
 
 ---
 

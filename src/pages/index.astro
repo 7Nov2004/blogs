@@ -9,6 +9,7 @@ const allPosts = (await getCollection('blog')).sort(
   (a, b) => new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime()
 );
 const featuredPosts = allPosts.slice(0, 3);
+const latestPosts = allPosts.slice(0, 8);
 const categories = [
   { name: 'AI & Machine Learning', slug: 'ai', emoji: '🤖', color: 'from-purple-500 to-pink-500' },
   { name: 'Web Development', slug: 'webdev', emoji: '💻', color: 'from-blue-500 to-cyan-500' },
@@ -43,7 +44,7 @@ const categories = [
       </p>
 
       <!-- Search Box on Hero -->
-      <form action="/blog" method="GET" class="max-w-2xl mx-auto mb-6 relative group">
+      <form action="/blog/" method="GET" class="max-w-2xl mx-auto mb-6 relative group">
         <div class="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full blur opacity-30 group-hover:opacity-60 transition duration-300"></div>
         <div class="relative flex items-center bg-white dark:bg-slate-900/90 backdrop-blur-xl rounded-full border border-white/20 shadow-2xl p-1.5">
           <svg class="w-5 h-5 text-gray-400 ml-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -51,7 +52,7 @@ const categories = [
           </svg>
           <input 
             type="text" 
-            name="q"
+            name="q" 
             placeholder="Kuch bhi khojein... (e.g. DeepSeek, Jio AirFiber, Windows 11, Laptops)" 
             class="w-full px-4 py-3 bg-transparent text-gray-900 dark:text-white placeholder-gray-400 text-sm md:text-base focus:outline-none"
           />
@@ -64,14 +65,14 @@ const categories = [
       <!-- Trending Quick Search Tags -->
       <div class="flex flex-wrap items-center justify-center gap-2 text-xs text-slate-400 mb-8">
         <span class="font-semibold text-slate-300">🔥 Trending:</span>
-        <a href="/blog/whatsapp-new-features-2026-hindi" class="px-2.5 py-1 rounded-full bg-white/5 hover:bg-white/15 border border-white/10 text-slate-300 transition-colors">#WhatsApp2026</a>
-        <a href="/blog/upi-tap-pay-nfc-payment-kya-hai-2026" class="px-2.5 py-1 rounded-full bg-white/5 hover:bg-white/15 border border-white/10 text-slate-300 transition-colors">#UPITapPay</a>
-        <a href="/blog/iphone-18-pro-features-price-india-2026" class="px-2.5 py-1 rounded-full bg-white/5 hover:bg-white/15 border border-white/10 text-slate-300 transition-colors">#iPhone18Pro</a>
-        <a href="/blog/redmi-note-17-pro-india-launch-specs-price" class="px-2.5 py-1 rounded-full bg-white/5 hover:bg-white/15 border border-white/10 text-slate-300 transition-colors">#RedmiNote17</a>
+        <a href="/blog/whatsapp-new-features-2026-hindi/" class="px-2.5 py-1 rounded-full bg-white/5 hover:bg-white/15 border border-white/10 text-slate-300 transition-colors">#WhatsApp2026</a>
+        <a href="/blog/upi-tap-pay-nfc-payment-kya-hai-2026/" class="px-2.5 py-1 rounded-full bg-white/5 hover:bg-white/15 border border-white/10 text-slate-300 transition-colors">#UPITapPay</a>
+        <a href="/blog/iphone-18-pro-features-price-india-2026/" class="px-2.5 py-1 rounded-full bg-white/5 hover:bg-white/15 border border-white/10 text-slate-300 transition-colors">#iPhone18Pro</a>
+        <a href="/blog/redmi-note-17-pro-india-launch-specs-price/" class="px-2.5 py-1 rounded-full bg-white/5 hover:bg-white/15 border border-white/10 text-slate-300 transition-colors">#RedmiNote17</a>
       </div>
 
       <div class="flex flex-col sm:flex-row justify-center gap-4">
-        <a href="/blog" class="px-8 py-3.5 bg-white text-slate-900 font-bold rounded-2xl hover:bg-slate-100 transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5 text-base">
+        <a href="/blog/" class="px-8 py-3.5 bg-white text-slate-900 font-bold rounded-2xl hover:bg-slate-100 transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5 text-base">
           Sabhi Articles Padhein →
         </a>
         <a href="#newsletter" class="px-8 py-3.5 bg-white/10 text-white font-bold rounded-2xl hover:bg-white/20 transition-all border border-white/20 text-base backdrop-blur-md">
@@ -91,7 +92,7 @@ const categories = [
     <h2 class="text-3xl font-bold mb-8 dark:text-white flex items-center gap-2">Featured Posts 🔥</h2>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
       {featuredPosts.map((post) => (
-        <a href={`/blog/${post.slug}`} class="group bg-white dark:bg-gray-800 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 overflow-hidden border border-gray-100 dark:border-gray-700 flex flex-col h-full">
+        <a href={`/blog/${post.slug}/`} class="group bg-white dark:bg-gray-800 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 overflow-hidden border border-gray-100 dark:border-gray-700 flex flex-col h-full">
           <div class="h-48 w-full overflow-hidden bg-gray-100 dark:bg-gray-800 relative">
             {(post.data.image || post.data.coverImage) ? (
               <Image src={(post.data.image || post.data.coverImage)!} alt={post.data.title} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" width={800} height={450} />
@@ -131,7 +132,7 @@ const categories = [
     <h2 class="text-3xl font-bold mb-8 dark:text-white flex items-center gap-2">Categories 📂</h2>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
       {categories.map((cat) => (
-        <a href={`/category/${cat.slug}`} class={`group relative overflow-hidden bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 hover:shadow-md transition-all duration-300`}>
+        <a href={`/category/${cat.slug}/`} class={`group relative overflow-hidden bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 hover:shadow-md transition-all duration-300`}>
           <div class={`absolute inset-0 bg-gradient-to-br ${cat.color} opacity-0 group-hover:opacity-10 transition-opacity duration-300`}></div>
           <div class="flex flex-col items-center text-center gap-3">
             <span class="text-4xl">{cat.emoji}</span>
@@ -144,10 +145,15 @@ const categories = [
 
   <!-- Latest Posts -->
   <section class="mb-16">
-    <h2 class="text-3xl font-bold mb-8 dark:text-white flex items-center gap-2">Latest Posts ✍️</h2>
+    <div class="flex items-center justify-between mb-8 flex-wrap gap-4">
+      <h2 class="text-3xl font-bold dark:text-white flex items-center gap-2">Latest Posts ✍️</h2>
+      <a href="/blog/" class="text-sm font-semibold text-blue-600 dark:text-blue-400 hover:underline inline-flex items-center gap-1">
+        Sabhi 50+ Articles Dekhein →
+      </a>
+    </div>
     <div class="flex flex-col gap-6">
-      {allPosts.map((post) => (
-        <a href={`/blog/${post.slug}`} class="group bg-white dark:bg-gray-800 rounded-2xl shadow-sm hover:shadow-lg transition-all duration-300 border border-gray-100 dark:border-gray-700 overflow-hidden flex flex-col sm:flex-row hover:border-blue-200 dark:hover:border-blue-900/50">
+      {latestPosts.map((post) => (
+        <a href={`/blog/${post.slug}/`} class="group bg-white dark:bg-gray-800 rounded-2xl shadow-sm hover:shadow-lg transition-all duration-300 border border-gray-100 dark:border-gray-700 overflow-hidden flex flex-col sm:flex-row hover:border-blue-200 dark:hover:border-blue-900/50">
           <div class="w-full sm:w-64 h-48 sm:h-auto overflow-hidden flex-shrink-0 bg-gray-100 dark:bg-gray-800 relative">
             {(post.data.image || post.data.coverImage) ? (
               <Image src={(post.data.image || post.data.coverImage)!} alt={post.data.title} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" width={500} height={300} />
@@ -182,6 +188,14 @@ const categories = [
           </div>
         </a>
       ))}
+    </div>
+
+    <!-- Explore All Blogs CTA Button -->
+    <div class="mt-12 text-center">
+      <a href="/blog/" class="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 hover:from-blue-700 hover:via-indigo-700 hover:to-purple-700 text-white font-bold rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 text-base group">
+        <span>Sabhi Articles Padhein ({allPosts.length}+ Guides)</span>
+        <span class="group-hover:translate-x-1.5 transition-transform duration-200 text-xl">→</span>
+      </a>
     </div>
   </section>
 

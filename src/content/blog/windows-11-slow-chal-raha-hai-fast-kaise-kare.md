@@ -169,7 +169,7 @@ Agar aapka laptop 4-5 saal purana hai aur usme abhi bhi spinning Hard Disk Drive
 
 Sirf ek ₹1,500 ki SSD install karwane se aapka purana laptop bilkul naye laptop jaisa supersonic fast ho jayega!
 
-Laptop buying aur hardware testing guides ke liye hamara [Refurbished Laptops Buying Guide](/blog/refurbished-laptops-buying-guide-hindi) aur [Students Ke Liye Best Laptops Guide](/blog/best-laptops-students-2026) zaroor check karein.
+Laptop buying aur hardware testing guides ke liye hamara [Refurbished Laptops Buying Guide](/blog/refurbished-laptops-buying-guide-hindi/) aur [Students Ke Liye Best Laptops Guide](/blog/best-laptops-students-2026/) zaroor check karein.
 
 ---
 

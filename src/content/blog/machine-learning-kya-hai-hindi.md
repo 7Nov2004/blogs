@@ -76,7 +76,7 @@ Agar aap 2026 mein Machine Learning engineer banna chahte hain, toh ye 4 steps f
 | **3** | **Data Libraries** | NumPy, Pandas, Matplotlib |
 | **4** | **ML Frameworks** | Scikit-Learn, TensorFlow, PyTorch |
 
-👉 **Ye bhi padhein:** [Python Kaise Sikhe? Step-by-Step Roadmap](/blog/python-kaise-sikhe-beginners)
+👉 **Ye bhi padhein:** [Python Kaise Sikhe? Step-by-Step Roadmap](/blog/python-kaise-sikhe-beginners/)
 
 ---
 

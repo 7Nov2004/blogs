@@ -138,10 +138,10 @@ In prompts ko chat box mein daal kar dekhein:
 ## Other Essential Tech & Gadgets for Students
 
 NotebookLM ke sath apni digital padhai ko aur smart banayein:
-- Agar research ke liye authentic citations chahiye toh hamara [Perplexity AI Complete Hindi Guide](/blog/perplexity-ai-kya-hai-hindi-guide-2026) padhein.
-- Stylus se digital notes banane ke liye: [Best Tablets for Students Under ₹20,000](/blog/best-tablets-for-students-under-20000-india).
-- Coding aur project assignments ke liye: [Best Laptops Under ₹40,000 for Students](/blog/best-laptops-under-40000-students-2026).
-- Free study apps ke liye: [Top 5 Free AI Tools for College Students](/blog/top-5-free-ai-tools-college-students).
+- Agar research ke liye authentic citations chahiye toh hamara [Perplexity AI Complete Hindi Guide](/blog/perplexity-ai-kya-hai-hindi-guide-2026/) padhein.
+- Stylus se digital notes banane ke liye: [Best Tablets for Students Under ₹20,000](/blog/best-tablets-for-students-under-20000-india/).
+- Coding aur project assignments ke liye: [Best Laptops Under ₹40,000 for Students](/blog/best-laptops-under-40000-students-2026/).
+- Free study apps ke liye: [Top 5 Free AI Tools for College Students](/blog/top-5-free-ai-tools-college-students/).
 
 ---
 

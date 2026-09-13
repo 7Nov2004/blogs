@@ -132,4 +132,4 @@ Agar aap ek complete beginner hain, toh seedha Next.js par mat jump kariye. Pehl
 
 Industry ki demand dekhi jaye, toh Next.js aane wale saalon ka future hai. Aaj lagbhag har badi company apne naye projects React ke bajaye Next.js par hi shuru kar rahi hai.
 
-👉 **Ye bhi padho:** [ChatGPT 5 Kya Hai?](/blog/chatgpt-5-kya-hai)
+👉 **Ye bhi padho:** [ChatGPT 5 Kya Hai?](/blog/chatgpt-5-kya-hai/)

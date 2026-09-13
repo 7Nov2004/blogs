@@ -119,9 +119,9 @@ Bina ek second gawaaye ye emergency action lein:
 ## Related Cyber Safety Guides on TechVerse
 
 Apne digital footprint aur smartphone ko secure rakhne ke liye hamari ye guides zaroor padhein:
-- Fake job scams: [Work From Home Telegram Task Scam Se Kaise Bachein](/blog/telegram-part-time-job-scam-se-kaise-bachein).
-- Phone hacking check: [Phone Hack Hai Ya Nahi Kaise Pata Karein?](/blog/phone-hack-hai-ya-nahi-kaise-pata-kare).
-- Digital payment safety: [UPI Tap & Pay NFC Payment Safety Guide](/blog/upi-tap-pay-nfc-payment-kya-hai-2026).
+- Fake job scams: [Work From Home Telegram Task Scam Se Kaise Bachein](/blog/telegram-part-time-job-scam-se-kaise-bachein/).
+- Phone hacking check: [Phone Hack Hai Ya Nahi Kaise Pata Karein?](/blog/phone-hack-hai-ya-nahi-kaise-pata-kare/).
+- Digital payment safety: [UPI Tap & Pay NFC Payment Safety Guide](/blog/upi-tap-pay-nfc-payment-kya-hai-2026/).
 
 ---
 

@@ -77,7 +77,7 @@ Agar aapka laptop abhi bhi purani mechanical Hard Disk (HDD) par chal raha hai, 
 * SSD ki read speed: ~500 MB/s se 3500+ MB/s!
 * Laptop ka boot time 2 minute se ghat kar sirf 8 seconds ho jayega!
 
-👉 **Ye bhi padhein:** [Best Laptops for Students 2026](/blog/best-laptops-students-2026)
+👉 **Ye bhi padhein:** [Best Laptops for Students 2026](/blog/best-laptops-students-2026/)
 
 ---
 

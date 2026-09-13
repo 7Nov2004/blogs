@@ -74,7 +74,7 @@ Instagram Reels, YouTube Thumbnails aur LinkedIn banners ke liye **Canva Magic S
 - **Magic Grab:** Kisi bhi photo ke main subject (jaise ek model ya car) ko text ya background se alag karke aage-peeche move kar sakte hain.
 - **Magic Expand:** Short photo ko vertical 9:16 story format mein AI ke zariye expand karein.
 - **Magic Eraser:** Flawless blemish removal aur text erasing.
-- *Tip:* Agar aap faceless content banate hain, toh hamara [Top Free AI Video Generators Guide](/blog/top-free-ai-video-generators-youtube-reels) zaroor padhein!
+- *Tip:* Agar aap faceless content banate hain, toh hamara [Top Free AI Video Generators Guide](/blog/top-free-ai-video-generators-youtube-reels/) zaroor padhein!
 
 ---
 
@@ -104,8 +104,8 @@ Purane phone se li gayi 2MP ki dhundhli photo ho ya WhatsApp par compress hui pi
 ## Online Earning Opportunity: AI Photo Editing Se Paise Kaise Kamayein?
 
 In AI tools ko use karke aap freelancing aur content creation se achhi monthly earning kar sakte hain:
-1. **Fiverr & Upwork Gigs:** "E-commerce product photo cleanup" aur "YouTube thumbnail design" ke micro-services offer karein. Detailed roadmap: [Tech Freelancing Complete Guide](/blog/freelancing-se-paise-kaise-kamaye).
-2. **Instagram Theme Pages:** AI enhanced aesthetics aur motivation pages banakar brand deals crack karein: [ChatGPT Se Paise Kaise Kamayein](/blog/chatgpt-se-paise-kaise-kamaye).
+1. **Fiverr & Upwork Gigs:** "E-commerce product photo cleanup" aur "YouTube thumbnail design" ke micro-services offer karein. Detailed roadmap: [Tech Freelancing Complete Guide](/blog/freelancing-se-paise-kaise-kamaye/).
+2. **Instagram Theme Pages:** AI enhanced aesthetics aur motivation pages banakar brand deals crack karein: [ChatGPT Se Paise Kaise Kamayein](/blog/chatgpt-se-paise-kaise-kamaye/).
 
 ---
 

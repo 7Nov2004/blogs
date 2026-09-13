@@ -59,7 +59,7 @@ Ye wo part hai jahan se aap industry-ready developer bante hain:
 * Callbacks, Promises, aur `async/await`
 * Fetching API Data: `fetch('https://api.example.com/data')`
 
-👉 **Ye bhi padhein:** [React vs Next.js — Complete Comparison](/blog/react-vs-nextjs-hindi)
+👉 **Ye bhi padhein:** [React vs Next.js — Complete Comparison](/blog/react-vs-nextjs-hindi/)
 
 ---
 

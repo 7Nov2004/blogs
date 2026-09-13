@@ -103,6 +103,6 @@ Apple ka claim hai ki iPhone 18 Pro mein **upto 27 hours video playback** milega
 
 iPhone 18 Pro is saal ka sabse premium smartphone launch hai. Variable aperture camera aur A20 Pro chip dono genuinely new features hain jo real-world use mein fark karte hain. Agar budget hai aur aap long-term investment soch rahe hain, toh ye phone 4-5 saal tak perfectly serve karega.
 
-👉 **Ye bhi padho:** [Best Smartphones Under 15000 India 2026](/blog/best-smartphones-under-15000) | [Refurbished Laptops Buying Guide](/blog/refurbished-laptops-buying-guide-hindi)
+👉 **Ye bhi padho:** [Best Smartphones Under 15000 India 2026](/blog/best-smartphones-under-15000/) | [Refurbished Laptops Buying Guide](/blog/refurbished-laptops-buying-guide-hindi/)
 
 Pre-order ke liye tayaar hain? Comments mein batao! 🍎

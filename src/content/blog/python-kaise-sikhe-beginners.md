@@ -76,7 +76,7 @@ Apne career interest ke hisab se ek direction chuniye:
 | **Python Official Documentation** | python.org | In-depth Reference |
 | **HackerRank / LeetCode** | Web | Daily Practice Problems |
 
-👉 **Ye bhi padhein:** [Top 12 VS Code Extensions Jo Coding Speed Badhayein](/blog/best-vs-code-extensions-2026)
+👉 **Ye bhi padhein:** [Top 12 VS Code Extensions Jo Coding Speed Badhayein](/blog/best-vs-code-extensions-2026/)
 
 ---
 

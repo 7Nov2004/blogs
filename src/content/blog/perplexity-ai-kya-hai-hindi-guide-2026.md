@@ -117,10 +117,10 @@ Agar kisi naye framework mein error aa raha hai:
 ## Related Tech & AI Tools on TechVerse
 
 Perplexity ke sath-sath in related guides ko zaroor explore karein:
-- Exam notes aur PDF podcasts ke liye: [Google NotebookLM Complete Student Guide](/blog/google-notebooklm-kya-hai-students-guide).
-- Coding assistants comparison: [Cursor vs GitHub Copilot](/blog/cursor-vs-copilot-best-ai-coding-assistant).
-- Model comparison: [DeepSeek vs ChatGPT Hindi Comparison](/blog/deepseek-vs-chatgpt-hindi-comparison) aur [Google Gemini vs ChatGPT](/blog/google-gemini-vs-chatgpt-hindi).
-- Free tools for college: [Top 5 Free AI Tools for College Students](/blog/top-5-free-ai-tools-college-students).
+- Exam notes aur PDF podcasts ke liye: [Google NotebookLM Complete Student Guide](/blog/google-notebooklm-kya-hai-students-guide/).
+- Coding assistants comparison: [Cursor vs GitHub Copilot](/blog/cursor-vs-copilot-best-ai-coding-assistant/).
+- Model comparison: [DeepSeek vs ChatGPT Hindi Comparison](/blog/deepseek-vs-chatgpt-hindi-comparison/) aur [Google Gemini vs ChatGPT](/blog/google-gemini-vs-chatgpt-hindi/).
+- Free tools for college: [Top 5 Free AI Tools for College Students](/blog/top-5-free-ai-tools-college-students/).
 
 ---
 

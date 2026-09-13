@@ -145,10 +145,10 @@ Git in files ko ignore kar dega aur ye galti se bhi public repository par leak n
 ## Related Tech & Developer Guides on TechVerse
 
 Apni developer journey ko aur strong banayein:
-- Complete career roadmap: [Web Development Roadmap for College Students 2026](/blog/web-development-roadmap-college-students-2026).
-- VS Code productivity: [Best VS Code Extensions in 2026](/blog/best-vs-code-extensions-2026).
-- CSS mastery: [Tailwind CSS Complete Guide in Hindi](/blog/tailwind-css-complete-guide-hindi).
-- JavaScript fundamentals: [JavaScript Roadmap in Hindi](/blog/javascript-roadmap-hindi).
+- Complete career roadmap: [Web Development Roadmap for College Students 2026](/blog/web-development-roadmap-college-students-2026/).
+- VS Code productivity: [Best VS Code Extensions in 2026](/blog/best-vs-code-extensions-2026/).
+- CSS mastery: [Tailwind CSS Complete Guide in Hindi](/blog/tailwind-css-complete-guide-hindi/).
+- JavaScript fundamentals: [JavaScript Roadmap in Hindi](/blog/javascript-roadmap-hindi/).
 
 ---
 

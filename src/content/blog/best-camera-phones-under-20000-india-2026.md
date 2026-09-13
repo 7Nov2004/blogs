@@ -90,7 +90,7 @@ iQOO phones sirf performance aur Antutu scores ke liye nahi jaane jaate. iQOO Z9
 - Chalte-phirte video record karte waqt OIS aur EIS milkar footage ko shake-free rakhte hain.
 - 4K 30fps par dynamic range aur color saturation bohot steady rehta hai.
 - Agar aap YouTube shorts banate hain ya college fest cover karte hain, toh iska video camera disappointed nahi karega.
-- *Tip:* Agar aap faceless video content banate hain, toh hamara [Top Free AI Video Generators Guide](/blog/top-free-ai-video-generators-youtube-reels) zaroor padhein!
+- *Tip:* Agar aap faceless video content banate hain, toh hamara [Top Free AI Video Generators Guide](/blog/top-free-ai-video-generators-youtube-reels/) zaroor padhein!
 
 ---
 
@@ -112,7 +112,7 @@ Xiaomi ki Redmi Note series hamesha se India ke middle-class tech enthusiasts ki
 ### Camera Performance:
 - Daytime lighting mein iska camera sharpest details deta hai. Door ki buildings ya signboards zoom karke padhne par text clear rehta hai.
 - 120Hz vibrant AMOLED display par li gayi photos ka preview dekhna ek treat hai.
-- Naye launch huye models ki details janne ke liye hamara [Redmi Note 17 Pro Launch & Specs Guide](/blog/redmi-note-17-pro-india-launch-specs-price) padhein.
+- Naye launch huye models ki details janne ke liye hamara [Redmi Note 17 Pro Launch & Specs Guide](/blog/redmi-note-17-pro-india-launch-specs-price/) padhein.
 
 ---
 
@@ -138,8 +138,8 @@ Bahut se brands cost-cutting ke chakkar mein processor weak dekar 4K video band 
 
 Lambi outdoor photo shoots aur 4K video recording se battery bohot tezi se drain hoti hai aur 5G network par phone heat hota hai. 
 
-- Battery drain se bachne ke liye hamara [5G Phone Battery Drain Problem Solution](/blog/5g-phone-battery-drain-problem-solution) aur [Phone Battery Life Tips](/blog/phone-battery-life-tips-hindi) padhein.
-- Travel ke dauran phone ko alive rakhne ke liye ek fast 20000mAh power bank sath rakhein — hamara [Best Power Banks India 2026 Guide](/blog/best-power-banks-india-2026) check karein.
+- Battery drain se bachne ke liye hamara [5G Phone Battery Drain Problem Solution](/blog/5g-phone-battery-drain-problem-solution/) aur [Phone Battery Life Tips](/blog/phone-battery-life-tips-hindi/) padhein.
+- Travel ke dauran phone ko alive rakhne ke liye ek fast 20000mAh power bank sath rakhein — hamara [Best Power Banks India 2026 Guide](/blog/best-power-banks-india-2026/) check karein.
 
 ---
 
@@ -148,7 +148,7 @@ Lambi outdoor photo shoots aur 4K video recording se battery bohot tezi se drain
 - 🏆 **Natural Colors & Best Overall:** **Motorola Edge 50 Fusion** (Stock Android, IP68 rating, aur 32MP 4K selfie).
 - 📸 **Low-Light Night Shots & Portraits:** **Realme Narzo 70 Pro** (Flagship Sony IMX890 sensor).
 - ⚡ **Vlogging + Heavy Gaming:** **iQOO Z9 / Z9s 5G** (Dimensity power aur rock solid stabilization).
-- 💰 **Agar budget thoda kam hai (₹15,000 ke aas-pass):** Hamara [Best Smartphones Under ₹15,000 Guide](/blog/best-smartphones-under-15000) dekhein!
+- 💰 **Agar budget thoda kam hai (₹15,000 ke aas-pass):** Hamara [Best Smartphones Under ₹15,000 Guide](/blog/best-smartphones-under-15000/) dekhein!
 
 ---
 

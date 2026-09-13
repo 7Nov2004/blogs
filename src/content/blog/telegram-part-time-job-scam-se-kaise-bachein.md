@@ -130,10 +130,10 @@ Agar aap ya aapka koi dost is scam ka shikar ban chuka hai, toh turant ye 3 step
 ## Asli Tareeqe Se Online Earning Kaise Karein?
 
 Short-cut aur get-rich-quick schemes hamesha fraud hoti hain. Agar aap sach mein digital skills seekh kar authentic income chahte hain:
-- Upwork aur Fiverr par international clients ke sath kaam karein: [Tech Freelancing Complete Hindi Roadmap](/blog/freelancing-se-paise-kaise-kamaye).
-- AI tools ka use karke content creation seekhein: [ChatGPT Se Paise Kaise Kamayein](/blog/chatgpt-se-paise-kaise-kamaye).
-- Faceless video creation ke liye: [Top Free AI Video Generators Guide](/blog/top-free-ai-video-generators-youtube-reels).
-- Phone security check karne ke liye: [Phone Hack Hai Ya Nahi Kaise Pata Karein?](/blog/phone-hack-hai-ya-nahi-kaise-pata-kare).
+- Upwork aur Fiverr par international clients ke sath kaam karein: [Tech Freelancing Complete Hindi Roadmap](/blog/freelancing-se-paise-kaise-kamaye/).
+- AI tools ka use karke content creation seekhein: [ChatGPT Se Paise Kaise Kamayein](/blog/chatgpt-se-paise-kaise-kamaye/).
+- Faceless video creation ke liye: [Top Free AI Video Generators Guide](/blog/top-free-ai-video-generators-youtube-reels/).
+- Phone security check karne ke liye: [Phone Hack Hai Ya Nahi Kaise Pata Karein?](/blog/phone-hack-hai-ya-nahi-kaise-pata-kare/).
 
 ---
 

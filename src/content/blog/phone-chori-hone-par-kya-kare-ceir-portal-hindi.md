@@ -53,7 +53,7 @@ Step 4: CEIR Portal par IMEI Blacklist request dalein
 - **iPhone Users:** `icloud.com/find` par jayein aur **"Mark As Lost"** enable karein.
 
 ### Step 2: SIM Card Turant Block Karwayein
-Chor sabse pehle aapke SIM card se bank OTP nikalne ki koshish karta hai (jaise hamne [SIM Swap Fraud Guide](/blog/sim-swap-fraud-kya-hai-kaise-bachein) mein samjhaya tha). 
+Chor sabse pehle aapke SIM card se bank OTP nikalne ki koshish karta hai (jaise hamne [SIM Swap Fraud Guide](/blog/sim-swap-fraud-kya-hai-kaise-bachein/) mein samjhaya tha). 
 - Apne operator ko call karein: Jio (198), Airtel (121), Vi (199).
 - Apna number instant de-activate karwayein aur usi number ka naya duplicate SIM local store se issue karwa lein.
 
@@ -125,17 +125,17 @@ Savdhani hamesha ilaaj se behtar hoti hai:
 
 1. **IMEI Number Note Karein:** Apne dial pad par `*#06#` dial karein aur jo 15-digit number aaye use apni personal diary ya Google Keep mein note karein.
 2. **Lock Screen Par Emergency Contact Display Karein:** Android aur iPhone dono mein setting hoti hai: Settings ➔ Lock Screen ➔ **Lock Screen Text** mein apne mummy ya papa ka alternate phone number likh dein taaki phone girne par koi nek dil insaan aapko call kar sake.
-3. **App Lock on Financial Apps:** PhonePe, GPay, Paytm aur Netbanking par hamesha biometric fingerprint ya strong PIN laga kar rakhein. [UPI Tap & Pay NFC Security Guide](/blog/upi-tap-pay-nfc-payment-kya-hai-2026) refer karein.
+3. **App Lock on Financial Apps:** PhonePe, GPay, Paytm aur Netbanking par hamesha biometric fingerprint ya strong PIN laga kar rakhein. [UPI Tap & Pay NFC Security Guide](/blog/upi-tap-pay-nfc-payment-kya-hai-2026/) refer karein.
 
 ---
 
 ## Related Cyber & Smartphone Security Guides on TechVerse
 
 Apne device aur digital identity ko protect karne ke liye hamare ye articles zaroor padhein:
-- SIM Swap alert: [SIM Swap Scam Kya Hai Aur Kaise Bachein?](/blog/sim-swap-fraud-kya-hai-kaise-bachein).
-- Mobile hacking signs: [Phone Hack Hai Ya Nahi Kaise Pata Karein?](/blog/phone-hack-hai-ya-nahi-kaise-pata-kare).
-- Online task scams: [Work From Home Telegram Task Scam Alert](/blog/telegram-part-time-job-scam-se-kaise-bachein).
-- Phone storage cleanup: [Phone Storage Full Kaise Khali Karein](/blog/phone-storage-full-kaise-khali-kare-tips).
+- SIM Swap alert: [SIM Swap Scam Kya Hai Aur Kaise Bachein?](/blog/sim-swap-fraud-kya-hai-kaise-bachein/).
+- Mobile hacking signs: [Phone Hack Hai Ya Nahi Kaise Pata Karein?](/blog/phone-hack-hai-ya-nahi-kaise-pata-kare/).
+- Online task scams: [Work From Home Telegram Task Scam Alert](/blog/telegram-part-time-job-scam-se-kaise-bachein/).
+- Phone storage cleanup: [Phone Storage Full Kaise Khali Karein](/blog/phone-storage-full-kaise-khali-kare-tips/).
 
 ---
 

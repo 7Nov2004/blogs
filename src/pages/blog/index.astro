@@ -8,11 +8,11 @@ const allPosts = (await getCollection('blog')).sort(
 );
 
 const categories = [
-  { name: 'All', slug: '/blog' },
-  { name: 'AI & ML', slug: '/category/ai' },
-  { name: 'Web Dev', slug: '/category/webdev' },
-  { name: 'Gadgets', slug: '/category/gadgets' },
-  { name: 'Tips', slug: '/category/tips' },
+  { name: 'All', slug: '/blog/' },
+  { name: 'AI & ML', slug: '/category/ai/' },
+  { name: 'Web Dev', slug: '/category/webdev/' },
+  { name: 'Gadgets', slug: '/category/gadgets/' },
+  { name: 'Tips', slug: '/category/tips/' },
 ];
 ---
 
@@ -30,7 +30,7 @@ const categories = [
       <div class="relative">
         <input 
           type="text" 
-          id="search-input"
+          id="search-input" 
           placeholder="🔍 Article khojo (e.g. AI, Laptop, React, ChatGPT)..." 
           class="w-full px-5 py-3.5 pl-12 rounded-2xl bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 text-gray-900 dark:text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 shadow-sm"
         />
@@ -60,7 +60,7 @@ const categories = [
     <!-- Posts Grid -->
     <div id="posts-grid" class="grid grid-cols-1 md:grid-cols-2 gap-8">
       {allPosts.map((post) => (
-        <a href={`/blog/${post.slug}`} class="post-card group bg-white dark:bg-gray-800 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 overflow-hidden border border-gray-100 dark:border-gray-700 flex flex-col h-full" data-title={post.data.title.toLowerCase()} data-description={post.data.description.toLowerCase()} data-category={post.data.category.toLowerCase()} data-tags={(post.data.tags || []).join(' ').toLowerCase()}>
+        <a href={`/blog/${post.slug}/`} class="post-card group bg-white dark:bg-gray-800 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 overflow-hidden border border-gray-100 dark:border-gray-700 flex flex-col h-full" data-title={post.data.title.toLowerCase()} data-description={post.data.description.toLowerCase()} data-category={post.data.category.toLowerCase()} data-tags={(post.data.tags || []).join(' ').toLowerCase()}>
           <div class="h-48 w-full bg-gray-100 dark:bg-gray-700 overflow-hidden relative">
             {(post.data.image || post.data.coverImage) ? (
               <Image src={(post.data.image || post.data.coverImage)!} alt={post.data.title} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" width={800} height={450} />

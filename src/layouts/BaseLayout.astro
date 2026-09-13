@@ -44,10 +44,10 @@ const websiteSchema = {
   "name": "TechVerse",
   "url": siteUrl.toString(),
   "description": "Tech ki Duniya, Hinglish Mein! Latest AI updates, coding tutorials, gadget reviews aur tech tips.",
-  "inLanguage": "hi",
+  "inLanguage": "hi-Latn",
   "potentialAction": {
     "@type": "SearchAction",
-    "target": `${siteUrl}blog?q={search_term_string}`,
+    "target": new URL('/blog/?q={search_term_string}', siteUrl).toString(),
     "query-input": "required name=search_term_string"
   }
 };
@@ -94,7 +94,7 @@ const articleSchema = article ? {
   },
   ...(category ? { "articleSection": category } : {}),
   ...(tags.length > 0 ? { "keywords": tags.join(', ') } : {}),
-  "inLanguage": "hi"
+  "inLanguage": "hi-Latn"
 } : null;
 
 // FAQ Schema
@@ -133,7 +133,7 @@ const breadcrumbSchema = breadcrumbs.length > 0 ? {
 ---
 
 <!DOCTYPE html>
-<html lang="hi" class="scroll-smooth">
+<html lang="hi-Latn" class="scroll-smooth">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -148,7 +148,8 @@ const breadcrumbSchema = breadcrumbs.length > 0 ? {
     <link rel="canonical" href={canonicalURL} />
     
     <!-- hreflang for Hinglish content -->
-    <link rel="alternate" hreflang="hi" href={canonicalURL} />
+    <link rel="alternate" hreflang="hi-Latn" href={canonicalURL} />
+    <link rel="alternate" hreflang="en-IN" href={canonicalURL} />
     <link rel="alternate" hreflang="x-default" href={canonicalURL} />
     
     <!-- Open Graph -->
@@ -212,7 +213,6 @@ const breadcrumbSchema = breadcrumbs.length > 0 ? {
       window.gtag = gtag;
       gtag('js', new Date());
       gtag('config', 'G-5GDTNYHWLV');
-      gtag('config', 'G-BJ9GZFXS6M');
     </script>
 
     <!-- Structured Data: WebSite + Organization -->

@@ -120,6 +120,6 @@ Redmi Note 17 Pro un logon ke liye ek **slam dunk** phone hai jinhein battery li
 
 Agar aap 15 September ko wait kar sakte hain, toh definitely launch event dekho — price confirm hone ke baad decision lena easy ho jaayega.
 
-👉 **Ye bhi padho:** [Best Smartphones Under 15000 India 2026](/blog/best-smartphones-under-15000) | [Best Camera Phones Under 20000](/blog/best-camera-phones-under-20000-india-2026)
+👉 **Ye bhi padho:** [Best Smartphones Under 15000 India 2026](/blog/best-smartphones-under-15000/) | [Best Camera Phones Under 20000](/blog/best-camera-phones-under-20000-india-2026/)
 
 Aap Redmi Note 17 Pro lene wale hain? Comment mein batao! 🔋

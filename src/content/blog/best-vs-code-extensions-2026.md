@@ -67,7 +67,7 @@ VS Code file explorer mein JavaScript, Python, React, Markdown har file format k
 ## 12. Python Extension by Microsoft
 Python developers ke liye linting, debugging, Jupyter Notebook support, aur auto-complete ek package mein deta hai.
 
-👉 **Ye bhi padhein:** [Python Kaise Sikhe? Step-by-Step Roadmap](/blog/python-kaise-sikhe-beginners)
+👉 **Ye bhi padhein:** [Python Kaise Sikhe? Step-by-Step Roadmap](/blog/python-kaise-sikhe-beginners/)
 
 ---
 

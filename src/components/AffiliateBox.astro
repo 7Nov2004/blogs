@@ -36,6 +36,7 @@ if (isFlipkart) storeColor = 'bg-blue-100 text-blue-800 dark:bg-blue-900/30 dark
       src={productImage} 
       alt={productName} 
       loading="lazy"
+      onerror="this.onerror=null; this.src='/favicon.svg'; this.className='w-20 h-20 opacity-60 m-auto';"
       class="w-full h-full object-contain transition-transform duration-300 hover:scale-105" 
     />
   </div>

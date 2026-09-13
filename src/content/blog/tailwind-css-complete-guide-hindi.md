@@ -152,7 +152,7 @@ Ye live practical example dekhiye ki Tailwind se ek high-converting modern card 
 
 ## Tailwind CSS Setup Kaise Karein? (Vite / Next.js)
 
-Agar aap [Web Development Roadmap Guide](/blog/web-development-roadmap-college-students-2026) follow kar rahe hain, toh modern projects mein Tailwind install karna sirf 1 minute ka kaam hai:
+Agar aap [Web Development Roadmap Guide](/blog/web-development-roadmap-college-students-2026/) follow kar rahe hain, toh modern projects mein Tailwind install karna sirf 1 minute ka kaam hai:
 
 ```bash
 # Terminal mein run karein:
@@ -172,10 +172,10 @@ Iske baad `tailwind.config.js` mein apne template paths set karein aur apne glob
 ## Related Coding Tutorials on TechVerse
 
 Frontend development mastery ke liye hamare in free resources ko follow karein:
-- Foundation clear karne ke liye: [HTML & CSS Complete Beginners Guide](/blog/html-css-guide-hindi).
-- JavaScript concepts: [JavaScript Roadmap in Hindi](/blog/javascript-roadmap-hindi).
-- Modern frameworks: [React vs Next.js Detailed Comparison](/blog/react-vs-nextjs-hindi).
-- Fast coding tools: [Cursor vs GitHub Copilot](/blog/cursor-vs-copilot-best-ai-coding-assistant).
+- Foundation clear karne ke liye: [HTML & CSS Complete Beginners Guide](/blog/html-css-guide-hindi/).
+- JavaScript concepts: [JavaScript Roadmap in Hindi](/blog/javascript-roadmap-hindi/).
+- Modern frameworks: [React vs Next.js Detailed Comparison](/blog/react-vs-nextjs-hindi/).
+- Fast coding tools: [Cursor vs GitHub Copilot](/blog/cursor-vs-copilot-best-ai-coding-assistant/).
 
 ---
 

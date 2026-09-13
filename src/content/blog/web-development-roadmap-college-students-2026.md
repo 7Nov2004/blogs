@@ -66,7 +66,7 @@ Month 6: AI-Assisted Dev, 3 Killer Projects & Job Hunting
 Har cheez ki neev (foundation) मजबूत honi chahiye. Yahan short-cut mat mariye!
 
 ### Kya Seekhna Hai:
-- **HTML5:** Semantic tags (`<header>`, `<main>`, `<article>`, `<section>`, `<footer>`), SEO meta tags, Accessible forms. Check karein hamara [HTML CSS Guide Hindi](/blog/html-css-guide-hindi).
+- **HTML5:** Semantic tags (`<header>`, `<main>`, `<article>`, `<section>`, `<footer>`), SEO meta tags, Accessible forms. Check karein hamara [HTML CSS Guide Hindi](/blog/html-css-guide-hindi/).
 - **Modern CSS3:** Box Model, Positioning, Flexbox aur CSS Grid (Grid aur Flexbox ko mastery karna zaroori hai layout banane ke liye).
 - **Mobile-First Responsive Design:** Media queries likhna aur check karna ki website smartphone par perfect dikhe.
 - **Tailwind CSS:** 2026 mein traditional CSS likhne mein koi time waste nahi karta. Utility-first Tailwind CSS seekhein jo development speed 3x fast karta hai.
@@ -85,7 +85,7 @@ JavaScript web development ki aatma (soul) hai. Agar aapki JS kamzor hogi toh aa
 - DOM Manipulation & Event Listeners (click, submit, scroll).
 - Asynchronous JavaScript: Promises, `async/await`, Fetch API (Third-party data fetch karna).
 - ES6+ Features: Destructuring, Spread/Rest operators, Optional chaining.
-- In-depth padhai ke liye hamara [JavaScript Roadmap Hindi](/blog/javascript-roadmap-hindi) refer karein.
+- In-depth padhai ke liye hamara [JavaScript Roadmap Hindi](/blog/javascript-roadmap-hindi/) refer karein.
 
 > **Month 2 Ka Project:** Ek interactive Weather App ya Movie Search Dashboard banayein jo live OpenWeather ya TMDB API se data fetch kare.
 
@@ -108,7 +108,7 @@ React duniya ki sabse popular frontend library hai. 2026 mein har dusri tech com
 
 ## Month 4: Next.js 15 & Server-Side Full-Stack Development
 
-Sirf client-side React kaafi nahi hai; modern industry **Next.js** par shift ho chuki hai. Is topic par hamara [React vs Next.js Hindi Comparison](/blog/react-vs-nextjs-hindi) zaroor padhein!
+Sirf client-side React kaafi nahi hai; modern industry **Next.js** par shift ho chuki hai. Is topic par hamara [React vs Next.js Hindi Comparison](/blog/react-vs-nextjs-hindi/) zaroor padhein!
 
 ### Key Concepts:
 - App Router (`app/` directory architecture).
@@ -137,7 +137,7 @@ Ek real application mein user ka data save hona aur secure login hona zaroori ha
 2026 mein ek smart developer wo hai jo AI tools ka use karke hours ka kaam minutes mein complete kare.
 
 ### 1. Master AI-Assisted Coding Tools
-- **Cursor IDE** aur **GitHub Copilot** ko apne daily workflow mein shamil karein. Boilerplate code, unit tests aur error debugging ke liye AI use karein. Comparison: [Cursor vs Copilot Hindi Review](/blog/cursor-vs-copilot-best-ai-coding-assistant).
+- **Cursor IDE** aur **GitHub Copilot** ko apne daily workflow mein shamil karein. Boilerplate code, unit tests aur error debugging ke liye AI use karein. Comparison: [Cursor vs Copilot Hindi Review](/blog/cursor-vs-copilot-best-ai-coding-assistant/).
 
 ### 2. Ye 3 Cliché Projects KABHI MAT Banayein! ❌
 Recruiter aapka resume 5 second mein reject kar dega agar aapne wahi purane projects daale:
@@ -156,7 +156,7 @@ Recruiter aapka resume 5 second mein reject kar dega agar aapne wahi purane proj
 
 Agar aap placements ka wait kiye bina college ke 2nd ya 3rd year se hi dollars ($) mein kamana chahte hain, toh Upwork, Fiverr aur LinkedIn par international clients crack karein.
 
-Complete roadmap ke liye hamara [Tech Freelancing Complete Hindi Guide](/blog/freelancing-se-paise-kaise-kamaye) padhein!
+Complete roadmap ke liye hamara [Tech Freelancing Complete Hindi Guide](/blog/freelancing-se-paise-kaise-kamaye/) padhein!
 
 ---
 

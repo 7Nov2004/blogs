@@ -55,7 +55,7 @@ Freelance market mein entry lene se pehle sabse pehle ye decide karein ki aap ma
 - **Tech Stack:** React, Next.js, Node.js, Tailwind CSS, Flutter, Supabase.
 - **Kis type ke projects milte hain:** SaaS MVP landing pages, custom dashboards, e-commerce stores, API integrations.
 - **Earning Potential:** $25 - $75/hour (₹50,000 - ₹2,00,000 per project).
-- *Seekhein:* Hamara [JavaScript Roadmap Hindi](/blog/javascript-roadmap-hindi) aur [HTML CSS Guide](/blog/html-css-guide-hindi) se start karein.
+- *Seekhein:* Hamara [JavaScript Roadmap Hindi](/blog/javascript-roadmap-hindi/) aur [HTML CSS Guide](/blog/html-css-guide-hindi/) se start karein.
 
 ### 2. AI Automation & Workflow Integration
 - **Tech Stack:** Make.com, Zapier, Python scripting, OpenAI API, LangChain.
@@ -74,7 +74,7 @@ Freelance market mein entry lene se pehle sabse pehle ye decide karein ki aap ma
 ### 5. Video Editing for Creators & Brands
 - **Tech Stack:** Premiere Pro, After Effects, CapCut Pro.
 - Short-form content (YouTube Shorts, Instagram Reels, TikTok) aur podcast editing ki demand massive hai.
-- *Tip:* Hamara [Top AI Video Generators Guide](/blog/top-free-ai-video-generators-youtube-reels) padhein aur AI workflow integrate karein.
+- *Tip:* Hamara [Top AI Video Generators Guide](/blog/top-free-ai-video-generators-youtube-reels/) padhein aur AI workflow integrate karein.
 
 ### 6. Technical SEO & Content Strategy
 - Tech companies aur SaaS blogs ko ranking content chahiye. Technical SEO audits, programmatic SEO, aur AI content humanization high-value freelance services hain.
@@ -181,8 +181,8 @@ Ek baar jab aapke paas continuous client pipeline ban jaye, toh aap apne per-hou
 
 1. **Price Hike:** Har 3 successful 5-star ratings ke baad apne rates 20% badhayein.
 2. **Monthly Retainers:** One-time project deliver karke mat chhodhiye; client ko monthly maintenance, feature updates, aur performance monitoring ka retainer offer karein (e.g. $500/month per client).
-3. **Use AI to 3x Speed:** Code generation ke liye AI assistants use karein. Is topic par hamara [Cursor vs GitHub Copilot Comparison](/blog/cursor-vs-copilot-best-ai-coding-assistant) zaroor padhein.
-4. **Passive Income Diversification:** Freelance skills ko digital products (templates, code boilerplates, courses) mein convert karke [ChatGPT Se Paise Kaise Kamayein](/blog/chatgpt-se-paise-kaise-kamaye) ke methods apply karein.
+3. **Use AI to 3x Speed:** Code generation ke liye AI assistants use karein. Is topic par hamara [Cursor vs GitHub Copilot Comparison](/blog/cursor-vs-copilot-best-ai-coding-assistant/) zaroor padhein.
+4. **Passive Income Diversification:** Freelance skills ko digital products (templates, code boilerplates, courses) mein convert karke [ChatGPT Se Paise Kaise Kamayein](/blog/chatgpt-se-paise-kaise-kamaye/) ke methods apply karein.
 
 ---
 

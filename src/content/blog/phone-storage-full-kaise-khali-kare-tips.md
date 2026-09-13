@@ -57,4 +57,4 @@ Bohot se log photos delete toh kar dete hain, par unhe pata nahi hota ki Android
 
 ## Bonus Tip: Phone Ko Fast Aur Smooth Rakhein
 
-Storage khali karne ke baad phone ko ek baar restart karein. Sath hi, agar aapke phone ki battery bhi jaldi utarti hai, toh hamari [Phone Battery Life Tips](/blog/phone-battery-life-tips-hindi) wali guide zaroor padhein jisse phone ki performance aur battery dono double ho jayengi!
+Storage khali karne ke baad phone ko ek baar restart karein. Sath hi, agar aapke phone ki battery bhi jaldi utarti hai, toh hamari [Phone Battery Life Tips](/blog/phone-battery-life-tips-hindi/) wali guide zaroor padhein jisse phone ki performance aur battery dono double ho jayengi!
