@@ -110,6 +110,31 @@
   .prose-blog a {
     @apply text-blue-600 dark:text-blue-400 font-medium underline decoration-blue-500/30 hover:decoration-blue-500 transition-colors;
   }
+
+  /* Responsive Comparison Table Styling */
+  .prose-blog table {
+    @apply w-full my-8 text-left border-collapse rounded-2xl overflow-hidden shadow-sm border border-gray-200 dark:border-gray-800 text-sm;
+  }
+
+  .prose-blog thead {
+    @apply bg-gray-100/90 dark:bg-gray-800/90;
+  }
+
+  .prose-blog th {
+    @apply text-gray-900 dark:text-white p-3.5 font-bold border-b border-gray-200 dark:border-gray-700;
+  }
+
+  .prose-blog td {
+    @apply p-3.5 border-b border-gray-100 dark:border-gray-800/60 text-gray-700 dark:text-gray-300;
+  }
+
+  .prose-blog tbody tr:last-child td {
+    @apply border-b-0;
+  }
+
+  .prose-blog tbody tr:hover td {
+    @apply bg-blue-50/40 dark:bg-blue-950/20 transition-colors;
+  }
 }
 
 @layer utilities {
