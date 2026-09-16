@@ -1,7 +1,8 @@
 ---
 title: "Work From Home Aur Telegram Task Scam Se Kaise Bachein? 2026 Cyber Safety Guide"
-description: "'Like YouTube videos and earn ₹5000 daily' wale WhatsApp/Telegram messages ka asli sach! Part-time task scam kaise hota hai, initial ₹200 ka trap aur paise doobne par kya karein?"
+description: "Telegram part-time job aur YouTube video like task scams se kaise bachein? Cyber crime helpline 1930 par report aur fraud bachav guide."
 pubDate: 2026-09-11
+updatedDate: 2026-09-16
 image: "/images/telegram-job-scam-cover.jpg"
 category: "tips"
 tags: ["cyber-security", "scam-alert", "telegram-scam", "online-safety", "tech-tips"]
@@ -144,3 +145,7 @@ Internet par free mein ya bina kisi hard skill ke koi paisa nahi deta. Apne dost
 ---
 
 *Kya aapko kabhi aisa koi WhatsApp ya Telegram message aaya hai? Niche comment mein scammer ka format share karein taaki baaki log satark reh sakein!*
+
+---
+
+> 🌐 **Authoritative Reference & Source:** Adhik jankari aur official documentation ke liye aap [National Cyber Crime Reporting Portal (Helpline 1930)](https://cybercrime.gov.in/) ko visit kar sakte hain.

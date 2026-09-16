@@ -1,7 +1,8 @@
 ---
 title: "UPI Tap & Pay क्या है? NFC से Payment कैसे करें — Complete Guide 2026"
-description: "UPI Tap & Pay feature September 10, 2026 को India में launch हुआ। जानिए NFC से बिना QR Scan किए payment कैसे करें, ₹5000 तक PIN-free payment, और MyUPI AI के बारे में।"
+description: "UPI Tap and Pay NFC payment kya hai aur bina PIN 500 tak payment kaise karein? Setup, supported phones aur safety tips in Hindi."
 pubDate: 2026-09-11
+updatedDate: 2026-09-16
 category: "tips"
 tags: ["upi", "fintech", "payment", "nfc", "india", "digital-payment"]
 image: "/images/upi-tap-pay-2026-cover.jpg"

@@ -6,6 +6,9 @@ import mdx from '@astrojs/mdx';
 export default defineConfig({
   site: 'https://techverseblogs.in',
   trailingSlash: 'always',
+  redirects: {
+    '/sitemap.xml': '/sitemap-index.xml',
+  },
   integrations: [
     mdx(),
     tailwind(),

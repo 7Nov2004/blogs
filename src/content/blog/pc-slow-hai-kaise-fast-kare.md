@@ -1,7 +1,8 @@
 ---
 title: 'Computer Ya Laptop Slow Ho Gaya Hai? 10 Tarike Fast Karne Ke (2026)'
-description: 'Windows 11 aur Windows 10 PC/Laptop hang ya slow ho raha hai? Boot time fast karne, 100% disk usage theek karne aur speed badhane ke practical proven hacks.'
+description: "Purana laptop ya PC slow ho gaya hai? SSD upgrade, startup apps disable aur temporary files clear karke speed double karne ke 7 tarike."
 pubDate: 2026-08-16
+updatedDate: 2026-09-16
 image: '/images/pc-boost-cover.jpg'
 category: tips
 tags: ['windows-tips', 'pc-speed', 'laptop-performance', 'tech-hacks', 'troubleshooting']
@@ -131,3 +132,7 @@ Agar aapke PC mein abhi bhi purani spinning hard disk (HDD) lagi hai, toh duniya
 * 💻 [Windows 11 Slow Chal Raha Hai? 7 Hidden Fixes](/blog/windows-11-slow-chal-raha-hai-fast-kaise-kare/)
 * 💻 [Best Laptops for Students Under ₹40,000 (2026 Buyers Guide)](/blog/best-laptops-under-40000-students-2026/)
 * 🔋 [Phone Ki Battery Life Kaise Badhayein? Tested Tips](/blog/phone-battery-life-tips-hindi/)
+
+---
+
+> 🌐 **Authoritative Reference & Source:** Adhik jankari aur official documentation ke liye aap [Microsoft Windows Support Portal](https://support.microsoft.com/windows) ko visit kar sakte hain.

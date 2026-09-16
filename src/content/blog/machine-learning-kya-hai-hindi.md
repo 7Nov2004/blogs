@@ -1,7 +1,8 @@
 ---
 title: 'Machine Learning Kya Hai? Beginners Guide Hindi Mein (2026)'
-description: 'Machine Learning (ML) kya hai, kaise kaam karta hai, Supervised vs Unsupervised learning kya hai, aur shuruat kaise karein? Aasan bhasha mein guide.'
+description: "Machine Learning (ML) kya hai aur kaise kaam karti hai? Supervised, unsupervised learning, algorithms aur career scope ka beginners Hindi guide."
 pubDate: 2026-08-26
+updatedDate: 2026-09-16
 image: '/images/machine-learning-cover.jpg'
 category: ai
 tags: ['machine-learning', 'ai', 'data-science', 'python', 'beginners']

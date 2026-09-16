@@ -1,6 +1,6 @@
 ---
 title: 'Tech Freelancing Kaise Shuru Karein? 2026 Beginners Complete Guide (Upwork, Fiverr)'
-description: 'Ghar baithe web development, AI automation ya writing se dollars ($) mein kamayi kaise karein? Upwork, Fiverr, portfolio setup aur international payment ka complete Hindi roadmap.'
+description: "Freelancing shuru karke ghar baithe online paise kaise kamayein? Upwork, Fiverr par high-income skills aur first client pane ke verified tips."
 pubDate: 2026-08-15
 updatedDate: 2026-09-11
 image: '/images/freelancing-cover.jpg'

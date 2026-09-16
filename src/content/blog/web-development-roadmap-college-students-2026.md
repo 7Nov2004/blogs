@@ -1,7 +1,8 @@
 ---
 title: "Web Development Roadmap for College Students 2026: Zero Se Full-Stack Job-Ready Kaise Banein?"
-description: "College mein padhte hue 6 mahine mein high-paying Web Developer kaise banein? HTML, CSS, JavaScript, React, Next.js, Backend aur AI tools ka step-by-step Hindi roadmap."
+description: "College students ke liye 2026 ka practical Web Development Roadmap: HTML, CSS, JavaScript, React, backend aur resume project ideas in Hindi."
 pubDate: 2026-09-11
+updatedDate: 2026-09-16
 image: "/images/web-dev-roadmap-2026-cover.jpg"
 category: "webdev"
 tags: ["web-development", "programming", "javascript", "react", "nextjs", "career-guide", "coding-roadmap"]

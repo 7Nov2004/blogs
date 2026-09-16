@@ -1,6 +1,6 @@
 ---
 title: 'Best Camera Phones Under ₹20,000 (2026): OIS Aur 4K Video Wale Top 5 Phones'
-description: '20,000 ke budget mein DSLR jaisi crisp photos aur shake-free 4K video chahiye? OIS, Sony LYT sensors aur night photography wale top 5 phones ka in-depth Hindi comparison.'
+description: "20000 ke andar best camera phones: OIS support, 4K video recording, low-light sensors aur Sony camera wale top 5 phones ka complete review."
 pubDate: 2026-09-07
 updatedDate: 2026-09-11
 image: '/images/camera-phones-cover.jpg'
@@ -153,3 +153,7 @@ Lambi outdoor photo shoots aur 4K video recording se battery bohot tezi se drain
 ---
 
 *Inme se aapka favourite camera phone kaun sa hai? Niche comments mein apna experience zaroor share karein!*
+
+---
+
+> 🌐 **Authoritative Reference & Source:** Adhik jankari aur official documentation ke liye aap [Google Android Official Support](https://support.google.com/android/) ko visit kar sakte hain.

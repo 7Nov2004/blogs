@@ -1,6 +1,6 @@
 ---
 title: 'Top 5 Free AI Video Generators (2026): Bina Face Dikhaye YouTube Shorts Aur Reels Banayein'
-description: 'Faceless YouTube Shorts ya Instagram Reels banakar online paise kamana chahte hain? Kling AI, Luma, InVideo aur Runway jaise top 5 free AI video generator tools ka complete Hindi guide.'
+description: "YouTube Shorts aur Instagram Reels ke liye top free AI video generators: bina watermark aur automatic voiceover wale best AI video tools."
 pubDate: 2026-09-07
 updatedDate: 2026-09-11
 image: '/images/ai-video-generator-cover.jpg'
