@@ -21,7 +21,7 @@ faqs:
     answer: "Sanchar Saathi portal par details verify hone ke turant baad (sirf 2 se 3 minute ke andar) aapke registered alternate mobile number par SMS ke zariye Request ID bhej di jaati hai."
 ---
 
-Jab aapka smartphone chori ho jata hai ya kho jata hai, toh Bharat Sarkar ke **Sanchar Saathi (CEIR Portal)** par complaint darj karke aap use block kar dete hain (jaisa humne hamari [CEIR Portal Complete Blocking Guide](/blog/phone-chori-hone-par-kya-kare-ceir-portal-hindi) mein bataya tha).
+Jab aapka smartphone chori ho jata hai ya kho jata hai, toh Bharat Sarkar ke **Sanchar Saathi (CEIR Portal)** par complaint darj karke aap use block kar dete hain (jaisa humne hamari [CEIR Portal Complete Blocking Guide](/blog/phone-chori-hone-par-kya-kare-ceir-portal-hindi/) mein bataya tha).
 
 Lekin aksar logon ke sath ek bohot badi pareshani hoti hai:
 1. Kuch dino baad police phone dhoondh leti hai, ya chor pakda jata hai.
@@ -116,9 +116,9 @@ Agar aapka phone recover ho gaya hai:
 ## Related Cyber Security Guides on TechVerse
 
 Apne smartphone aur digital accounts ko secure rakhne ke liye hamari ye guides zaroor padhein:
-- Step-by-step phone blocking: [Phone Chori Hone Par CEIR Portal Se Block Kaise Karein](/blog/phone-chori-hone-par-kya-kare-ceir-portal-hindi).
-- SIM Card security: [SIM Swap Fraud Kya Hai Aur Kaise Bachein?](/blog/sim-swap-fraud-kya-hai-kaise-bachein).
-- Phone hacking inspection: [Phone Hack Hai Ya Nahi Kaise Pata Karein?](/blog/phone-hack-hai-ya-nahi-kaise-pata-kare).
+- Step-by-step phone blocking: [Phone Chori Hone Par CEIR Portal Se Block Kaise Karein](/blog/phone-chori-hone-par-kya-kare-ceir-portal-hindi/).
+- SIM Card security: [SIM Swap Fraud Kya Hai Aur Kaise Bachein?](/blog/sim-swap-fraud-kya-hai-kaise-bachein/).
+- Phone hacking inspection: [Phone Hack Hai Ya Nahi Kaise Pata Karein?](/blog/phone-hack-hai-ya-nahi-kaise-pata-kare/).
 
 ---
 

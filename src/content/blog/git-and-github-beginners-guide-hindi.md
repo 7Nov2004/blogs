@@ -2,7 +2,6 @@
 title: "Git Aur GitHub Complete Guide in Hindi (2026): Commit, Push, Pull & Branching Explained"
 description: "Git aur GitHub kaise use karein? Beginners ke liye basic commands (clone, add, commit, push, pull) aur branch workflow ka step-by-step Hindi guide."
 pubDate: 2026-09-12
-updatedDate: 2026-09-16
 image: "/images/git-github-beginners-cover.jpg"
 category: "webdev"
 tags: ["git", "github", "version-control", "programming", "developer-tools", "coding-tips"]

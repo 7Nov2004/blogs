@@ -2,7 +2,6 @@
 title: "Call Recording Announcement Kaise Band Karein? (Google Dialer Fix 2026 - Realme, Vivo, Xiaomi, OnePlus)"
 description: "Google Dialer call recording announcement 'This call is now being recorded' kaise band karein? Practical native tricks aur TTS settings guide."
 pubDate: 2026-09-16
-updatedDate: 2026-09-16
 category: "tips"
 tags: ["Call Recording", "Google Dialer", "Android Tips", "Tech Hacks", "Smartphone Settings", "Realme", "Vivo", "Xiaomi"]
 author: "Aayush Kumar"

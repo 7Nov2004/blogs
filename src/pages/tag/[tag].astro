@@ -3,29 +3,36 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import { Image } from 'astro:assets';
 
+const slugify = (s: string) => s.toLowerCase().trim().replace(/\s+/g, '-');
+
 export async function getStaticPaths() {
+  const slugify = (s: string) => s.toLowerCase().trim().replace(/\s+/g, '-');
   const allPosts = await getCollection('blog');
   
-  // Collect all unique tags
-  const allTags = new Set<string>();
+  const tagMap = new Map<string, { slug: string; name: string }>();
   allPosts.forEach((post) => {
-    (post.data.tags || []).forEach((tag: string) => allTags.add(tag));
+    (post.data.tags || []).forEach((tag: string) => {
+      const slug = slugify(tag);
+      if (!tagMap.has(slug)) {
+        tagMap.set(slug, { slug, name: tag });
+      }
+    });
   });
   
-  return Array.from(allTags).map((tag) => ({
-    params: { tag },
-    props: { tag },
+  return Array.from(tagMap.values()).map(({ slug, name }) => ({
+    params: { tag: slug },
+    props: { tag: slug, tagName: name },
   }));
 }
 
-const { tag } = Astro.props;
+const { tag, tagName } = Astro.props;
 
 const allPosts = (await getCollection('blog'))
-  .filter((post) => (post.data.tags || []).includes(tag))
+  .filter((post) => (post.data.tags || []).some((t: string) => slugify(t) === tag))
   .sort((a, b) => new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime());
 
 // Format tag name for display
-const displayTag = tag
+const displayTag = tagName || tag
   .replace(/-/g, ' ')
   .replace(/\b\w/g, (c: string) => c.toUpperCase());
 

@@ -2,7 +2,6 @@
 title: "Full Stack Developer Kaise Bane 2026: Complete Step-by-Step Roadmap (Frontend, Backend, AI Tools & Jobs)"
 description: "Full Stack Developer kaise banein? Frontend, backend, database, DevOps aur portfolio banane ka 6-month step-by-step Hindi roadmap (2026)."
 pubDate: 2026-09-14
-updatedDate: 2026-09-14
 image: "/images/fullstack-roadmap-2026-cover.jpg"
 category: "webdev"
 tags: ["full stack roadmap", "web development", "javascript", "react", "nextjs", "coding career", "learn to code"]

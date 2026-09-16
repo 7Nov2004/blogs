@@ -60,6 +60,19 @@ Kyunki Cursor khud ek editor hai, isme AI bohot deeply integrated hai. VS Code m
 
 Agar aap ek **student** hain jiske paas GitHub Student Developer Pack hai, toh Copilot aapke liye bilkul free hai, jo ki ek bohot bada plus point hai!
 
+## 📊 Feature Comparison Table: Cursor AI vs GitHub Copilot
+
+| Feature / Metric | Cursor AI | GitHub Copilot | Winner / Recommendation |
+| :--- | :--- | :--- | :--- |
+| **Tool Architecture** | Independent Forked Editor (VS Code based) | IDE Extension (VS Code, JetBrains, Visual Studio) | Use Case Dependent |
+| **Supported Underlying Models** | Claude 3.5 Sonnet, GPT-4o, Cursor-Small | OpenAI GPT-4o, Custom Codex models | **Cursor AI** (Claude 3.5 Sonnet leads coding benchmarks) |
+| **Whole Codebase Indexing** | Deep vector embeddings across entire repository | Limited active-tab and adjacent tabs context | **Cursor AI** |
+| **Multi-File Editing (Composer)** | Yes (`Ctrl + I` / `Ctrl + K`), multi-file modifications | Limited to single active document | **Cursor AI** |
+| **Inline Autocomplete Speed** | Extremely fast (Copilot++ engine) | Industry standard ultra-fast ghost text | **GitHub Copilot** (Sub-second latency) |
+| **Price for Individuals** | Free tier (Limited), $20/month Pro | $10/month (or $100/year) | **GitHub Copilot** (Half the price) |
+| **Student Benefit** | No permanent free student tier | **Free** via GitHub Student Developer Pack | **GitHub Copilot** |
+| **Enterprise Privacy & Security** | SOC 2 Type II, Privacy mode available | Microsoft Enterprise Trust, SOC 2, ISO 27001 | **GitHub Copilot** |
+
 ## Conclusion: Aapko Kaunsa Use Karna Chahiye?
 
 **Aapko GitHub Copilot use karna chahiye agar:**

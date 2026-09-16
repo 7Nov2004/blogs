@@ -2,7 +2,6 @@
 title: 'Python Kaise Sikhe? Step-by-Step Complete Roadmap (2026)'
 description: "Python programming language shuru se kaise sikhein? Variables, loops, data structures aur 30-day learning roadmap ka beginners Hindi guide."
 pubDate: 2026-08-24
-updatedDate: 2026-09-16
 image: '/images/python-cover.jpg'
 category: webdev
 tags: ['python', 'programming', 'coding-roadmap', 'beginners', 'web-development']

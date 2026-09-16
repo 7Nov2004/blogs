@@ -2,7 +2,6 @@
 title: "Phone Me Fast Charging Kaam Kyu Nahi Kar Rahi? 7 Effective Hardware & Software Fixes"
 description: "Phone me fast charging kaam kyu nahi kar rahi? Charging port lint cleaning, adapter wattage aur protocol enable karne ke 7 verified fixes."
 pubDate: 2026-09-14
-updatedDate: 2026-09-14
 image: "/images/fast-charging-fix-cover.jpg"
 category: "tips"
 tags: ["fast charging fix", "android tips", "phone charging slow", "smartphone hacks", "battery health", "hardware fix"]

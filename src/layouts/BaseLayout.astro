@@ -72,17 +72,19 @@ const articleSchema = article ? {
   "@type": "BlogPosting",
   "headline": title.replace(' - TechVerse', ''),
   "description": description,
-  "image": ogImageURL.toString(),
+  "image": [ogImageURL.toString()],
   "datePublished": pubDate?.toISOString(),
   ...(updatedDate ? { "dateModified": updatedDate.toISOString() } : (pubDate ? { "dateModified": pubDate.toISOString() } : {})),
   "author": {
     "@type": "Person",
     "name": author,
+    "jobTitle": "Founder & Lead Technical Editor",
     "url": new URL('/author/aayush/', siteUrl).toString()
   },
   "publisher": {
     "@type": "Organization",
     "name": "TechVerse",
+    "url": siteUrl.toString(),
     "logo": {
       "@type": "ImageObject",
       "url": new URL('/favicon.svg', siteUrl).toString()
@@ -126,7 +128,7 @@ const breadcrumbSchema = breadcrumbs.length > 0 ? {
       "@type": "ListItem",
       "position": index + 2,
       "name": crumb.name,
-      ...(crumb.href ? { "item": new URL(crumb.href, siteUrl).toString() } : {})
+      "item": crumb.href ? new URL(crumb.href, siteUrl).toString() : canonicalURL.toString()
     }))
   ]
 } : null;

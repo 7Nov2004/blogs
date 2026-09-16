@@ -2,7 +2,6 @@
 title: "Earbuds Ek Side Not Working Problem Solution: Boat, Realme, Noise TWS Kaise Fix Karein"
 description: "Bluetooth earbuds ki ek side aawaz nahi aa rahi ya charge nahi ho rahi? boAt, Noise aur Realme TWS reset karne ke 5 verified hardware tricks."
 pubDate: 2026-03-24
-updatedDate: 2026-09-16
 category: "gadgets"
 tags: ["earbuds", "tws fix", "boat airdopes", "realme buds", "audio problems", "gadget tips"]
 author: "Aayush Kumar"
@@ -135,6 +134,6 @@ Agar aapne ye sab steps follow kiye:
 ---
 
 ### Related Troubleshooting Guides:
-- [Phone Storage Space Running Out Error Fix](/blog/phone-storage-space-running-out-hidden-system-fix)
+- [Phone Storage Space Running Out Error Fix](/blog/phone-storage-space-running-out-hidden-system-fix/)
 - [CEIR Portal Se Chori Phone Kaise Block/Track Karein](/blog/phone-chori-hone-par-kya-kare-ceir-portal-hindi/)
-- [Best Gadgets & Smartphone Deals](/category/gadgets)
+- [Best Gadgets & Smartphone Deals](/category/gadgets/)

@@ -22,12 +22,38 @@ const authorDetails = {
     'Lead Editor establishing strict E-E-A-T factual verification guidelines on TechVerse.'
   ]
 };
+
+const profileSchema = {
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "mainEntity": {
+    "@type": "Person",
+    "name": authorDetails.name,
+    "jobTitle": authorDetails.role,
+    "worksFor": {
+      "@type": "Organization",
+      "name": "TechVerse",
+      "url": "https://techverseblogs.in"
+    },
+    "description": authorDetails.bio,
+    "url": "https://techverseblogs.in/author/aayush/",
+    "sameAs": [
+      authorDetails.github,
+      "https://twitter.com/TechVerse_HI"
+    ],
+    "homeLocation": {
+      "@type": "Place",
+      "name": authorDetails.location
+    }
+  }
+};
 ---
 
 <BaseLayout 
   title={`${authorDetails.name} — Author & Lead Editor at TechVerse`} 
   description={`TechVerse ke Founder aur Lead Editor ${authorDetails.name} ke verified articles, tech research aur professional background ke baare mein jaanein.`}
 >
+  <script type="application/ld+json" set:html={JSON.stringify(profileSchema)} />
   <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
     <!-- Author Profile Header -->
     <div class="bg-gradient-to-br from-slate-900 via-blue-950 to-indigo-950 rounded-3xl p-8 md:p-12 text-white shadow-xl border border-blue-900/40 mb-12 flex flex-col md:flex-row items-center gap-8">
@@ -85,7 +111,7 @@ const authorDetails = {
         <p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-4">
           TechVerse par publish hone wali har buyer guide aur review mere personal testing aur authentic benchmark metrics par based hoti hai. Hum kisi bhi brand se paid positive reviews accept nahi karte.
         </p>
-        <a href="/about" class="text-blue-600 dark:text-blue-400 font-bold text-sm hover:underline inline-flex items-center gap-1">
+        <a href="/about/" class="text-blue-600 dark:text-blue-400 font-bold text-sm hover:underline inline-flex items-center gap-1">
           TechVerse Editorial Policy Padhien →
         </a>
       </div>

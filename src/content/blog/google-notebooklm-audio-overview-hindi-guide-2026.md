@@ -2,7 +2,6 @@
 title: "Google NotebookLM Audio Overview Kya Hai? Notes aur PDFs ko AI Podcast Banayein (2026 Guide)"
 description: "Google NotebookLM Audio Overview kya hai? Apne study PDF aur research notes se 2-host AI podcast audio generate karne ka step-by-step Hindi guide."
 pubDate: 2026-09-16
-updatedDate: 2026-09-16
 category: "ai"
 tags: ["NotebookLM", "Google AI", "Audio Overview", "Study Hacks", "AI Podcast", "Productivity Tools", "Gemini 2.0"]
 author: "Aayush Kumar"
@@ -104,5 +103,5 @@ Agar aapne abhi tak Audio Overview try nahi kiya hai, toh aaj hi apna koi favour
 ---
 
 ### 🔗 Zaroori Related Articles:
-* 📌 **Related Guide:** Detailed deep-dive ke liye [NotebookLM Research Assistant Guide](/blog/google-notebooklm-free-ai-research-assistant-students-hindi/) padhein.
+* 📌 **Related Guide:** Detailed deep-dive ke liye [NotebookLM Research Assistant Guide](/blog/google-notebooklm-kya-hai-students-guide/) padhein.
 * 📌 **Related Guide:** Aur useful tools ke liye [Top Free AI Tools for Students](/blog/top-free-ai-tools-students/) dekhein.

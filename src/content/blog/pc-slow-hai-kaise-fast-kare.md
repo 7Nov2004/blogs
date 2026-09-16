@@ -2,7 +2,6 @@
 title: 'Computer Ya Laptop Slow Ho Gaya Hai? 10 Tarike Fast Karne Ke (2026)'
 description: "Purana laptop ya PC slow ho gaya hai? SSD upgrade, startup apps disable aur temporary files clear karke speed double karne ke 7 tarike."
 pubDate: 2026-08-16
-updatedDate: 2026-09-16
 image: '/images/pc-boost-cover.jpg'
 category: tips
 tags: ['windows-tips', 'pc-speed', 'laptop-performance', 'tech-hacks', 'troubleshooting']

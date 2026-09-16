@@ -57,6 +57,16 @@ College ke notes banana, to-do list maintain karna, aur classes ka schedule rakh
 * **Best Use Case:** Semester planning, project tracking aur group study notes ke liye. Ek Notion workspace mein poora semester manage ho jata hai.
 * **Price:** Students ke liye university email (.edu) se sign up karne par bohot saare premium features free milte hain.
 
+## 📊 Quick Summary Table: Top 5 Free Student AI Tools
+
+| AI Tool | Primary Use Case | Free Tier Allowance | Student Superpower |
+| :--- | :--- | :--- | :--- |
+| **Perplexity AI** | Fact-checked research & references | Unlimited quick search | Gives real-time web citations for assignments |
+| **Gamma App** | Instant PPT & document generation | 400 free starter credits | Makes beautiful 10-slide decks in 60 seconds |
+| **ChatPDF** | Book & research paper question-answer | Up to 2 PDFs/day (120 pages each) | Extracts exam answers directly from syllabus PDFs |
+| **QuillBot** | Grammar check & academic paraphrasing | 125 words per paraphrase | Polishes awkward sentences into fluent English |
+| **Notion AI** | Notes organization & lecture summaries | Free plan + AI trial | Formats raw lecture voice notes into structured bullet points |
+
 ## Bonus Tip: Sahi Order Mein Start Karein
 
 Agar aap pehli baar AI tools try kar rahe hain, toh is order mein start karein:

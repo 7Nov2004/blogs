@@ -47,6 +47,18 @@ Dono hi companies nayi connection par installation fees charge karti hain agar a
 
 Jio ne India ke har chote gaon aur tier-2, tier-3 cities mein apne 5G towers bohot tezi se lagaye hain. Is wajah se Jio AirFiber remote areas mein asani se lag jata hai. Doosri taraf Airtel ka AirFiber metro cities aur bade kasbo mein behtar coverage deta hai.
 
+## 📊 Jio AirFiber vs Airtel Xstream AirFiber: Head-to-Head Comparison
+
+| Parameter / Feature | Jio AirFiber | Airtel Xstream AirFiber | Recommendation |
+| :--- | :--- | :--- | :--- |
+| **Starting Plan Price** | ₹599/month (+ 18% GST) | ₹799/month (+ 18% GST) | **Jio AirFiber** (₹200 cheaper entry) |
+| **Entry-Level Speed** | 30 Mbps (Unlimited) | 100 Mbps (Unlimited) | **Airtel AirFiber** (Higher entry speed) |
+| **Top Tier Speeds** | Up to 1000 Mbps (₹3,999/mo) | Up to 300 Mbps (₹1,499/mo) | **Jio AirFiber** |
+| **OTT Subscriptions** | 14+ OTT Apps (Hotstar, SonyLIV, Zee5) | Airtel Xstream Play (20+ OTTs) | Both provide solid entertainment |
+| **Free Installation Condition** | 6-month or 12-month advance booking | 6-month or 12-month advance booking | Tie |
+| **Tier-2 & Village Coverage** | Wider reach (StandAlone 5G network) | Strong in Metros & Tier-1 cities | **Jio AirFiber** for rural reach |
+| **Average Latency (Ping)** | ~30ms - 55ms | ~25ms - 45ms | **Airtel** slightly lower latency |
+
 ## Conclusion: Final Verdict
 
 Toh aapko kaunsa lagwana chahiye? Iska jawab bohot simple hai:

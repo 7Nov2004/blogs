@@ -21,6 +21,17 @@ Bohot se log 'Second Hand' aur 'Refurbished' ko ek hi samajhte hain, lekin inme 
 
 Refurbished hamesha used se behtar hota hai kyunki isme testing aur warranty milti hai.
 
+## 📋 Refurbished vs Used vs New Laptop: Buyer Comparison
+
+| Factor / Criteria | New Retail Laptop | Certified Refurbished | Second-Hand (OLX / Local) |
+| :--- | :--- | :--- | :--- |
+| **Pricing / Discount** | Full MRP / standard sale price | 30% to 55% discount | 50% to 70% discount |
+| **Warranty Coverage** | 1 to 2 Years Brand Warranty | 6 to 12 Months Seller Warranty | No Warranty (As-is) |
+| **Hardware Quality** | 100% Factory Fresh | Tested, cleaned, parts replaced | Unknown wear & tear |
+| **Battery Health** | 100% capacity | Usually 80%+ guaranteed | Often degraded (<60%) |
+| **Return Policy** | 7-10 days replacement | 7-14 days easy return | Zero returns |
+| **Recommended Buyer** | Long-term investment (4-5 yrs) | Students, budget developers | Risky; experts only |
+
 ## 5 Cheezein Jo Zaroor Check Karein
 
 Refurbished laptop aapke paas aate hi sabse pehle ye 5 tests zaroor karein:
