@@ -4,7 +4,7 @@ description: "Apne Windows 11 PC ya laptop par DeepSeek R1 aur V3 model ko compl
 pubDate: 2026-03-24
 category: "ai"
 tags: ["deepseek", "local ai", "ollama", "windows 11", "ai tools", "offline llm"]
-author: "Aayush Sharma"
+author: "Aayush Kumar"
 image: "/images/deepseek-locally-windows11-cover.jpg"
 faqs:
   - question: "Kya DeepSeek locally chalane ke liye heavy gaming graphic card (GPU) zaroori hai?"

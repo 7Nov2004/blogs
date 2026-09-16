@@ -4,7 +4,7 @@ description: "React 19 aur Next.js 15 ka complete comparison Hindi me. React Ser
 pubDate: 2026-09-16
 category: "webdev"
 tags: ["React 19", "Nextjs 15", "Web Development", "JavaScript", "Frontend Roadmap", "Full Stack 2026", "Server Components"]
-author: "Aayush Sharma"
+author: "Aayush Kumar"
 image: "/images/react-vs-nextjs-cover.jpg"
 coverImage: "/images/react-vs-nextjs-cover.jpg"
 featured: false

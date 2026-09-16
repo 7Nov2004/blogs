@@ -6,7 +6,7 @@ updatedDate: 2026-09-11
 image: '/images/5g-battery-drain-cover.jpg'
 category: 'gadgets'
 tags: ['5g-phones', 'battery-drain', 'smartphone-tips', 'android-hacks', 'battery-saver', 'gadgets']
-author: "Aayush Sharma"
+author: "Aayush Kumar"
 featured: true
 faqs:
   - question: "5G par phone ki battery 4G ke mukable zyada kyun drain hoti hai?"

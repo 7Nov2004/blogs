@@ -4,7 +4,7 @@ description: "Kya aapke earbuds ka ek side achanak kaam karna band kar diya hai?
 pubDate: 2026-03-24
 category: "gadgets"
 tags: ["earbuds", "tws fix", "boat airdopes", "realme buds", "audio problems", "gadget tips"]
-author: "Aayush Sharma"
+author: "Aayush Kumar"
 image: "/images/earbuds-one-side-not-working-cover.jpg"
 faqs:
   - question: "Kya bina case ke earbuds ko reset kiya ja sakta hai?"

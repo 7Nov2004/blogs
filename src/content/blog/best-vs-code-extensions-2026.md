@@ -5,7 +5,7 @@ pubDate: 2026-08-21
 image: '/images/vscode-cover.jpg'
 category: webdev
 tags: ['vscode', 'developer-tools', 'productivity', 'coding-tips', 'extensions']
-author: "Aayush Sharma"
+author: "Aayush Kumar"
 featured: false
 faqs:
   - question: "Zyada extensions install karne se kya VS Code slow ho jata hai?"

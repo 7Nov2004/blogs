@@ -5,7 +5,7 @@ pubDate: 2026-08-26
 image: '/images/machine-learning-cover.jpg'
 category: ai
 tags: ['machine-learning', 'ai', 'data-science', 'python', 'beginners']
-author: "Aayush Sharma"
+author: "Aayush Kumar"
 featured: false
 faqs:
   - question: "Machine Learning aur Artificial Intelligence (AI) mein kya farak hai?"

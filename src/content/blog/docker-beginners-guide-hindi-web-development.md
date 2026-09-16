@@ -4,7 +4,7 @@ description: "Docker aur Containerization ka complete guide Hindi me. Virtual Ma
 pubDate: 2026-09-16
 category: "webdev"
 tags: ["Docker", "DevOps", "Web Development", "Nodejs", "Containers", "Full Stack", "Backend"]
-author: "Aayush Sharma"
+author: "Aayush Kumar"
 image: "/images/docker-guide-cover.jpg"
 coverImage: "/images/docker-guide-cover.jpg"
 featured: false

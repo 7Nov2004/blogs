@@ -5,7 +5,7 @@ pubDate: 2026-09-07
 image: '/images/deepseek-ai-cover.jpg'
 category: 'ai'
 tags: ['ai', 'deepseek', 'chatgpt', 'artificial-intelligence', 'tech-comparison']
-author: "Aayush Sharma"
+author: "Aayush Kumar"
 faqs:
   - question: "Kya DeepSeek ChatGPT se better hai?"
     answer: "DeepSeek-R1 coding aur complex reasoning (Maths/Algorithms) mein ChatGPT 4o ke barabar ya usse better perform karta hai aur bilkul free hai. Lekin creative writing, natural voice mode aur image generation (DALL-E 3) mein ChatGPT abhi bhi industry leader hai."

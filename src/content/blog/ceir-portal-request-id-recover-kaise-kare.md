@@ -5,7 +5,7 @@ pubDate: 2026-09-13
 image: "/images/ceir-request-id-recover-cover.jpg"
 category: "tips"
 tags: ["ceir-portal", "sanchar-saathi", "lost-phone", "smartphone-security", "troubleshooting"]
-author: "Aayush Sharma"
+author: "Aayush Kumar"
 featured: true
 faqs:
   - question: "CEIR Request ID bhool jane par phone unblock kaise karein?"

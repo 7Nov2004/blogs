@@ -6,7 +6,7 @@ updatedDate: 2026-09-11
 image: '/images/ai-video-generator-cover.jpg'
 category: 'ai'
 tags: ['ai-tools', 'video-editing', 'youtube-shorts', 'online-earning', 'content-creation', 'ai']
-author: "Aayush Sharma"
+author: "Aayush Kumar"
 featured: true
 faqs:
   - question: "Kya AI se bani videos se YouTube channel monetize hota hai 2026 mein?"

@@ -5,7 +5,7 @@ pubDate: 2026-09-06
 image: '/images/refurbished-laptop-cover.jpg'
 category: 'gadgets'
 tags: ['laptops', 'budget-laptops', 'tech-guide', 'students']
-author: "Aayush Sharma"
+author: "Aayush Kumar"
 ---
 
 Aajkal naye laptops ki keemat bohot zyada ho gayi hai. Aise mein students aur budget buyers ke liye **Refurbished Laptops** ek bohot acha option ban gaye hain. Amazon aur Flipkart par aise laptops aadhi keemat par mil jaate hain.

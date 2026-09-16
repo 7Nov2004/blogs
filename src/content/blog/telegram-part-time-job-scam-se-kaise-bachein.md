@@ -5,7 +5,7 @@ pubDate: 2026-09-11
 image: "/images/telegram-job-scam-cover.jpg"
 category: "tips"
 tags: ["cyber-security", "scam-alert", "telegram-scam", "online-safety", "tech-tips"]
-author: "Aayush Sharma"
+author: "Aayush Kumar"
 featured: true
 faqs:
   - question: "Kya 'YouTube video like karke paise kamane' wale offers sach hote hain?"

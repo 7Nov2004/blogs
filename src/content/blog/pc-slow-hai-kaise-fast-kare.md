@@ -5,7 +5,7 @@ pubDate: 2026-08-16
 image: '/images/pc-boost-cover.jpg'
 category: tips
 tags: ['windows-tips', 'pc-speed', 'laptop-performance', 'tech-hacks', 'troubleshooting']
-author: "Aayush Sharma"
+author: "Aayush Kumar"
 featured: false
 faqs:
   - question: "Laptop mein SSD lagwane se speed kitni badhti hai?"

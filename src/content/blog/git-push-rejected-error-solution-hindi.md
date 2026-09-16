@@ -4,7 +4,7 @@ description: "Git push karte waqt 'Updates were rejected because the remote cont
 pubDate: 2026-03-24
 category: "webdev"
 tags: ["git", "github", "git push rejected", "web development", "coding errors", "programming tips"]
-author: "Aayush Sharma"
+author: "Aayush Kumar"
 image: "/images/git-push-rejected-fix-cover.jpg"
 faqs:
   - question: "Git push rejected error sabse zyada kyu aata hai?"

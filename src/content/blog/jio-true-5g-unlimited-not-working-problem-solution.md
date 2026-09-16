@@ -4,7 +4,7 @@ description: "Jio 5G Welcome Offer aur Unlimited 5G Data not working problem ko 
 pubDate: 2026-09-16
 category: "tips"
 tags: ["Jio 5G", "True 5G", "Network Problem", "Unlimited Data Fix", "APN Settings", "Smartphone Hacks", "Android Tips"]
-author: "Aayush Sharma"
+author: "Aayush Kumar"
 image: "/images/jio-5g-fix-cover.jpg"
 coverImage: "/images/jio-5g-fix-cover.jpg"
 featured: false

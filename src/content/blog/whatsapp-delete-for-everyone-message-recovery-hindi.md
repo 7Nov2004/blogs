@@ -4,7 +4,7 @@ description: "WhatsApp par kisi ke 'Delete for Everyone' kiye gaye text messages
 pubDate: 2026-09-16
 category: "tips"
 tags: ["WhatsApp Tips", "Notification History", "Deleted Messages", "Android Tricks", "Privacy Hacks", "Smartphone Tips"]
-author: "Aayush Sharma"
+author: "Aayush Kumar"
 image: "/images/whatsapp-deleted-msg-cover.jpg"
 coverImage: "/images/whatsapp-deleted-msg-cover.jpg"
 featured: false

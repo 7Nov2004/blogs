@@ -5,7 +5,7 @@ pubDate: 2026-09-12
 image: "/images/sim-swap-fraud-cover.jpg"
 category: "tips"
 tags: ["cyber-security", "scam-alert", "sim-swap", "online-safety", "tech-tips", "banking-security"]
-author: "Aayush Sharma"
+author: "Aayush Kumar"
 featured: true
 faqs:
   - question: "SIM Swap Fraud kya hota hai?"

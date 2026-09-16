@@ -11,7 +11,7 @@ const blog = defineCollection({
     coverImage: z.string().optional(),
     category: z.enum(['ai', 'webdev', 'gadgets', 'tips']),
     tags: z.array(z.string()).default([]),
-    author: z.string().default('Aayush Sharma'),
+    author: z.string().default('Aayush Kumar'),
     sponsored: z.boolean().default(false),
     featured: z.boolean().default(false),
     faqs: z.array(z.object({

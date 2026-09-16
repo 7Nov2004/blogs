@@ -6,7 +6,7 @@ updatedDate: 2026-09-11
 image: '/images/freelancing-cover.jpg'
 category: 'tips'
 tags: ['freelancing', 'online-earning', 'upwork', 'fiverr', 'remote-jobs', 'career-guide']
-author: "Aayush Sharma"
+author: "Aayush Kumar"
 featured: true
 faqs:
   - question: "Kya bina experience ke freelancing shuru kar sakte hain?"

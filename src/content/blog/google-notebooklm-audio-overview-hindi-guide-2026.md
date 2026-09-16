@@ -4,7 +4,7 @@ description: "Google NotebookLM ka Audio Overview feature kya hai aur kaise yeh 
 pubDate: 2026-09-16
 category: "ai"
 tags: ["NotebookLM", "Google AI", "Audio Overview", "Study Hacks", "AI Podcast", "Productivity Tools", "Gemini 2.0"]
-author: "Aayush Sharma"
+author: "Aayush Kumar"
 image: "/images/notebooklm-audio-guide-cover.jpg"
 coverImage: "/images/notebooklm-audio-guide-cover.jpg"
 featured: true

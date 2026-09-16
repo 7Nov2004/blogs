@@ -4,7 +4,7 @@ description: "Jio True 5G (Standalone) aur Airtel 5G Plus (Non-Standalone) ka re
 pubDate: 2026-09-16
 category: "gadgets"
 tags: ["Jio 5G", "Airtel 5G", "5G Speed Test", "Telecom Plans", "SIM Comparison", "Smartphone Tips", "India Telecom"]
-author: "Aayush Sharma"
+author: "Aayush Kumar"
 image: "/images/jio-vs-airtel-5g-cover.jpg"
 coverImage: "/images/jio-vs-airtel-5g-cover.jpg"
 featured: false

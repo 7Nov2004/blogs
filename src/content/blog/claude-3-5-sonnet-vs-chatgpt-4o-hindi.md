@@ -5,7 +5,7 @@ pubDate: 2026-09-12
 image: "/images/claude-vs-chatgpt-cover.jpg"
 category: "ai"
 tags: ["claude-ai", "chatgpt", "ai-comparison", "coding-ai", "artificial-intelligence", "anthropic"]
-author: "Aayush Sharma"
+author: "Aayush Kumar"
 featured: true
 faqs:
   - question: "Coding ke liye Claude 3.5 Sonnet aur ChatGPT-4o mein kaun sa behtar hai?"

@@ -5,7 +5,7 @@ pubDate: 2026-08-22
 image: '/images/html-css-cover.jpg'
 category: webdev
 tags: ['html', 'css', 'web-development', 'responsive-design', 'beginners']
-author: "Aayush Sharma"
+author: "Aayush Kumar"
 featured: false
 faqs:
   - question: "HTML aur CSS seekhne mein kitna samay lagta hai?"
@@ -168,7 +168,7 @@ Aap niche diye gaye code ko apne computer par `index.html` aur `style.css` ke ro
 ```html
 <div class="profile-card">
   <img src="avatar.jpg" alt="Profile" class="avatar">
-  <h3>Aayush Sharma</h3>
+  <h3>Aayush Kumar</h3>
   <p class="role">Frontend Developer</p>
   <button class="btn-connect">Connect Now</button>
 </div>

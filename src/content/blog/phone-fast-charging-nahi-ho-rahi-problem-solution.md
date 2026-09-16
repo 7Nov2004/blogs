@@ -6,7 +6,7 @@ updatedDate: 2026-09-14
 image: "/images/fast-charging-fix-cover.jpg"
 category: "tips"
 tags: ["fast charging fix", "android tips", "phone charging slow", "smartphone hacks", "battery health", "hardware fix"]
-author: "Aayush Sharma"
+author: "Aayush Kumar"
 featured: true
 faqs:
   - question: "Phone fast charging ke badle slow charging kyu dikhata hai?"

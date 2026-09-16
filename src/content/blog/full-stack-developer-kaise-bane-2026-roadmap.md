@@ -6,7 +6,7 @@ updatedDate: 2026-09-14
 image: "/images/fullstack-roadmap-2026-cover.jpg"
 category: "webdev"
 tags: ["full stack roadmap", "web development", "javascript", "react", "nextjs", "coding career", "learn to code"]
-author: "Aayush Sharma"
+author: "Aayush Kumar"
 featured: true
 faqs:
   - question: "Full Stack Developer banne mein kitna samay lagta hai?"

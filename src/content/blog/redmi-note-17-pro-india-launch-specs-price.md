@@ -5,7 +5,7 @@ pubDate: 2026-09-10
 image: '/images/redmi-note-17-pro-cover.jpg'
 category: 'gadgets'
 tags: ['redmi-note-17-pro', 'xiaomi', 'smartphone', 'budget-phone', 'mid-range']
-author: "Aayush Sharma"
+author: "Aayush Kumar"
 faqs:
   - question: "Redmi Note 17 Pro kab launch hoga India mein?"
     answer: "Redmi Note 17 Pro India mein 15 September 2026 ko officially launch hoga. Pre-registrations Xiaomi India website aur mi.com par shuru ho chuki hain. Sale Flipkart aur mi.com par hogi."

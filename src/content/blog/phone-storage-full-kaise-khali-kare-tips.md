@@ -5,7 +5,7 @@ pubDate: 2026-09-07
 image: '/images/phone-storage-cover.jpg'
 category: 'tips'
 tags: ['android-tips', 'smartphone-hacks', 'storage-full', 'tips-and-tricks']
-author: "Aayush Sharma"
+author: "Aayush Kumar"
 faqs:
   - question: "Clear Cache aur Clear Data mein kya farak hota hai?"
     answer: "Clear Cache sirf temporary files aur downloaded internet preview images ko saaf karta hai, jisse aapka account login ya personal data safe rehta hai. Clear Data app ko bilkul naya bana deta hai aur aapka login password reset ho jata hai."

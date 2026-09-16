@@ -5,7 +5,7 @@ pubDate: 2026-09-12
 image: "/images/phone-chori-ceir-cover.jpg"
 category: "tips"
 tags: ["ceir-portal", "sanchar-saathi", "lost-phone", "smartphone-security", "cyber-safety", "android-tips"]
-author: "Aayush Sharma"
+author: "Aayush Kumar"
 featured: true
 faqs:
   - question: "CEIR Portal kya hai aur ye kaise kaam karta hai?"

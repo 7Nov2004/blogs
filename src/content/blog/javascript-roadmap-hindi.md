@@ -5,7 +5,7 @@ pubDate: 2026-08-23
 image: '/images/javascript-cover.jpg'
 category: webdev
 tags: ['javascript', 'js-roadmap', 'web-development', 'frontend', 'es6']
-author: "Aayush Sharma"
+author: "Aayush Kumar"
 featured: false
 faqs:
   - question: "JavaScript seekhne mein kitna time lagta hai?"

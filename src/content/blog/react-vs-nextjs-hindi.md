@@ -5,7 +5,7 @@ pubDate: 2026-08-25
 image: '/images/react-nextjs-cover.jpg'
 category: webdev
 tags: ['react', 'nextjs', 'javascript', 'web-development', 'frontend']
-author: "Aayush Sharma"
+author: "Aayush Kumar"
 featured: true
 ---
 

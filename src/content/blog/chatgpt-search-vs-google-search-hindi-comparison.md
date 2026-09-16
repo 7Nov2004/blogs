@@ -4,7 +4,7 @@ description: "ChatGPT Search aur Google Search ka direct head-to-head comparison
 pubDate: 2026-09-16
 category: "ai"
 tags: ["ChatGPT Search", "Google Search", "AI Search", "Perplexity", "SEO 2026", "Tech News", "OpenAI"]
-author: "Aayush Sharma"
+author: "Aayush Kumar"
 image: "/images/chatgpt-vs-google-search-cover.jpg"
 coverImage: "/images/chatgpt-vs-google-search-cover.jpg"
 featured: false

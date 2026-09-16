@@ -4,7 +4,7 @@ description: "Google Dialer me 'This call is now being recorded' announcement ba
 pubDate: 2026-09-16
 category: "tips"
 tags: ["Call Recording", "Google Dialer", "Android Tips", "Tech Hacks", "Smartphone Settings", "Realme", "Vivo", "Xiaomi"]
-author: "Aayush Sharma"
+author: "Aayush Kumar"
 image: "/images/call-recording-fix-cover.jpg"
 coverImage: "/images/call-recording-fix-cover.jpg"
 featured: true

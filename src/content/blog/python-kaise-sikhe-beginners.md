@@ -5,7 +5,7 @@ pubDate: 2026-08-24
 image: '/images/python-cover.jpg'
 category: webdev
 tags: ['python', 'programming', 'coding-roadmap', 'beginners', 'web-development']
-author: "Aayush Sharma"
+author: "Aayush Kumar"
 featured: true
 faqs:
   - question: "Non-technical background wale log kya Python seekh sakte hain?"

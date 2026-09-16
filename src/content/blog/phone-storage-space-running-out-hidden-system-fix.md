@@ -4,7 +4,7 @@ description: "Kya phone gallery se sabhi photos/videos delete karne ke baad bhi 
 pubDate: 2026-03-24
 category: "tips"
 tags: ["phone storage", "android tips", "storage space running out", "clear cache", "whatsapp backup", "smartphone hacks"]
-author: "Aayush Sharma"
+author: "Aayush Kumar"
 image: "/images/phone-storage-running-out-fix-cover.jpg"
 faqs:
   - question: "Gallery se photo delete karne ke baad bhi storage kam kyu nahi hoti?"

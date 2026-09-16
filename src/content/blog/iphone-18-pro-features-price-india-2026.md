@@ -5,7 +5,7 @@ pubDate: 2026-09-10
 image: '/images/iphone-18-pro-cover.jpg'
 category: 'gadgets'
 tags: ['iphone-18', 'apple', 'smartphone', 'ios-27', 'flagship-phone']
-author: "Aayush Sharma"
+author: "Aayush Kumar"
 faqs:
   - question: "iPhone 18 Pro India mein kab launch hoga?"
     answer: "Apple ne iPhone 18 Pro pre-orders 12 September 2026 se shuru kiye hain aur official sale 18 September 2026 se start hogi. India mein bhi same date par availability expected hai Apple retail stores aur Amazon/Flipkart par."

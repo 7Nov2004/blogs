@@ -5,7 +5,7 @@ pubDate: 2026-09-09
 image: '/images/phone-security-hack-cover.jpg'
 category: 'tips'
 tags: ['cyber-security', 'smartphone-tips', 'android-hacks', 'privacy', 'security-codes']
-author: "Aayush Sharma"
+author: "Aayush Kumar"
 faqs:
   - question: "Kya *#21# dial karne se pata chalta hai ki phone hack hai?"
     answer: "Haan, *#21# ek official USSD code hai jo call, SMS aur data forwarding ka status dikhata hai. Agar yahan koi unknown number dikh raha hai, iska matlab aapki calls ya messages us number par forward ho rahi hain. Ye hacking ya spy app ka sign ho sakta hai. Turant ##002# dial karke forwarding band karein."

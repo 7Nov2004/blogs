@@ -6,7 +6,7 @@ updatedDate: 2026-09-14
 image: '/images/gemini-ai-cover.jpg'
 category: ai
 tags: ['google-gemini', 'chatgpt', 'ai-comparison', 'openai', 'gemini-advanced']
-author: "Aayush Sharma"
+author: "Aayush Kumar"
 featured: false
 faqs:
   - question: "Google Gemini aur ChatGPT mein se kaunsa better hai 2026 mein?"

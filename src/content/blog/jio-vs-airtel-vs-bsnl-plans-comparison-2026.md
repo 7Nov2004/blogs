@@ -5,7 +5,7 @@ pubDate: 2026-09-09
 image: '/images/sim-plans-comparison-cover.jpg'
 category: 'gadgets'
 tags: ['sim-plans', 'jio', 'airtel', 'bsnl-5g', 'telecom-deals', 'recharge-plans']
-author: "Aayush Sharma"
+author: "Aayush Kumar"
 faqs:
   - question: "2026 mein sabse sasta recharge plan kaunsa hai?"
     answer: "BSNL ka sabse sasta recharge plan hai. 28 din ke liye sirf Rs. 199 mein 1.5GB/day data milta hai, jabki Jio Rs. 299 aur Airtel Rs. 349 charge karta hai. Annual plan mein BSNL ka Rs. 2,399 Jio ke Rs. 3,599 se kaafi sasta hai."

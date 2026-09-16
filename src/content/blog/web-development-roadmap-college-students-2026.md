@@ -5,7 +5,7 @@ pubDate: 2026-09-11
 image: "/images/web-dev-roadmap-2026-cover.jpg"
 category: "webdev"
 tags: ["web-development", "programming", "javascript", "react", "nextjs", "career-guide", "coding-roadmap"]
-author: "Aayush Sharma"
+author: "Aayush Kumar"
 featured: true
 faqs:
   - question: "Kya AI 2026 mein Web Developers ki jobs khatam kar dega?"

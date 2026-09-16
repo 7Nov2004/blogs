@@ -6,7 +6,7 @@ updatedDate: 2026-09-15
 image: "/images/ios-27-release-india-cover.jpg"
 category: "gadgets"
 tags: ["ios 27", "apple", "iphone update", "ios 27 release date", "apple intelligence", "tech news"]
-author: "Aayush Sharma"
+author: "Aayush Kumar"
 featured: true
 faqs:
   - question: "iOS 27 India mein kis samay release hoga?"

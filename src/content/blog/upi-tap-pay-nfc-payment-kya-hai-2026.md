@@ -5,7 +5,7 @@ pubDate: 2026-09-11
 category: "tips"
 tags: ["upi", "fintech", "payment", "nfc", "india", "digital-payment"]
 image: "/images/upi-tap-pay-2026-cover.jpg"
-author: "Aayush Sharma"
+author: "Aayush Kumar"
 faqs:
   - question: "UPI Tap & Pay क्या है?"
     answer: "UPI Tap & Pay एक NFC-based contactless payment feature है जो RBI ने September 10, 2026 को Global Fintech Fest में launch किया। इससे आप बिना QR code scan किए या app खोले, सिर्फ phone को POS machine पर tap करके payment कर सकते हैं।"
