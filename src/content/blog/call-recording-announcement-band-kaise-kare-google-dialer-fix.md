@@ -30,21 +30,21 @@ Jab bhi aap kisi important call ya discussion ke dauran call record karne ke liy
 
 Is announcement ki wajah se saamne wale person ko turant pata chal jata hai ki unki baat record ho rahi hai, jisse kai baar personal ya professional talks uncomfortable ho jati hain.
 
-Agar aap bhi is irritating announcement ko **permanently band** karna chahte hain, toh is article mein hum aapke phone brand ke hisaab se **4 verified aur tested methods (Bina Root Kiye)** share kar rahe hain!
+Agar aap is irritating announcement ko band karna chahte hain, toh is article mein hum aapke phone brand ke hisaab se **4 practical methods to try (Bina Root Kiye)** share kar rahe hain.
 
 ---
 
-## 🎯 Phone Brand Ke Hisaab Se Best Solution Table
+## 🎯 Phone Brand Ke Hisaab Se Method Overview
 
-Aapka phone kis brand ka hai, uske hisaab se niche diye gaye best method ko follow karein:
+Aapka phone kis brand ka hai, uske hisaab se niche diye gaye method ko follow karein:
 
-| Phone Brand | Best Working Method | Difficulty Level | Announcement Status |
+| Phone Brand | Recommended Method | Difficulty Level | Announcement Impact (Tested Devices) |
 | :--- | :--- | :---: | :---: |
-| **Realme, Oppo, OnePlus** | **ODialer (Official ColorOS App)** | Bilkul Aasan | 🚫 Announcement Disabled |
-| **Vivo & iQOO** | **USSD Code (`*#*#556688#*#*`)** | 1 Minute Setup | 🚫 Announcement Disabled |
-| **Xiaomi, Redmi, Poco** | **TTSLexx Engine Trick / Mi Dial** | Aasan | 🚫 Announcement Disabled |
-| **Motorola, Nothing, Pixel** | **TTSLexx TTS Audio Bypass** | Medium | 🚫 Announcement Disabled |
-| **Samsung Galaxy** | **Native Samsung Dialer Settings** | Built-in | 🚫 Announcement Disabled |
+| **Realme, Oppo, OnePlus** | **ODialer (Official ColorOS App)** | Aasan | 🔇 Native dialer switch se warning bypass ho sakti hai |
+| **Vivo & iQOO** | **USSD Code (`*#*#556688#*#*`)** | 1 Minute Setup | 🔇 Vivo alternate dialer me warning disable ho sakti hai |
+| **Xiaomi, Redmi, Poco** | **TTSLexx Engine Trick / Mi Dial** | Aasan | ⚠️ Audio delay se mute hone ke chances high hain |
+| **Motorola, Nothing, Pixel** | **TTSLexx TTS Audio Bypass** | Medium | ⚠️ Supported Android versions par warning mute ho sakti hai |
+| **Samsung Galaxy** | **Native Samsung Dialer Settings** | Built-in | 🔇 One UI built-in recorder bina warning chalta hai |
 
 ---
 
@@ -80,20 +80,20 @@ Vivo aur iQOO ke smartphones (Funtouch OS) mein company ka purana native dialer 
 6. Screen par do Phone apps dikhengi -> **Green color wale Vivo Phone app** ko default select karein.
 7. Phone settings -> Apps -> Default Apps mein jaakar confirm karein ki Vivo Phone hi default dialer hai.
 
-> **Result:** Vivo ke is native dialer mein auto-call recording bina kisi announcement ke kaam karti hai aur recordings aapke File Manager ke *Recordings/Call* folder mein save hoti hain.
+> **Result:** Supported Vivo models par is native dialer mein auto-call recording bina warning announcement ke operate karti hai aur recordings aapke File Manager ke *Recordings/Call* folder mein save hoti hain.
 
 ---
 
 ## 🔹 Method 3: Universal TTSLexx Trick (Redmi, Poco, Moto, Nothing Phone)
 
-Agar aapke paas Motorola, Redmi, Poco, Nothing Phone ya aisa device hai jisme native dialer replace nahi ho sakta, toh yeh **TTSLexx Text-to-Speech bypass method** tested aur verified tarike se kaam karta hai.
+Agar aapke paas Motorola, Redmi, Poco, Nothing Phone ya aisa device hai jisme native dialer replace nahi ho sakta, toh yeh **TTSLexx Text-to-Speech bypass method** kai Android versions par kaam karta hai.
 
 ### Yeh Trick Kaise Kaam Karti Hai?
-Google Dialer call connect hone par announcement bolne ke liye Google ke *Speech Recognition Engine* ka use karta hai. Jab hum engine ko TTSLexx par divert kar dete hain, toh announcement audio call pick hone se 1 microsecond pehle hi mute ho jati hai!
+Google Dialer call connect hone par announcement bolne ke liye Google ke *Speech Services Engine* ka use karta hai. Jab hum engine ko TTSLexx par divert karte hain, toh Text-to-Speech synthesis mein slight delay generate hota hai jisse call establish hone par warning audio trigger mute ya skip hone ki sambhavna rehti hai (device aur Android version ke anusaar).
 
 ### Step-by-Step Guide:
 1. **TTSLexx App Download Karein:**
-   * Google Play Store se **TTSLexx** app install karein (Yeh sirf 200 KB ki safe aur lightweight app hai).
+   * Google Play Store se **TTSLexx** app install karein (Yeh ek lightweight app hai).
 2. **Text-to-Speech Engine Change Karein:**
    * Phone ki **Settings** kholein -> Search bar mein type karein **"Text-to-speech output"** (ya *Preferred engine*).
    * **Preferred Engine** par tap karein aur *Speech Services by Google* ki jagah **TTSLexx** select karein -> **OK** press karein.
@@ -104,7 +104,7 @@ Google Dialer call connect hone par announcement bolne ke liye Google ke *Speech
 4. **Phone Ko Restart Karein:**
    * Apne phone ko ek baar Restart (Reboot) kar lein.
 
-> **Verification:** Kisi bhi number (jaise 198 customer care) par call lagayein aur Record button dabayein. Pehli baar mein 0.1 second ka click sound aayega aur uske baad **kabhi bhi "This call is now being recorded" nahi bolega!**
+> **Verification:** Kisi bhi number (jaise 198 customer care) par call lagayein aur Record button dabayein. Supported Android builds par announcement audio mute ho jati hai. Agar latest Google Phone security patch par yeh kaam na kare, toh method 1 (ODialer) ya native brand dialer use karein.
 
 ---
 
@@ -123,19 +123,20 @@ Samsung phones mein kisi bhi tarah ki announcement nahi hoti aur na hi kisi extr
 
 ---
 
-## 🔒 Call Recording Ke Legal & Privacy Rules (India)
+## 🔒 Call Recording Ke Legal, Privacy & Admissibility Rules (India)
 
-Call record karte waqt aapko in 3 baaton ka hamesha dhyan rakhna chahiye:
+Call record karte waqt kanooni aur privacy niyam samajhna behad zaroori hai:
 
-1. **Personal Safety & Business Verification:** India mein apne personal phone par fraud calls, harassment, ya business agreements ka record rakhna poori tarah legally valid proof mana jata hai.
-2. **Privacy Breach Mat Karein:** Kisi ki personal ya confidential baat-cheet ko unki consent ke bina social media ya public platform par share karna IT Act aur privacy laws ke under punishable offence ho sakta hai.
-3. **Third-Party Fraud Apps Se Bachein:** Play Store par kai aisi duplicate "Call Recorder" apps hain jo aapke phone ke microphone aur contacts ka sensitive data steal karti hain. Hamesha official OEM dialers (ODialer, Vivo, Samsung) ya Play Protect verified tools hi use karein.
+1. **Evidence Admissibility:** Indian courts mein electronic records (call recordings) ki admissibility Indian Evidence Act (aur naye Bharatiya Sakshya Adhiniyam) ke **Section 65B Certificate** aur case ke facts par nirbhar karti hai. Yeh automatic proof nahi hoti; forensic authenticity verify ki ja sakti hai.
+2. **Privacy Aur Consent:** Kisi vyakti ki private baat-cheet ko bina unki permission ke record karke public platform ya social media par leak karna Information Technology Act aur right to privacy ka violation ho sakta hai.
+3. **Disclaimer:** Yeh guide keval technical information aur knowledge ke liye hai. Kisi bhi legal dispute ya court proceeding ke liye certified kanooni salahkar (lawyer) se consult karein.
+4. **Third-Party Unverified Apps Se Bachein:** Play Store par unknown third-party "Call Recorder" apps install na karein jo unnecessary permissions (mic, storage, contacts) maangti hain. Sirf official OEM tools hi prefer karein.
 
 ---
 
 ## 🏁 Final Words
 
-Google Dialer ka announcement ek protective feature zaroor hai, lekin Indian users ke daily workflow mein yeh kaafi disturbing sabit hota hai. Upar bataye gaye methods aapke phone model ke hisaab se safe aur tested hain jo bina kisi technical rooting ke kaam karte hain.
+Google Dialer ka announcement ek privacy feature hai, lekin Indian users ke daily workflow mein yeh kai baar inconvenient sabit hota hai. Upar bataye gaye practical steps bina kisi phone rooting ke kaam karte hain aur aapke specific device aur Android OS build par depend karte hain.
 
 Aapke phone mein kaunsa method successfully kaam kar gaya? Hamein niche comments mein apna phone model zaroor batayein!
 
