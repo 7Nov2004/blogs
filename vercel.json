@@ -1,0 +1,15 @@
+﻿{
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.techverseblogs.in"
+        }
+      ],
+      "destination": "https://techverseblogs.in/:path*",
+      "permanent": true
+    }
+  ]
+}
