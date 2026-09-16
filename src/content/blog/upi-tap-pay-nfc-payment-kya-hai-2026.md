@@ -2,7 +2,6 @@
 title: "UPI Tap & Pay क्या है? NFC से Payment कैसे करें — Complete Guide 2026"
 description: "UPI Tap and Pay NFC payment kya hai aur bina PIN 500 tak payment kaise karein? Setup, supported phones aur safety tips in Hindi."
 pubDate: 2026-09-11
-updatedDate: 2026-09-16
 category: "tips"
 tags: ["upi", "fintech", "payment", "nfc", "india", "digital-payment"]
 image: "/images/upi-tap-pay-2026-cover.jpg"

@@ -2,7 +2,6 @@
 title: "Perplexity AI Kya Hai? Google Search Se Behtar Kyun Hai — Complete Hindi Guide 2026"
 description: "Perplexity AI search engine kya hai aur Google se kaise alag hai? Real-time web citations aur deep research karne ka step-by-step Hindi guide."
 pubDate: 2026-09-11
-updatedDate: 2026-09-16
 image: "/images/perplexity-ai-cover.jpg"
 category: "ai"
 tags: ["perplexity-ai", "ai-tools", "search-engine", "artificial-intelligence", "google-vs-ai"]

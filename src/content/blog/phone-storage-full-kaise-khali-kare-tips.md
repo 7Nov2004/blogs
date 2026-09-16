@@ -2,7 +2,6 @@
 title: 'Phone Storage Full? Bina Photos/Videos Delete Kiye 15GB Space Kaise Banayein'
 description: 'Mobile ki storage full hone se phone hang ho raha hai? Apni photos ya videos delete kiye bina 10 se 15GB space turant khali karne ke 7 smart settings aur tips.'
 pubDate: 2026-09-07
-updatedDate: 2026-09-16
 image: '/images/phone-storage-cover.jpg'
 category: 'tips'
 tags: ['android-tips', 'smartphone-hacks', 'storage-full', 'tips-and-tricks']

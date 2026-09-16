@@ -10,7 +10,7 @@ author: "Aayush Kumar"
 featured: true
 faqs:
   - question: "₹20,000 ke andar best camera phone kaun sa hai 2026 mein?"
-    answer: "Overall best camera quality ke liye Motorola Edge 50 Fusion (Sony LYT-700C with OIS) aur Realme Narzo 70 Pro / 13 Series (Sony IMX890/LYT-600 with dedicated portrait mode) top choices hain. Dono natural skin tones aur impressive low-light performance deliver karte hain."
+    answer: "Camera hardware aur optical image stabilization ke liye Motorola Edge 50 Fusion (Sony LYT-700C with OIS) aur Realme Narzo 70 Pro / 13 Series (Sony IMX890/LYT-600 with dedicated portrait mode) top choices hain. Dono natural skin tones aur impressive low-light performance deliver karte hain."
   - question: "Kya phone camera mein Megapixel (MP) zyada hone se photo achhi aati hai?"
     answer: "Nahi, ye ek common marketing gimmick hai. 108MP ya 200MP ka chhota generic sensor ek 50MP ke bade Sony sensor (jaise Sony LYT ya IMX) ke aage bekaar sabit hota hai. Photo quality sensor ke physical size, aperture, aur image processing ISP par depend karti hai, sirf megapixel count par nahi."
   - question: "OIS (Optical Image Stabilization) kyun zaroori hai?"
@@ -145,7 +145,7 @@ Lambi outdoor photo shoots aur 4K video recording se battery bohot tezi se drain
 
 ## Verdict — Aapko Kaun Sa Phone Lena Chahiye?
 
-- 🏆 **Natural Colors & Best Overall:** **Motorola Edge 50 Fusion** (Stock Android, IP68 rating, aur 32MP 4K selfie).
+- 📸 **Natural Color Tuning & IP68:** **Motorola Edge 50 Fusion** (Stock Android, IP68 rating, aur 32MP 4K selfie).
 - 📸 **Low-Light Night Shots & Portraits:** **Realme Narzo 70 Pro** (Flagship Sony IMX890 sensor).
 - ⚡ **Vlogging + Heavy Gaming:** **iQOO Z9 / Z9s 5G** (Dimensity power aur rock solid stabilization).
 - 💰 **Agar budget thoda kam hai (₹15,000 ke aas-pass):** Hamara [Best Smartphones Under ₹15,000 Guide](/blog/best-smartphones-under-15000/) dekhein!

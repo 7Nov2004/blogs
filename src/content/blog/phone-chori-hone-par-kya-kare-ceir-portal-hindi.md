@@ -2,7 +2,6 @@
 title: "Phone Kho Jane Ya Chori Hone Par Kya Karein? CEIR Portal Se 5 Minute Mein IMEI Block Karein"
 description: "Mobile chori ya ghum ho gaya hai? CEIR portal par IMEI block karne, police FIR file karne aur phone trace karne ka official step-by-step guide."
 pubDate: 2026-09-12
-updatedDate: 2026-09-16
 image: "/images/phone-chori-ceir-cover.jpg"
 category: "tips"
 tags: ["ceir-portal", "sanchar-saathi", "lost-phone", "smartphone-security", "cyber-safety", "android-tips"]

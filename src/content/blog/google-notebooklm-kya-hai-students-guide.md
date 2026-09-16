@@ -2,7 +2,6 @@
 title: "Google NotebookLM Kya Hai? Students Ke Liye AI Study Partner (Audio Podcast & Notes Summary)"
 description: "Google NotebookLM kya hai aur students ke study notes kaise simplify karta hai? Free AI research assistant aur audio overview ka complete guide."
 pubDate: 2026-09-11
-updatedDate: 2026-09-16
 image: "/images/notebooklm-guide-cover.jpg"
 category: "tips"
 tags: ["notebooklm", "ai-tools", "study-hacks", "students", "free-tools", "exam-prep"]

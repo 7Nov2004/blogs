@@ -2,7 +2,6 @@
 title: "CEIR Portal Request ID Bhool Gaye? Status Check Aur ID Recover Kaise Karein (2026)"
 description: "Chori huye phone ka CEIR Request ID kho gaya hai? OTP aur phone number se Request ID recover karne aur status check karne ka verified step-by-step guide."
 pubDate: 2026-09-13
-updatedDate: 2026-09-16
 image: "/images/ceir-request-id-recover-cover.jpg"
 category: "tips"
 tags: ["ceir-portal", "sanchar-saathi", "lost-phone", "smartphone-security", "troubleshooting"]

@@ -2,7 +2,6 @@
 title: 'Phone Hack Hai Ya Nahi Kaise Pata Karein? 6 Warning Signs Aur USSD Codes (2026)'
 description: "Aapka smartphone hack ya spy ho raha hai? Spyware signs, battery drain, unauthorized permissions aur phone safe rakhne ke verified safety codes."
 pubDate: 2026-09-09
-updatedDate: 2026-09-16
 image: '/images/phone-security-hack-cover.jpg'
 category: 'tips'
 tags: ['cyber-security', 'smartphone-tips', 'android-hacks', 'privacy', 'security-codes']

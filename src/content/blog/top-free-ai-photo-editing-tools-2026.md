@@ -2,7 +2,6 @@
 title: "Top 5 Free AI Photo Editing Tools (2026): Photoshop Ko Bhool Jao!"
 description: "Photos se background hatana, unwanted objects delete karna ya low-res photo ko 4K mein convert karna? 2026 ke top 5 free AI photo editing tools ka complete review."
 pubDate: 2026-09-12
-updatedDate: 2026-09-16
 image: "/images/free-ai-photo-editing-cover.jpg"
 category: "ai"
 tags: ["photo-editing", "ai-tools", "graphic-design", "free-tools", "content-creation"]

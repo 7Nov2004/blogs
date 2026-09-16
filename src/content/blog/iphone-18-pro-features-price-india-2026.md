@@ -2,7 +2,6 @@
 title: 'iPhone 18 Pro Kya Hai? Price, Features Aur India Launch Date (2026)'
 description: "iPhone 18 Pro India price, specifications, under-display camera aur A20 Pro Bionic chip ke verified leaks aur features ka full breakdown."
 pubDate: 2026-09-10
-updatedDate: 2026-09-16
 image: '/images/iphone-18-pro-cover.jpg'
 category: 'gadgets'
 tags: ['iphone-18', 'apple', 'smartphone', 'ios-27', 'flagship-phone']

@@ -37,12 +37,12 @@ Agar aap is irritating announcement ko band karna chahte hain, toh is article me
 
 Aapka phone kis brand ka hai, uske hisaab se niche diye gaye method ko follow karein:
 
-| Phone Brand | Recommended Method | Difficulty Level | Announcement Impact (Observed Behavior) |
+| Phone Brand | Recommended Method | Setup Difficulty | Expected Announcement Behavior |
 | :--- | :--- | :---: | :---: |
-| **Realme, Oppo, OnePlus** | **ODialer (Official ColorOS App)** | Aasan | 🔇 Native dialer switch se warning bypass ho sakti hai |
-| **Vivo & iQOO** | **USSD Code (`*#*#556688#*#*`)** | 1 Minute Setup | 🔇 Vivo alternate dialer me warning disable ho sakti hai |
-| **Xiaomi, Redmi, Poco** | **TTSLexx Engine Trick / Mi Dial** | Aasan | ⚠️ Audio delay se mute hone ke chances high hain |
-| **Motorola, Nothing, Pixel** | **TTSLexx TTS Audio Bypass** | Medium | ⚠️ Supported Android versions par warning mute ho sakti hai |
+| **Realme, Oppo, OnePlus** | **ODialer (Official ColorOS App)** | Simple Setup | 🔇 ColorOS official dialer me default warning nahi aati |
+| **Vivo & iQOO** | **USSD Code (`*#*#556688#*#*`)** | Simple Setup | 🔇 Funtouch OS alternate dialer me warning sound nahi hoti |
+| **Xiaomi, Redmi, Poco** | **TTS Engine Divert / OEM Dialer** | Moderate | ⚠️ Speech engine delay ke through audio skip hone ki report hoti hai |
+| **Motorola, Nothing, Pixel** | **TTS Engine Configuration** | Moderate | ⚠️ Compatible Android builds par audio playback suppress ho sakti hai |
 | **Samsung Galaxy** | **Native Samsung Dialer Settings** | Built-in | 🔇 One UI built-in recorder bina warning chalta hai |
 
 ---
@@ -79,7 +79,7 @@ Vivo aur iQOO ke smartphones (Funtouch OS) mein company ka purana native dialer 
 6. Screen par do Phone apps dikhengi -> **Green color wale Vivo Phone app** ko default select karein.
 7. Phone settings -> Apps -> Default Apps mein jaakar confirm karein ki Vivo Phone hi default dialer hai.
 
-> **Result:** Supported Vivo models par is native dialer mein auto-call recording bina warning announcement ke operate karti hai aur recordings aapke File Manager ke *Recordings/Call* folder mein save hoti hain.
+> **Manufacturer Specification:** Funtouch OS ke native dialer settings ke anusaar, is alternate dialer option mein bina warning announcement ke call recording save hoti hai (storage path: File Manager ke *Recordings/Call* folder mein).
 
 ---
 
@@ -103,7 +103,7 @@ Google Dialer call connect hone par announcement bolne ke liye Google ke *Speech
 4. **Phone Ko Restart Karein:**
    * Apne phone ko ek baar Restart (Reboot) kar lein.
 
-> **Verification:** Kisi bhi number (jaise 198 customer care) par call lagayein aur Record button dabayein. Supported Android builds par announcement audio mute ho jati hai. Agar latest Google Phone security patch par yeh kaam na kare, toh method 1 (ODialer) ya native brand dialer use karein.
+> **Practical Check:** User reports aur documentation ke anusaar, compatible Android versions par TTS divert hone se initial call warning suppress ho sakti hai. Agar aapke phone par latest security patch install hai aur yeh setting operate na kare, toh brand ka official dialer use karna recommended hai.
 
 ---
 
