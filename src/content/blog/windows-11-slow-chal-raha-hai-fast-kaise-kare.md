@@ -12,7 +12,7 @@ faqs:
   - question: "Windows 11 achanak slow kyun ho jaati hai?"
     answer: "Windows 11 ke slow hone ke mukhya kaaran hote hain: background startup apps ka automatic run hona, C: drive mein junk/temp cache files ka bhar jana, visual transparency effects ka CPU/GPU load badhana, aur purani spinning Hard Drive (HDD) par OS run hona. In settings ko optimize karke speed 2x se 3x badhayi ja sakti hai."
   - question: "Kya Windows 11 mein temp files delete karna safe hai?"
-    answer: "Haan, bilkul 100% safe hai! Windows 'temp', '%temp%' aur 'prefetch' folders mein wo cache files store karti hai jinka kaam khatam ho chuka hota hai. Inhe delete karne se aapke personal data, photos ya installed software par koi asar nahi padta balki storage free hoti hai."
+    answer: "Haan, bilkul safe hai! Windows 'temp', '%temp%' aur 'prefetch' folders mein wo cache files store karti hai jinka kaam khatam ho chuka hota hai. Inhe delete karne se aapke personal data, photos ya installed software par koi asar nahi padta balki storage free hoti hai."
   - question: "Kya 8GB RAM Windows 11 ke liye kaafi hai 2026 mein?"
     answer: "Basic web browsing, MS Office aur online classes ke liye 8GB RAM kaam kar jati hai. Lekin heavy multitasking, Chrome mein 15+ tabs open karne, ya coding/editing ke liye 16GB RAM recommended hai. Agar RAM kam hai toh 'Virtual Memory (Paging File)' optimize karke RAM bottlenecks door kiye ja sakte hain."
   - question: "SSD lagane se PC kitna fast ho jata hai?"
@@ -29,7 +29,7 @@ PC boot hone mein ghanto time lagna, Chrome kholte hi laptop fan ka tez awaz kar
 
 Agar aapka PC bhi sluggish ya unresponsive ho gaya hai, toh na toh naya laptop khareedne ki zaroorat hai aur na hi poori Windows ko format karke sara data delete karne ki! 
 
-Is comprehensive guide mein hum aapko **9 aisi tested aur safe settings** batayenge jinhe apply karte hi aapka PC ya laptop rockets ki tarah smoothly perform karne lagega!
+Is comprehensive guide mein hum aapko **9 practical aur safe settings** batayenge jinhe apply karte hi aapka PC ya laptop rockets ki tarah smoothly perform karne lagega!
 
 ---
 

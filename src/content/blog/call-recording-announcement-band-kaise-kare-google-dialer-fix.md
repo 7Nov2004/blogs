@@ -38,7 +38,7 @@ Agar aap is irritating announcement ko band karna chahte hain, toh is article me
 
 Aapka phone kis brand ka hai, uske hisaab se niche diye gaye method ko follow karein:
 
-| Phone Brand | Recommended Method | Difficulty Level | Announcement Impact (Tested Devices) |
+| Phone Brand | Recommended Method | Difficulty Level | Announcement Impact (Observed Behavior) |
 | :--- | :--- | :---: | :---: |
 | **Realme, Oppo, OnePlus** | **ODialer (Official ColorOS App)** | Aasan | 🔇 Native dialer switch se warning bypass ho sakti hai |
 | **Vivo & iQOO** | **USSD Code (`*#*#556688#*#*`)** | 1 Minute Setup | 🔇 Vivo alternate dialer me warning disable ho sakti hai |

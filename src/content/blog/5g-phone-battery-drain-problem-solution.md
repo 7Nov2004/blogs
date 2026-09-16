@@ -31,7 +31,7 @@ Agar aap apne Android ya iPhone mein ye **8 hidden battery-saving settings** the
 
 ---
 
-## 5G vs 4G Battery Consumption Real-World Test
+## 5G vs 4G Battery Consumption Comparison & Analysis
 
 | Usage Category (1 Hour Continuous) | 4G LTE Battery Drain | 5G Network Battery Drain | Extra 5G Power Draw |
 | :--- | :--- | :--- | :--- |

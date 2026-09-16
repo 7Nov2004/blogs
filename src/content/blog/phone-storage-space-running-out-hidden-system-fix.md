@@ -13,7 +13,7 @@ faqs:
   - question: "WhatsApp ka .crypt database folder delete karne se kya chat delete ho jayegi?"
     answer: "Nahi! WhatsApp roz raat ko purani dates ke local backups banata hai. Sirf sabse latest file ko chhod kar puraane dates wale backups (jaise msgstore-2026-xx-xx.1.db.crypt14) delete karne se 5GB se 15GB space turant free ho jati hai aur chat safe rehti hai."
   - question: "Kya .thumbnails folder delete karna phone ke liye safe hai?"
-    answer: "Haan, bilkul 100% safe hai. Thumbnails folder sirf gallery photos ke preview generate karta hai jo aksar 5GB se 10GB ghost space consume kar leta hai. Isko delete karne se koi photo delete nahi hoti."
+    answer: "Haan, bilkul safe hai. Thumbnails folder sirf gallery photos ke preview generate karta hai jo aksar 5GB se 10GB ghost space consume kar leta hai. Isko delete karne se koi photo delete nahi hoti."
   - question: "System / Other storage category itni badi kyu hoti hai?"
     answer: "'Other' ya 'System' storage mein apps ka cached data, downloaded streaming songs/movies (Spotify, Netflix offline), Telegram auto-downloaded media aur system log files shamil hoti hain."
   - question: "Kya phone ko factory reset karna hi aakhiri raasta hai?"

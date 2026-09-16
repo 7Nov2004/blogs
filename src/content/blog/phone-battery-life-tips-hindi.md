@@ -30,7 +30,7 @@ Lekin kuch simple settings aur charging habits badal kar aap apne smartphone ka 
 ## 3. Dark Mode Always ON Rakhein (AMOLED Screens Par)
 Agar aapke phone mein AMOLED display hai, toh black pixels actual mein **OFF** rehte hain aur zero power consume karte hain. Pure Dark Mode use karne se battery backup mein 1.5 ghante tak ka extra screen-on time milta hai.
 
-## 4. 20-80 Charging Rule Follow Karein (Battery Health Secret)
+## 4. 20-80 Charging Rule Follow Karein (Battery Longevity Rule)
 Lithium-ion batteries par sabse zyada chemical stress tab padta hai jab wo 0% hoti hain ya 100% full hoti hain.
 * Phone ko 20% aate hi charging par lagayein aur 80-85% hote hi unplug kar lein.
 * Modern Samsung, OnePlus aur iPhones mein *"Protect Battery / 80% Limit"* ka feature inbuilt hota hai, use enable karein.

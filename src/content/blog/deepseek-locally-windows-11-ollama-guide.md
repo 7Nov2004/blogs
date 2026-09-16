@@ -13,7 +13,7 @@ faqs:
   - question: "Kya local DeepSeek chalane par internet connection ki zaroorat padti hai?"
     answer: "Sirf pehli baar model download karte waqt internet chahiye hota hai. Uske baad aap airplane mode mein bhi DeepSeek se coding, reasoning aur writing bina internet ke kar sakte hain."
   - question: "DeepSeek R1 local run karne par data safe rehta hai ya server par jata hai?"
-    answer: "100% safe rehta hai! Local LLM ka sara data aapki hard drive (RAM/SSD) ke andar rehta hai. Koi bhi prompt ya confidential file kisi external server ya company ke paas nahi jati."
+    answer: "Haan, bilkul safe rehta hai! Local LLM ka sara data aapki hard drive (RAM/SSD) ke andar rehta hai. Koi bhi prompt ya confidential file kisi external server ya company ke paas nahi jati."
   - question: "Ollama aur LM Studio mein se kaun sa tool behtar hai?"
     answer: "Agar aapko terminal/command line pasand hai to Ollama sabse halka aur fast hai. Agar aapko ChatGPT jaisa sundar graphical interface (GUI) chahiye jisme direct chat box ho, to LM Studio best hai."
   - question: "DeepSeek model ko delete karke PC storage wapas kaise khali karein?"

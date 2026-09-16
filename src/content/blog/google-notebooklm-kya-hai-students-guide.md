@@ -110,7 +110,7 @@ Aap inme se koi bhi format upload kar sakte hain:
 
 ---
 
-## Students Ke Liye 4 Secret NotebookLM Prompts (Copy-Paste Karein)
+## Students Ke Liye 4 Powerful NotebookLM Prompts (Copy-Paste Karein)
 
 In prompts ko chat box mein daal kar dekhein:
 

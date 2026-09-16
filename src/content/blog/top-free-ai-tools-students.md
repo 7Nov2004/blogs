@@ -16,7 +16,7 @@ Is article mein hum 10 aise **100% Free AI tools** ke baare mein baat karenge jo
 
 ---
 
-## 1. Perplexity AI — Research Ka Naya Baap
+## 1. Perplexity AI — Research & Citations Leader
 
 Traditional Google search mein aapko 10 links click karke padhna padta hai, aur ChatGPT kabhi purani information de deta hai. 
 

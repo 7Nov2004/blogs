@@ -77,7 +77,7 @@ Bohot se log trend dekh kar BSNL par port karwa rahe hain, lekin baad me unhe ne
 
 * **Best Overall Value & Unlimited 5G:** 👉 **Reliance Jio** (Agar aapko sabse sasta 5G data aur accha indoor coverage chahiye).
 * **Best Call Quality & Stable Gaming:** 👉 **Bharti Airtel** (Agar aap monthly ₹50-₹80 extra dekar bhi premium calling aur customer support chahte hain).
-* **Best Pocket-Friendly & Validity King:** 👉 **BSNL** (Secondary SIM, parents ke phones aur affordable basic needs ke liye).
+* **Best Pocket-Friendly & Extended Validity Pick:** 👉 **BSNL** (Secondary SIM, parents ke phones aur affordable basic needs ke liye).
 
 > 📲 **SIM Port Kaise Karein:** Apne current phone ke SMS app me jayein, type karein `PORT <10 Digit Mobile Number>` aur **1900** par bhej dein. Aapko ek UPC code aayega, jise kisi bhi SIM store par le ja kar aap apna number bina badle operator change kar sakte hain.
 

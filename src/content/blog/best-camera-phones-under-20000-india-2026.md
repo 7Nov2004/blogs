@@ -62,7 +62,7 @@ Motorola ne pichle do saalon mein camera algorithms par zabardast kaam kiya hai.
 
 ---
 
-## 2. Realme Narzo 70 Pro / Realme 13 — Night Mode Aur Social Media King
+## 2. Realme Narzo 70 Pro / Realme 13 — Night Mode & Social Media Pick
 
 Agar aapko aisi photos chahiye jo bina kisi editing ke seedha Instagram, Facebook ya WhatsApp par post karne layak lagein (vibrant colors, high dynamic range), toh Realme ka koi jawab nahi.
 

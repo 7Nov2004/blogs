@@ -15,7 +15,7 @@ faqs:
   - question: "Redmi Note 17 Pro mein kitni battery hai?"
     answer: "Redmi Note 17 Pro mein 10,000mAh ki massive battery hai jo industry mein sabse badi hai is segment mein. Company ka claim hai ki ek charge mein 2 din se bhi zyada battery backup milega normal use mein."
   - question: "Redmi Note 17 Pro waterproof hai kya?"
-    answer: "Haan! Redmi Note 17 Pro mein industry-leading IP68, IP69 aur IP69K rating hai jo 3 meter tak water resistance provide karta hai. Saath hi TUV SUD Titan certification hai jo 3 meter tak drop protection guarantee karta hai."
+    answer: "Haan! Redmi Note 17 Pro mein industry-leading IP68, IP69 aur IP69K rating hai jo 3 meter tak water resistance provide karta hai. Saath hi TUV SUD Titan certification hai jo 3 meter tak drop protection provide karta hai."
 ---
 
 Agar aap ek **dhamakedar mid-range phone** ki talash mein hain jisme battery kabhi khatam hi na ho, toh aapka wait khatam hone wala hai! Xiaomi ka **Redmi Note 17 Pro** India mein **15 September 2026** ko launch hone wala hai, aur iska tagline hai — **#mAhsterOfStrength**.

@@ -22,7 +22,7 @@ Aajkal college life bohot busy ho gayi hai. Assignments, projects, exams aur ext
 
 Agar aap abhi bhi sirf ChatGPT par depend hain, toh aap bohot kuch miss kar rahe hain. Aaj hum aapko 5 aise **Free AI Tools** batayenge jo har college student ke phone ya laptop mein zaroor hone chahiye.
 
-## 1. Perplexity AI (Research Ka Baap)
+## 1. Perplexity AI (Best for Research & Sources)
 
 Agar aapko kisi project ke liye research karni hai, toh Google search par ghanto barbad karne ki zaroorat nahi hai.
 * **Kyun zaroori hai:** ChatGPT ke paas kai baar purani information hoti hai, par Perplexity AI internet ko live scan karke aapko jawab deta hai. Sabse achi baat ye hai ki ye apne answer ke sath **links (citations)** bhi deta hai, taaki aap assignments mein references daal sakein.

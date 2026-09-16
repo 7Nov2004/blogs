@@ -38,7 +38,7 @@ Frontend wo hissa hota hai jo user browser screen par dekhta hai aur interact ka
 - Modern CSS: Flexbox aur CSS Grid (Responsive layouts ke liye).
 - **Tailwind CSS:** 2026 mein pure CSS likhne ke bajaye har company Tailwind CSS use karti hai.
 
-### 2. JavaScript (The Real King - 4 Weeks)
+### 2. JavaScript (Core Foundation - 4 Weeks)
 JavaScript web development ki aatma hai. Iske bina aap framework nahi samajh sakte:
 - Variables, Data Types, Arrays & Objects.
 - ES6+ Features: Arrow functions, Destructuring, Spread operator, Promises, `async/await`.
