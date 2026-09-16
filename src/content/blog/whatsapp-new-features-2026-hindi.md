@@ -5,7 +5,7 @@ pubDate: 2026-09-11
 category: "tips"
 tags: ["whatsapp", "social-media", "privacy", "ai", "android"]
 image: "/images/whatsapp-features-2026-cover.jpg"
-author: "Aayush"
+author: "Aayush Sharma"
 faqs:
   - question: "WhatsApp Username Feature क्या है?"
     answer: "WhatsApp का नया Username Feature आपको एक unique username बनाने की सुविधा देता है। इससे आप बिना अपना phone number share किए किसी से भी connect कर सकते हैं। यह feature privacy के लिए बहुत उपयोगी है।"

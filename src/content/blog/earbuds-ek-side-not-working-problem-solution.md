@@ -1,10 +1,10 @@
 ---
 title: "Earbuds Ek Side Not Working Problem Solution: Boat, Realme, Noise TWS Kaise Fix Karein"
-description: "Kya aapke earbuds ka ek side achanak kaam karna band kar diya hai? Ya sound nahi aa rahi? Boat, Realme, Noise aur sabhi TWS earbuds ka 100% working hard reset aur cleaning guide."
+description: "Kya aapke earbuds ka ek side achanak kaam karna band kar diya hai? Ya sound nahi aa rahi? Boat, Realme, Noise aur sabhi TWS earbuds ka tested hard reset aur cleaning guide."
 pubDate: 2026-03-24
 category: "gadgets"
 tags: ["earbuds", "tws fix", "boat airdopes", "realme buds", "audio problems", "gadget tips"]
-author: "Team Technical Dikhao"
+author: "Aayush Sharma"
 image: "/images/earbuds-one-side-not-working-cover.jpg"
 faqs:
   - question: "Kya bina case ke earbuds ko reset kiya ja sakta hai?"
@@ -135,5 +135,5 @@ Agar aapne ye sab steps follow kiye:
 
 ### Related Troubleshooting Guides:
 - [Phone Storage Space Running Out Error Fix](/blog/phone-storage-space-running-out-hidden-system-fix)
-- [CEIR Portal Se Chori Phone Kaise Block/Track Karein](/blog/phone-chori-ho-jaye-to-ceir-se-block-kaise-kare)
+- [CEIR Portal Se Chori Phone Kaise Block/Track Karein](/blog/phone-chori-hone-par-kya-kare-ceir-portal-hindi/)
 - [Best Gadgets & Smartphone Deals](/category/gadgets)

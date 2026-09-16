@@ -1,10 +1,10 @@
 ---
-title: "DeepSeek Locally Windows 11 Par Kaise Chalaye: 100% Free Offline AI Guide (Ollama & LM Studio)"
+title: "DeepSeek Locally Windows 11 Par Kaise Chalaye: Offline AI Guide (Ollama & LM Studio)"
 description: "Apne Windows 11 PC ya laptop par DeepSeek R1 aur V3 model ko completely offline kaise install karein? Bina internet ke private AI chatbot chalane ka sabse aasan tareeka."
 pubDate: 2026-03-24
 category: "ai"
 tags: ["deepseek", "local ai", "ollama", "windows 11", "ai tools", "offline llm"]
-author: "Team Technical Dikhao"
+author: "Aayush Sharma"
 image: "/images/deepseek-locally-windows11-cover.jpg"
 faqs:
   - question: "Kya DeepSeek locally chalane ke liye heavy gaming graphic card (GPU) zaroori hai?"
@@ -121,6 +121,6 @@ Agar aap chahte hain ki Ollama background mein chale aur aap browser mein `local
 ---
 
 ### Related AI & Tech Guides:
-- [Claude 3.5 Sonnet vs ChatGPT 4o Full Comparison](/blog/claude-vs-chatgpt-coding-comparison-hindi)
-- [Free AI Photo Editing Tools 2026](/blog/free-ai-photo-editing-tools-2026)
-- [Complete Git & GitHub Beginner Guide](/blog/git-github-beginners-guide-hindi)
+- [Claude 3.5 Sonnet vs ChatGPT 4o Full Comparison](/blog/claude-3-7-sonnet-hybrid-reasoning-hindi-guide/)
+- [Free AI Photo Editing Tools 2026](/blog/top-free-ai-photo-editing-tools-2026/)
+- [Complete Git & GitHub Beginner Guide](/blog/git-and-github-beginners-guide-hindi/)

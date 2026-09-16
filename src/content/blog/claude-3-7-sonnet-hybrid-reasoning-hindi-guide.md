@@ -6,7 +6,7 @@ updatedDate: 2026-09-14
 image: "/images/claude-37-sonnet-cover.jpg"
 category: "ai"
 tags: ["claude 3.7", "anthropic", "hybrid reasoning", "ai tools", "chatgpt vs claude", "deepseek r1", "coding ai"]
-author: "TechVerse Team"
+author: "Aayush Sharma"
 featured: true
 faqs:
   - question: "Claude 3.7 Sonnet mein Hybrid Reasoning kya hai?"

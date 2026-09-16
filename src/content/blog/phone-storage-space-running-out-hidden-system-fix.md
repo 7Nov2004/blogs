@@ -4,7 +4,7 @@ description: "Kya phone gallery se sabhi photos/videos delete karne ke baad bhi 
 pubDate: 2026-03-24
 category: "tips"
 tags: ["phone storage", "android tips", "storage space running out", "clear cache", "whatsapp backup", "smartphone hacks"]
-author: "Team Technical Dikhao"
+author: "Aayush Sharma"
 image: "/images/phone-storage-running-out-fix-cover.jpg"
 faqs:
   - question: "Gallery se photo delete karne ke baad bhi storage kam kyu nahi hoti?"
@@ -111,6 +111,7 @@ In steps ko follow karne ke baad aapke notification bar se **"Storage space runn
 ---
 
 ### Related Tech Solutions:
-- [Earbuds Ek Side Not Working Solution](/blog/earbuds-ek-side-not-working-problem-solution)
-- [CEIR Portal Request ID Recover Kaise Karein](/blog/ceir-portal-request-id-recover-kaise-kare)
-- [Phone Chori Hone Par IMEI Block Kaise Karein](/blog/phone-chori-ho-jaye-to-ceir-se-block-kaise-kare)
+- [Phone Storage Full? Bina Photos Delete Kiye 15GB Space Banayein](/blog/phone-storage-full-kaise-khali-kare-tips/)
+- [Earbuds Ek Side Not Working Solution](/blog/earbuds-ek-side-not-working-problem-solution/)
+- [CEIR Portal Request ID Recover Kaise Karein](/blog/ceir-portal-request-id-recover-kaise-kare/)
+- [Phone Chori Hone Par IMEI Block Kaise Karein](/blog/phone-chori-hone-par-kya-kare-ceir-portal-hindi/)

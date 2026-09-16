@@ -5,7 +5,7 @@ pubDate: 2026-09-12
 image: "/images/free-ai-photo-editing-cover.jpg"
 category: "ai"
 tags: ["photo-editing", "ai-tools", "graphic-design", "free-tools", "content-creation"]
-author: "Aayush"
+author: "Aayush Sharma"
 featured: true
 faqs:
   - question: "Bina Photoshop ke free mein AI photo editing kaise karein?"

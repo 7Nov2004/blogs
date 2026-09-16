@@ -5,7 +5,7 @@ pubDate: 2026-09-01
 image: '/images/chatgpt-cover.jpg'
 category: ai
 tags: ['chatgpt', 'ai', 'openai', 'gpt-5', 'artificial-intelligence']
-author: 'TechVerse Team'
+author: "Aayush Sharma"
 featured: true
 faqs:
   - question: "ChatGPT 5 free hai ya paid?"

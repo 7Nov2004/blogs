@@ -1,12 +1,12 @@
 ---
-title: "Phone Me Fast Charging Kaam Kyu Nahi Kar Rahi? 7 Secret Hardware & Software Fixes (100% Working)"
-description: "Kya aapka phone SuperVOOC, Dart, ya Turbo fast charge nahi le raha aur normal slow charging ho rahi hai? Lint cleaning, cable resistance aur settings ka 100% working solution."
+title: "Phone Me Fast Charging Kaam Kyu Nahi Kar Rahi? 7 Proven Hardware & Software Fixes"
+description: "Kya aapka phone SuperVOOC, Dart, ya Turbo fast charge nahi le raha aur normal slow charging ho rahi hai? Lint cleaning, cable resistance aur settings ka complete solution."
 pubDate: 2026-09-14
 updatedDate: 2026-09-14
 image: "/images/fast-charging-fix-cover.jpg"
 category: "tips"
 tags: ["fast charging fix", "android tips", "phone charging slow", "smartphone hacks", "battery health", "hardware fix"]
-author: "TechVerse Team"
+author: "Aayush Sharma"
 featured: true
 faqs:
   - question: "Phone fast charging ke badle slow charging kyu dikhata hai?"

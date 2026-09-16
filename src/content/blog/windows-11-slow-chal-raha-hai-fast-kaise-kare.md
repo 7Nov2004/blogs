@@ -6,7 +6,7 @@ updatedDate: 2026-09-11
 image: '/images/windows-11-speed-cover.jpg'
 category: 'tips'
 tags: ['windows-11', 'pc-speed', 'laptop-performance', 'tech-tips', 'computer-hacks']
-author: 'Aayush'
+author: "Aayush Sharma"
 featured: true
 faqs:
   - question: "Windows 11 achanak slow kyun ho jaati hai?"

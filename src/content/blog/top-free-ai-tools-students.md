@@ -5,7 +5,7 @@ pubDate: 2026-08-27
 image: '/images/free-ai-tools-cover.jpg'
 category: ai
 tags: ['ai-tools', 'students', 'study-hacks', 'productivity', 'free-tools']
-author: 'TechVerse Team'
+author: "Aayush Sharma"
 featured: false
 ---
 

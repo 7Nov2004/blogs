@@ -6,7 +6,7 @@ updatedDate: 2026-09-11
 image: '/images/camera-phones-cover.jpg'
 category: 'gadgets'
 tags: ['smartphones', 'camera-phone', 'budget-smartphones', 'tech-deals', 'reviews', 'gadgets']
-author: 'Aayush'
+author: "Aayush Sharma"
 featured: true
 faqs:
   - question: "₹20,000 ke andar best camera phone kaun sa hai 2026 mein?"

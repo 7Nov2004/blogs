@@ -6,7 +6,7 @@ updatedDate: 2026-09-11
 image: '/images/5g-battery-drain-cover.jpg'
 category: 'gadgets'
 tags: ['5g-phones', 'battery-drain', 'smartphone-tips', 'android-hacks', 'battery-saver', 'gadgets']
-author: 'Aayush'
+author: "Aayush Sharma"
 featured: true
 faqs:
   - question: "5G par phone ki battery 4G ke mukable zyada kyun drain hoti hai?"
@@ -44,7 +44,7 @@ Agar aap apne Android ya iPhone mein ye **8 hidden battery-saving settings** the
 
 ## 1. "Smart 5G / 5G Auto" Mode Ko On Karein
 
-Bahut se log apne phone ke developer settings ya secret menu mein jakar forcefully **"5G Only" (NR Only)** lock kar dete hain. Ye sabse badi galti hai!
+Bahut se log apne phone ke developer settings ya testing dialer menu (*#*#4636#*#*) mein jakar forcefully **"5G Only" (NR Only)** lock kar dete hain. Ye sabse badi galti hai!
 
 Jab aap sirf WhatsApp text message padh rahe hote hain ya email check karte hain, tab bhi aapka phone full-power 5G transmitters ko active rakhta hai.
 

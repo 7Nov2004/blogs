@@ -6,7 +6,7 @@ updatedDate: 2026-09-14
 image: "/images/fullstack-roadmap-2026-cover.jpg"
 category: "webdev"
 tags: ["full stack roadmap", "web development", "javascript", "react", "nextjs", "coding career", "learn to code"]
-author: "TechVerse Team"
+author: "Aayush Sharma"
 featured: true
 faqs:
   - question: "Full Stack Developer banne mein kitna samay lagta hai?"
@@ -111,7 +111,7 @@ Agar aap is roadmap par roz 2 se 3 ghante commit karte hain, to 2026 mein aap ki
 ---
 
 ### Ye Bhi Zaroor Padhein:
-* 💻 [Git Push Rejected Error Solution (100% Working Fix)](/blog/git-push-rejected-error-solution-hindi/)
+* 💻 [Git Push Rejected Error Solution (Step-by-Step Fix)](/blog/git-push-rejected-error-solution-hindi/)
 * 🚀 [Git & GitHub Complete Beginners Guide In Hindi](/blog/git-and-github-beginners-guide-hindi/)
 * 🎨 [Tailwind CSS Complete Guide In Hindi](/blog/tailwind-css-complete-guide-hindi/)
 * 🤖 [Claude 3.7 Sonnet Hybrid Reasoning AI Guide](/blog/claude-3-7-sonnet-hybrid-reasoning-hindi-guide/)

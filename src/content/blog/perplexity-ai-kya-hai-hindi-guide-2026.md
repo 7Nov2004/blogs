@@ -5,7 +5,7 @@ pubDate: 2026-09-11
 image: "/images/perplexity-ai-cover.jpg"
 category: "ai"
 tags: ["perplexity-ai", "ai-tools", "search-engine", "artificial-intelligence", "google-vs-ai"]
-author: "Aayush"
+author: "Aayush Sharma"
 featured: true
 faqs:
   - question: "Perplexity AI kya hai aur ye traditional Google Search se kaise alag hai?"

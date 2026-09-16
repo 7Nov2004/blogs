@@ -5,7 +5,7 @@ pubDate: 2026-09-12
 image: "/images/phone-chori-ceir-cover.jpg"
 category: "tips"
 tags: ["ceir-portal", "sanchar-saathi", "lost-phone", "smartphone-security", "cyber-safety", "android-tips"]
-author: "Aayush"
+author: "Aayush Sharma"
 featured: true
 faqs:
   - question: "CEIR Portal kya hai aur ye kaise kaam karta hai?"
@@ -113,7 +113,7 @@ Kayi baar police chor ko pakad leti hai ya koi bhala insaan aapka phone lauta de
 
 1. CEIR website (`ceir.sancharsaathi.gov.in`) par jayein.
 2. Green icon par click karein: **"Un-Block Found Mobile"**.
-3. Apni **Request ID**, apna mobile number aur unblocking ka reason select karein (e.g. *"Found by Police"* ya *"Found by Self"*).
+3. Apni **Request ID**, apna mobile number aur unblocking ka reason select karein (e.g. *"Found by Police"* ya *"Found by Self"*). *(Agar aap apni Request ID bhool gaye hain, toh hamari [CEIR Portal Request ID Recover Kaise Karein Guide](/blog/ceir-portal-request-id-recover-kaise-kare/) dekhein)*.
 4. OTP verify karein aur Submit karein.
 5. Agle kuch ghanton mein aapka phone unblock ho jayega aur aap use pehle ki tarah use kar payenge!
 
@@ -132,6 +132,7 @@ Savdhani hamesha ilaaj se behtar hoti hai:
 ## Related Cyber & Smartphone Security Guides on TechVerse
 
 Apne device aur digital identity ko protect karne ke liye hamare ye articles zaroor padhein:
+- CEIR Request ID status: [CEIR Portal Request ID Recover Kaise Karein](/blog/ceir-portal-request-id-recover-kaise-kare/).
 - SIM Swap alert: [SIM Swap Scam Kya Hai Aur Kaise Bachein?](/blog/sim-swap-fraud-kya-hai-kaise-bachein/).
 - Mobile hacking signs: [Phone Hack Hai Ya Nahi Kaise Pata Karein?](/blog/phone-hack-hai-ya-nahi-kaise-pata-kare/).
 - Online task scams: [Work From Home Telegram Task Scam Alert](/blog/telegram-part-time-job-scam-se-kaise-bachein/).

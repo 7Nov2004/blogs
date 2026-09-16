@@ -5,7 +5,7 @@ pubDate: 2026-09-12
 image: "/images/git-github-beginners-cover.jpg"
 category: "webdev"
 tags: ["git", "github", "version-control", "programming", "developer-tools", "coding-tips"]
-author: "Aayush"
+author: "Aayush Sharma"
 featured: true
 faqs:
   - question: "Git aur GitHub mein kya antar (difference) hai?"

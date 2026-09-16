@@ -5,7 +5,7 @@ pubDate: 2026-09-11
 image: "/images/notebooklm-guide-cover.jpg"
 category: "tips"
 tags: ["notebooklm", "ai-tools", "study-hacks", "students", "free-tools", "exam-prep"]
-author: "Aayush"
+author: "Aayush Sharma"
 featured: true
 faqs:
   - question: "Google NotebookLM kya hai aur ye ChatGPT se kaise alag hai?"

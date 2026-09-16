@@ -5,7 +5,7 @@ pubDate: 2026-09-07
 image: '/images/student-ai-tools-cover.jpg'
 category: 'ai'
 tags: ['ai-tools', 'students', 'productivity', 'free-tools']
-author: 'TechVerse Team'
+author: "Aayush Sharma"
 faqs:
   - question: "Kya AI tools se cheating hoti hai?"
     answer: "Nahi. AI tools ka matlab cheating nahi hai — ye aapke research, writing aur productivity mein madad karte hain. Jaise calculator maths mein help karta hai, waise hi AI tools aapki smart work karne mein madad karte hain. AI se guidance lena aur assignment copy-paste karna do alag baatein hain."

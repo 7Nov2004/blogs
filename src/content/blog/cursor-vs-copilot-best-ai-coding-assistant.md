@@ -5,7 +5,7 @@ pubDate: 2026-09-07
 image: '/images/cursor-ai-cover.jpg'
 category: 'ai'
 tags: ['ai-tools', 'web-development', 'programming', 'developer-tools', 'vscode']
-author: 'TechVerse Team'
+author: "Aayush Sharma"
 faqs:
   - question: "Cursor AI aur GitHub Copilot mein kya fark hai?"
     answer: "GitHub Copilot ek VS Code extension hai jo code autocomplete karta hai. Cursor AI ek poora alag code editor hai (VS Code ka modified version) jisme AI deeply integrated hai. Cursor poora codebase ka context samajhta hai, jabki Copilot sirf current file par focus karta hai."

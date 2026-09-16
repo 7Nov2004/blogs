@@ -6,7 +6,7 @@ updatedDate: 2026-09-11
 image: '/images/ai-money-cover.jpg'
 category: ai
 tags: ['chatgpt', 'ai', 'online-earning', 'freelancing', 'passive-income']
-author: 'TechVerse Team'
+author: "Aayush Sharma"
 featured: true
 faqs:
   - question: "Kya sach mein ChatGPT se paise kamaye ja sakte hain?"

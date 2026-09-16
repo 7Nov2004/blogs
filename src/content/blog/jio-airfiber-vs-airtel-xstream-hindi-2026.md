@@ -5,7 +5,7 @@ pubDate: 2026-09-07
 image: '/images/airfiber-router-cover.jpg'
 category: 'tips'
 tags: ['internet', 'tech-guide', 'smart-home', 'comparison']
-author: 'TechVerse Team'
+author: "Aayush Sharma"
 ---
 
 Agar aapke area mein optical fiber ke taar (wires) nahi aaye hain, par aapko ghar mein lagatar high-speed Wi-Fi chahiye, toh **5G FWA (Fixed Wireless Access)** aaj ke time ka sabse best solution hai. 
