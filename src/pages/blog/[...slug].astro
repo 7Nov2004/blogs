@@ -27,7 +27,15 @@ export async function getStaticPaths() {
 
 const { post } = Astro.props;
 const { Content, headings } = await post.render();
-const readingTime = Math.ceil(post.body.split(/\s+/).length / 200);
+
+const wordsCount = post.body.trim().split(/\s+/).filter(Boolean).length;
+const readingTime = Math.max(1, Math.ceil(wordsCount / 200));
+
+const emojiRegex = /[\u{1F300}-\u{1F9FF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}\u{FE00}-\u{FE0F}\u{1F000}-\u{1F02F}\u{1F0A0}-\u{1F0FF}\u{1F100}-\u{1F64F}\u{1F680}-\u{1F6FF}\u{1F900}-\u{1F9FF}\u{1FA00}-\u{1FA6F}\u{1FA70}-\u{1FAFF}]/gu;
+const cleanHeadings = headings.map((h) => ({
+  ...h,
+  slug: h.slug.replace(emojiRegex, '').replace(/^[-\s]+|[-\s]+$/g, '').replace(/-+/g, '-'),
+}));
 
 const postTitle = post.data.seoTitle || post.data.title;
 const postDescription = post.data.seoDescription || post.data.description;
@@ -149,7 +157,7 @@ const breadcrumbItems = [
         )}
 
         <!-- Table of Contents -->
-        <TableOfContents headings={headings} />
+        <TableOfContents headings={cleanHeadings} />
 
         <div class="mb-8">
           <AdBanner slot='in-article' />

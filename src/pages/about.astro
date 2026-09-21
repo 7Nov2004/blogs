@@ -1,10 +1,13 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const postCount = (await getCollection('blog')).length;
 ---
 
 <BaseLayout 
   title="About Us - TechVerse | India Ka #1 Hinglish Tech Blog" 
-  description="TechVerse ke baare mein jaaniye — Founder Aayush Kumar ki kahani, humara editorial process, E-E-A-T standards aur 88+ articles ka safar. Shamli, UP se India ke liye tech."
+  description={`TechVerse ke baare mein jaaniye — Founder Aayush Kumar ki kahani, humara editorial process, E-E-A-T standards aur ${postCount}+ articles ka safar. Shamli, UP se India ke liye tech.`}
 >
   <!-- Hero Section -->
   <section class="relative w-full overflow-hidden rounded-3xl bg-gradient-to-br from-slate-900 via-blue-950 to-indigo-950 text-white py-16 px-6 text-center shadow-xl mb-12 border border-blue-900/40">
@@ -20,7 +23,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       <!-- Quick Stats -->
       <div class="grid grid-cols-3 gap-4 max-w-sm mx-auto">
         <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-3 border border-white/15">
-          <div class="text-2xl font-black text-white">88+</div>
+          <div class="text-2xl font-black text-white">{postCount}+</div>
           <div class="text-xs text-slate-300 mt-1">Articles</div>
         </div>
         <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-3 border border-white/15">
