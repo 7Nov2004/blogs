@@ -1,7 +1,8 @@
 ---
-title: 'Jio vs Airtel vs BSNL: 2026 Mein Kaunsa SIM Best Aur Sasta Hai? (Plans & Speed Sach)'
-description: "Jio vs Airtel vs BSNL: 2026 mein kaunsa recharge plan sabse sasta aur best validity deta hai? 28 din aur 84 din ke plans ka full comparison."
+title: 'Jio vs Airtel vs BSNL Plan 2026: ₹200-600 Mein Kaun Best Hai? [Updated September]'
+description: 'September 2026 mein Jio, Airtel aur BSNL ke plans compare kiye — data, validity, OTT benefits. ₹200 se ₹600 budget mein perfect plan kaun sa hai?'
 pubDate: 2026-09-09
+updatedDate: 2026-09-21
 image: '/images/sim-plans-comparison-cover.jpg'
 category: 'gadgets'
 tags: ['sim-plans', 'jio', 'airtel', 'bsnl-5g', 'telecom-deals', 'recharge-plans']

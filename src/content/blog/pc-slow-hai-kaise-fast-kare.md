@@ -1,7 +1,8 @@
 ---
-title: 'Computer Ya Laptop Slow Ho Gaya Hai? 10 Tarike Fast Karne Ke (2026)'
-description: "Purana laptop ya PC slow ho gaya hai? SSD upgrade, startup apps disable aur temporary files clear karke speed double karne ke 7 tarike."
+title: 'PC/Laptop 5 Minute Mein 3x Fast Karo — Ye 8 Proven Tricks Koi Nahi Batata!'
+description: 'PC ya laptop slow ho gaya? Ye 8 tested tips se koi bhi Windows PC 3 guna fast ho jaayega — bina koi software khareedein! Step-by-step guide 2026.'
 pubDate: 2026-08-16
+updatedDate: 2026-09-21
 image: '/images/pc-boost-cover.jpg'
 category: tips
 tags: ['windows-tips', 'pc-speed', 'laptop-performance', 'tech-hacks', 'troubleshooting']

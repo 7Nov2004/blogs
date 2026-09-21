@@ -1,7 +1,8 @@
 ---
-title: "iOS 27 Release Date in India: Eligible iPhones List, Launch Time (IST), Top Features Aur Update Kaise Karein [Complete Guide]"
-description: "iOS 27 launch date, supported iPhone models aur Apple Intelligence naye features ka complete breakdown Hindi mein padhein."
+title: 'iOS 27 India Mein Kab Aayega? Eligible Devices + 15 Naye Features — Full Guide!'
+description: 'iOS 27 release date, India launch, eligible iPhone models aur 15 best new features. Pata karo kya aapka iPhone upgrade milega ya nahi? Complete guide 2026.'
 pubDate: 2026-09-15
+updatedDate: 2026-09-21
 image: "/images/ios-27-release-india-cover.jpg"
 category: "gadgets"
 tags: ["ios 27", "apple", "iphone update", "ios 27 release date", "apple intelligence", "tech news"]

@@ -1,7 +1,8 @@
 ---
-title: "WhatsApp के 7 नए फीचर्स जो 2026 में बदल देंगे आपका Chat Experience"
-description: "WhatsApp 2026 में Username Feature, Meta AI, Web Calling, Advanced Privacy और बहुत कुछ लाया है। जानिए सभी नए फीचर्स हिंदी में और कैसे use करें।"
+title: 'WhatsApp Ke 12 Naye Hidden Features 2026 — Aadhe Log Jaante Bhi Nahi!'
+description: 'WhatsApp 2026 mein 12 powerful features laaya hai jisme secret chat, AI tools aur privacy upgrade sab hain. Ek bhi miss mat karna!'
 pubDate: 2026-09-11
+updatedDate: 2026-09-21
 category: "tips"
 tags: ["whatsapp", "social-media", "privacy", "ai", "android"]
 image: "/images/whatsapp-features-2026-cover.jpg"

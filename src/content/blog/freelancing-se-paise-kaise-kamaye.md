@@ -1,7 +1,8 @@
 ---
-title: 'Tech Freelancing Kaise Shuru Karein? 2026 Beginners Complete Guide (Upwork, Fiverr)'
-description: "Freelancing shuru karke ghar baithe online paise kaise kamayein? Upwork, Fiverr par high-income skills aur first client pane ke verified tips."
+title: 'Freelancing Se ₹50,000/Month Kaise Kamayein? Beginner Se Pro Tak Complete Roadmap'
+description: 'India mein freelancing start karna chahte ho? Step-by-step guide — konsi skills chahiye, konse platforms use karo, aur pehla client kaise milega!'
 pubDate: 2026-08-15
+updatedDate: 2026-09-21
 image: '/images/freelancing-cover.jpg'
 category: 'tips'
 tags: ['freelancing', 'online-earning', 'upwork', 'fiverr', 'remote-jobs', 'career-guide']

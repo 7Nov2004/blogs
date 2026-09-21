@@ -1,6 +1,6 @@
 ---
-title: 'Top 5 Free AI Video Generators (2026): Bina Face Dikhaye YouTube Shorts Aur Reels Banayein'
-description: "YouTube Shorts aur Instagram Reels ke liye top free AI video generators: bina watermark aur automatic voiceover wale best AI video tools."
+title: 'Top 7 Free AI Video Generator Tools 2026: YouTube Reels Banao Bina Camera Ke!'
+description: '7 best free AI video generators se YouTube Shorts aur Instagram Reels banao — no camera, no editing skills, no watermark! Real quality comparison 2026.'
 pubDate: 2026-09-07
 updatedDate: 2026-09-11
 image: '/images/ai-video-generator-cover.jpg'

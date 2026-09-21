@@ -8,14 +8,20 @@ import { Image } from 'astro:assets';
 const allPosts = (await getCollection('blog')).sort(
   (a, b) => new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime()
 );
-const featuredPosts = allPosts.slice(0, 3);
-const latestPosts = allPosts.slice(0, 8);
+const featuredPosts = allPosts.filter(p => p.data.featured).slice(0, 3);
+const latestPosts = allPosts.slice(0, 12);
 const categories = [
   { name: 'AI & Machine Learning', slug: 'ai', emoji: '🤖', color: 'from-purple-500 to-pink-500' },
   { name: 'Web Development', slug: 'webdev', emoji: '💻', color: 'from-blue-500 to-cyan-500' },
   { name: 'Gadgets & Reviews', slug: 'gadgets', emoji: '📱', color: 'from-green-500 to-emerald-500' },
   { name: 'Tips & Tricks', slug: 'tips', emoji: '💡', color: 'from-amber-500 to-orange-500' },
 ];
+
+// Category-wise latest 4 posts for bottom section
+const aiPosts = allPosts.filter(p => p.data.category === 'ai').slice(0, 4);
+const gadgetPosts = allPosts.filter(p => p.data.category === 'gadgets').slice(0, 4);
+const tipsPosts = allPosts.filter(p => p.data.category === 'tips').slice(0, 4);
+const webdevPosts = allPosts.filter(p => p.data.category === 'webdev').slice(0, 4);
 ---
 
 <BaseLayout 
@@ -204,8 +210,105 @@ const categories = [
     <NewsletterSignup />
   </div>
 
+  <!-- Category Sections: AI & ML -->
+  <section class="mb-12">
+    <div class="flex items-center justify-between mb-6">
+      <h2 class="text-2xl font-bold dark:text-white flex items-center gap-2">🤖 Latest AI & ML Posts</h2>
+      <a href="/category/ai/" class="text-sm font-semibold text-purple-600 dark:text-purple-400 hover:underline">Sabhi AI Posts →</a>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+      {aiPosts.map((post) => (
+        <a href={`/blog/${post.slug}/`} class="group bg-white dark:bg-gray-800 rounded-xl border border-gray-100 dark:border-gray-700 overflow-hidden hover:shadow-md transition-all duration-300 hover:-translate-y-0.5 flex flex-col">
+          {(post.data.image || post.data.coverImage) ? (
+            <div class="h-32 w-full overflow-hidden bg-gray-100 dark:bg-gray-700">
+              <img src={(post.data.image || post.data.coverImage)} alt={post.data.title} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" width="300" height="128" />
+            </div>
+          ) : (
+            <div class="h-32 w-full bg-gradient-to-br from-purple-500 to-pink-500"></div>
+          )}
+          <div class="p-4 flex-grow">
+            <h3 class="font-bold text-sm dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors line-clamp-2 leading-snug">{post.data.title}</h3>
+          </div>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <!-- Category Sections: Gadgets -->
+  <section class="mb-12">
+    <div class="flex items-center justify-between mb-6">
+      <h2 class="text-2xl font-bold dark:text-white flex items-center gap-2">📱 Latest Gadget Reviews</h2>
+      <a href="/category/gadgets/" class="text-sm font-semibold text-green-600 dark:text-green-400 hover:underline">Sabhi Gadget Posts →</a>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+      {gadgetPosts.map((post) => (
+        <a href={`/blog/${post.slug}/`} class="group bg-white dark:bg-gray-800 rounded-xl border border-gray-100 dark:border-gray-700 overflow-hidden hover:shadow-md transition-all duration-300 hover:-translate-y-0.5 flex flex-col">
+          {(post.data.image || post.data.coverImage) ? (
+            <div class="h-32 w-full overflow-hidden bg-gray-100 dark:bg-gray-700">
+              <img src={(post.data.image || post.data.coverImage)} alt={post.data.title} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" width="300" height="128" />
+            </div>
+          ) : (
+            <div class="h-32 w-full bg-gradient-to-br from-green-500 to-emerald-500"></div>
+          )}
+          <div class="p-4 flex-grow">
+            <h3 class="font-bold text-sm dark:text-white group-hover:text-green-600 dark:group-hover:text-green-400 transition-colors line-clamp-2 leading-snug">{post.data.title}</h3>
+          </div>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <!-- Category Sections: Tips & Tricks -->
+  <section class="mb-12">
+    <div class="flex items-center justify-between mb-6">
+      <h2 class="text-2xl font-bold dark:text-white flex items-center gap-2">💡 Tips & Tricks</h2>
+      <a href="/category/tips/" class="text-sm font-semibold text-amber-600 dark:text-amber-400 hover:underline">Sabhi Tips →</a>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+      {tipsPosts.map((post) => (
+        <a href={`/blog/${post.slug}/`} class="group bg-white dark:bg-gray-800 rounded-xl border border-gray-100 dark:border-gray-700 overflow-hidden hover:shadow-md transition-all duration-300 hover:-translate-y-0.5 flex flex-col">
+          {(post.data.image || post.data.coverImage) ? (
+            <div class="h-32 w-full overflow-hidden bg-gray-100 dark:bg-gray-700">
+              <img src={(post.data.image || post.data.coverImage)} alt={post.data.title} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" width="300" height="128" />
+            </div>
+          ) : (
+            <div class="h-32 w-full bg-gradient-to-br from-amber-500 to-orange-500"></div>
+          )}
+          <div class="p-4 flex-grow">
+            <h3 class="font-bold text-sm dark:text-white group-hover:text-amber-600 dark:group-hover:text-amber-400 transition-colors line-clamp-2 leading-snug">{post.data.title}</h3>
+          </div>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <!-- Category Sections: Web Dev -->
+  <section class="mb-12">
+    <div class="flex items-center justify-between mb-6">
+      <h2 class="text-2xl font-bold dark:text-white flex items-center gap-2">💻 Web Development</h2>
+      <a href="/category/webdev/" class="text-sm font-semibold text-blue-600 dark:text-blue-400 hover:underline">Sabhi Web Dev Posts →</a>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+      {webdevPosts.map((post) => (
+        <a href={`/blog/${post.slug}/`} class="group bg-white dark:bg-gray-800 rounded-xl border border-gray-100 dark:border-gray-700 overflow-hidden hover:shadow-md transition-all duration-300 hover:-translate-y-0.5 flex flex-col">
+          {(post.data.image || post.data.coverImage) ? (
+            <div class="h-32 w-full overflow-hidden bg-gray-100 dark:bg-gray-700">
+              <img src={(post.data.image || post.data.coverImage)} alt={post.data.title} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" width="300" height="128" />
+            </div>
+          ) : (
+            <div class="h-32 w-full bg-gradient-to-br from-blue-500 to-cyan-500"></div>
+          )}
+          <div class="p-4 flex-grow">
+            <h3 class="font-bold text-sm dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors line-clamp-2 leading-snug">{post.data.title}</h3>
+          </div>
+        </a>
+      ))}
+    </div>
+  </section>
+
   <!-- Ad Banner Footer -->
-  <div class="mt-12">
+  <div class="mt-8 mb-4">
     <AdBanner slot='footer' />
   </div>
 </BaseLayout>
+

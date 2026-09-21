@@ -1,7 +1,8 @@
 ---
-title: 'ChatGPT 5 Kya Hai? Complete Guide Hinglish Mein'
-description: "ChatGPT 5 ke naye features, reasoning capabilities aur release date ki poori details simple Hinglish mein padhein aur samjhein."
+title: 'ChatGPT 5 Ki 7 Hidden Powers: GPT-4 Se 10x Zyada Smart! (2026 Full Guide)'
+description: 'ChatGPT 5 mein 7 aisi abilities hain jo GPT-4 kabhi nahi kar sakta tha. Pricing, India access, multimodal features — sab 5 minute mein samjhein!'
 pubDate: 2026-09-01
+updatedDate: 2026-09-21
 image: '/images/chatgpt-cover.jpg'
 category: ai
 tags: ['chatgpt', 'ai', 'openai', 'gpt-5', 'artificial-intelligence']

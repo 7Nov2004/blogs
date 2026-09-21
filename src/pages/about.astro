@@ -2,95 +2,169 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 ---
 
-<BaseLayout title="About Us - TechVerse" description="TechVerse ke baare mein jaaniye - Humara mission aur humari kahani.">
+<BaseLayout 
+  title="About Us - TechVerse | India Ka #1 Hinglish Tech Blog" 
+  description="TechVerse ke baare mein jaaniye — Founder Aayush Kumar ki kahani, humara editorial process, E-E-A-T standards aur 88+ articles ka safar. Shamli, UP se India ke liye tech."
+>
   <!-- Hero Section -->
   <section class="relative w-full overflow-hidden rounded-3xl bg-gradient-to-br from-slate-900 via-blue-950 to-indigo-950 text-white py-16 px-6 text-center shadow-xl mb-12 border border-blue-900/40">
+    <div class="absolute -top-20 left-1/2 -translate-x-1/2 w-72 h-72 bg-blue-500/15 rounded-full blur-3xl pointer-events-none"></div>
     <div class="relative max-w-2xl mx-auto">
       <div class="text-5xl mb-4">⚡</div>
       <h1 class="text-4xl md:text-5xl font-black mb-4 tracking-tight">
         TechVerse Ke Baare Mein
       </h1>
-      <p class="text-lg text-slate-300">
-        Tech samajhna ab hua aur bhi aasan — simple aur easy-to-understand Hinglish mein!
+      <p class="text-lg text-slate-300 mb-8">
+        Hinglish mein India ka sab se bharosamund tech publication — AI, Gadgets, Coding aur Digital Safety.
       </p>
+      <!-- Quick Stats -->
+      <div class="grid grid-cols-3 gap-4 max-w-sm mx-auto">
+        <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-3 border border-white/15">
+          <div class="text-2xl font-black text-white">88+</div>
+          <div class="text-xs text-slate-300 mt-1">Articles</div>
+        </div>
+        <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-3 border border-white/15">
+          <div class="text-2xl font-black text-white">4</div>
+          <div class="text-xs text-slate-300 mt-1">Categories</div>
+        </div>
+        <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-3 border border-white/15">
+          <div class="text-2xl font-black text-white">2025</div>
+          <div class="text-xs text-slate-300 mt-1">Founded</div>
+        </div>
+      </div>
     </div>
   </section>
 
-  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12 mb-16">
-    
-    <!-- About Section -->
-    <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 p-8 md:p-10">
-      <h2 class="text-3xl font-bold mb-6 dark:text-white">Humari Kahani</h2>
-      <div class="prose dark:prose-invert max-w-none text-lg text-gray-600 dark:text-gray-300">
-        <p class="font-medium text-xl mb-6 text-gray-800 dark:text-gray-200">
-          Hum TechVerse pe believe karte hain ki technology ko samajhna sabka haq hai — chahe aap English mein comfortable ho ya Hindi mein.
-        </p>
-        <p class="mb-6">
-          Internet par tech content mostly English mein hota hai, jisse kai baar complex concepts samajhna mushkil ho jata hai. TechVerse ka mission hai tech ko simple, relatable aur Hinglish bhasha mein aap tak pahunchana.
-        </p>
-        <h3 class="text-2xl font-semibold mb-4 text-gray-800 dark:text-gray-200">Hum Kya Cover Karte Hain?</h3>
-        <ul class="list-disc pl-6 space-y-3 marker:text-blue-500">
-          <li><strong>AI & Machine Learning:</strong> ChatGPT, AI tools, aur future tech ke updates.</li>
-          <li><strong>Web Development:</strong> Coding tutorials, React, Next.js aur web dev basics.</li>
-          <li><strong>Gadgets & Reviews:</strong> Naye smartphones, laptops, aur tech products ke honest reviews.</li>
-          <li><strong>Tips & Tricks:</strong> Productivity hacks aur aisi tips jo aapki digital life easy banaye.</li>
-        </ul>
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-10 mb-16">
 
-        <h3 class="text-2xl font-semibold mt-8 mb-4 text-gray-800 dark:text-gray-200">Humari Editorial Policy & E-E-A-T Standards</h3>
-        <p class="mb-4">
-          TechVerse par publish hone wala har article Google ki <em>Helpful Content Guidelines</em> aur <strong>E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness)</strong> principles ko follow karta hai:
-        </p>
-        <ul class="list-disc pl-6 space-y-2 marker:text-indigo-500">
-          <li><strong>Hands-on Research & Technical Verification:</strong> Hum kisi bhi product ya software ka review tabhi karte hain jab humne uske hardware specifications, battery performance ya coding logic ko deeply analyze aur verify kiya ho.</li>
-          <li><strong>Fact-Checking:</strong> Telecom recharge plans, bank card discounts aur government portals (jaise CEIR) ke data ko official government notifications aur verified sources se cross-check kiya jata hai.</li>
-          <li><strong>Zero Plagiarism:</strong> Hamara content carefully researched aur authentic Hinglish mein hota hai jisme practical step-by-step guidance, technical context aur comparison tables shamil hote hain.</li>
-        </ul>
-      </div>
-    </div>
-
-    <!-- Author Card -->
-    <div class="bg-gradient-to-br from-blue-50 to-purple-50 dark:from-gray-800 dark:to-gray-800 rounded-2xl p-8 border border-blue-100 dark:border-gray-700 flex flex-col md:flex-row items-center gap-8">
-      <div class="w-32 h-32 rounded-full bg-gradient-to-tr from-blue-400 to-purple-500 p-1 flex-shrink-0 shadow-lg">
+    <!-- Author Card — Prominent -->
+    <div class="bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-gray-800 dark:to-gray-800/80 rounded-2xl p-8 border border-blue-100 dark:border-gray-700 flex flex-col md:flex-row items-center gap-8 shadow-sm">
+      <div class="w-32 h-32 rounded-full bg-gradient-to-tr from-blue-500 to-purple-600 p-1 flex-shrink-0 shadow-lg">
         <div class="w-full h-full bg-white dark:bg-gray-700 rounded-full overflow-hidden">
-          <img src="/images/author-avatar.jpg" alt="Aayush - TechVerse" class="w-full h-full object-cover" />
+          <img src="/images/author-avatar.jpg" alt="Aayush Kumar — TechVerse Founder" class="w-full h-full object-cover" width="128" height="128" />
         </div>
       </div>
       <div class="text-center md:text-left">
-        <h3 class="text-2xl font-bold mb-1 dark:text-white">Aayush Kumar</h3>
-        <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">📍 Village Nagal, Shamli, Uttar Pradesh, India</p>
-        <p class="text-blue-600 dark:text-blue-400 font-medium mb-4">Founder, Tech Researcher & Lead Editor</p>
-        <p class="text-gray-600 dark:text-gray-300 mb-4 leading-relaxed">
-          Aayush Kumar TechVerse ke Founder aur Lead Technical Editor hain. Woh technology, software development, AI tools aur consumer gadgets par research-based content publish karte hain.
-        </p>
-        <div class="mb-6">
-          <a href="/author/aayush/" class="text-blue-600 dark:text-blue-400 font-bold text-sm hover:underline inline-flex items-center gap-1">
-            Aayush Kumar Ka Poora Profile Aur Sabhi Articles Dekhein →
-          </a>
+        <div class="inline-flex items-center gap-2 bg-blue-100 dark:bg-blue-900/40 text-blue-700 dark:text-blue-300 text-xs font-bold px-3 py-1 rounded-full mb-3">
+          ✍️ Lead Author & Editor
         </div>
-        <div class="flex gap-4 justify-center md:justify-start">
-          <a href="mailto:contact@techverseblogs.in" title="Email Us" class="w-10 h-10 rounded-full bg-blue-100 dark:bg-gray-700 flex items-center justify-center text-blue-600 dark:text-blue-400 hover:bg-blue-200 dark:hover:bg-gray-600 transition-colors text-sm font-semibold">
-            ✉️
+        <h2 class="text-2xl font-bold mb-1 dark:text-white">Aayush Kumar</h2>
+        <p class="text-sm text-gray-500 dark:text-gray-400 mb-1">📍 Village Nagal, Shamli, Uttar Pradesh, India</p>
+        <p class="text-blue-600 dark:text-blue-400 font-semibold text-sm mb-4">Founder, Tech Researcher & Lead Technical Editor</p>
+        <p class="text-gray-600 dark:text-gray-300 mb-5 leading-relaxed text-sm">
+          Aayush Kumar ek passionate tech researcher aur writer hain jo 2+ saal se technology, AI tools, software development aur consumer electronics ke baare mein deeply research karke Hinglish mein accurate, practical guides publish karte hain. Unka focus hai ki har Indian — chahe woh English strong na ho — latest technology ko confidently samajh sake aur use kar sake.
+        </p>
+        <!-- Expertise Tags -->
+        <div class="flex flex-wrap gap-2 mb-5">
+          {['AI & Machine Learning', 'Web Development', 'Gadget Reviews', 'Cybersecurity', 'Telecom & 5G', 'Android/iOS Tips'].map(skill => (
+            <span class="px-2.5 py-1 bg-white dark:bg-gray-700 border border-gray-200 dark:border-gray-600 text-gray-700 dark:text-gray-300 text-xs rounded-lg font-medium">{skill}</span>
+          ))}
+        </div>
+        <!-- Social Links -->
+        <div class="flex gap-3 justify-center md:justify-start">
+          <a href="mailto:contact@techverseblogs.in" title="Email Aayush" class="flex items-center gap-1.5 px-3 py-2 rounded-xl bg-white dark:bg-gray-700 border border-gray-200 dark:border-gray-600 text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 text-xs font-medium transition-colors shadow-sm">
+            ✉️ Email
           </a>
-          <a href="https://github.com/7Nov2004" target="_blank" rel="noopener noreferrer" title="GitHub" class="w-10 h-10 rounded-full bg-blue-100 dark:bg-gray-700 flex items-center justify-center text-blue-600 dark:text-blue-400 hover:bg-blue-200 dark:hover:bg-gray-600 transition-colors text-sm font-semibold">
-            GH
+          <a href="https://github.com/7Nov2004" target="_blank" rel="noopener noreferrer" title="GitHub Profile" class="flex items-center gap-1.5 px-3 py-2 rounded-xl bg-white dark:bg-gray-700 border border-gray-200 dark:border-gray-600 text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 text-xs font-medium transition-colors shadow-sm">
+            <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"></path></svg>
+            GitHub
           </a>
-          <a href="/contact/" title="Contact Us" class="w-10 h-10 rounded-full bg-blue-100 dark:bg-gray-700 flex items-center justify-center text-blue-600 dark:text-blue-400 hover:bg-blue-200 dark:hover:bg-gray-600 transition-colors text-sm font-semibold">
-            💬
+          <a href="/author/aayush/" class="flex items-center gap-1.5 px-3 py-2 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-xs font-medium transition-colors shadow-sm">
+            📝 Sabhi Articles →
           </a>
         </div>
       </div>
     </div>
 
-    <!-- Collaborate CTA -->
-    <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 p-8 md:p-10 text-center">
-      <h2 class="text-3xl font-bold mb-4 dark:text-white">Humse Collaborate Karo 🤝</h2>
-      <p class="text-lg text-gray-600 dark:text-gray-300 mb-8 max-w-2xl mx-auto">
-        Sponsored Posts, Product Reviews, Brand Partnerships ke liye humse contact karo! Hum aapke brand ko right audience tak pahunchane mein madad kar sakte hain.
+    <!-- About Section -->
+    <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 p-8 md:p-10">
+      <h2 class="text-3xl font-bold mb-6 dark:text-white">TechVerse Ki Kahani 📖</h2>
+      <div class="prose dark:prose-invert max-w-none text-gray-600 dark:text-gray-300">
+        <p class="font-medium text-xl mb-6 text-gray-800 dark:text-gray-200">
+          Hum believe karte hain ki technology samajhna sabka haq hai — chahe aap English strong ho ya Hindi mein zyada comfortable.
+        </p>
+        <p class="mb-6">
+          Internet par tech content mostly complex English mein hota hai, jisse kai baar normal Indian readers ke liye difficult ho jaata hai. TechVerse ka mission hai: <strong>tech ko simple, relatable aur Hinglish mein aap tak pahunchana</strong> — bina jhanjhat ke, bina jargon ke.
+        </p>
+
+        <h3 class="text-xl font-semibold mb-4 text-gray-800 dark:text-gray-200">Hum Kya Cover Karte Hain?</h3>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 not-prose mb-6">
+          {[
+            { emoji: '🤖', title: 'AI & Machine Learning', desc: 'ChatGPT, Gemini, DeepSeek, Perplexity — latest AI tools ke honest reviews aur guides.' },
+            { emoji: '💻', title: 'Web Development', desc: 'React, Next.js, HTML/CSS, Git — beginners se advanced tak coding roadmaps.' },
+            { emoji: '📱', title: 'Gadgets & Reviews', desc: 'Smartphones, laptops, earbuds, smartwatches — budget-focused honest comparison.' },
+            { emoji: '💡', title: 'Tips & Tricks', desc: 'Phone fixes, Windows tips, security guides, scam alerts — practical digital life hacks.' },
+          ].map(cat => (
+            <div class="flex gap-3 p-4 bg-gray-50 dark:bg-gray-700/50 rounded-xl border border-gray-100 dark:border-gray-700">
+              <span class="text-2xl flex-shrink-0">{cat.emoji}</span>
+              <div>
+                <div class="font-bold text-gray-800 dark:text-white text-sm mb-1">{cat.title}</div>
+                <div class="text-xs text-gray-500 dark:text-gray-400">{cat.desc}</div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+
+    <!-- E-E-A-T & Editorial Standards -->
+    <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 p-8 md:p-10">
+      <h2 class="text-3xl font-bold mb-6 dark:text-white">Humari Editorial Policy 📋</h2>
+      <p class="text-gray-600 dark:text-gray-300 mb-6">
+        TechVerse par publish hone wala har article Google ki <em>Helpful Content Guidelines</em> aur <strong>E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness)</strong> principles ko follow karta hai.
       </p>
-      <a href="/contact/" class="inline-block px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-bold rounded-full hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300">
-        Contact Us
-      </a>
+      <div class="space-y-4">
+        {[
+          { icon: '🔬', title: 'Hands-on Research & Technical Verification', desc: 'Koi bhi product ya software ka review tabhi karte hain jab humne hardware specs, battery performance ya coding logic ko deeply verify kiya ho. Sirf spec sheet copy-paste nahi karte.' },
+          { icon: '✅', title: 'Fact-Checking & Source Verification', desc: 'Telecom plans, bank offers aur government portals (CEIR, Aadhaar) ke data ko official government notifications aur verified sources se cross-check kiya jaata hai.' },
+          { icon: '🚫', title: 'Zero Plagiarism & Original Writing', desc: 'Humara content carefully researched aur authentic Hinglish mein hota hai. Hum kabhi duplicate content ya AI-generated spam publish nahi karte.' },
+          { icon: '💰', title: 'Affiliate Disclosure', desc: 'Kuch posts mein Amazon/Flipkart affiliate links hain. Hum clearly disclose karte hain aur sirf wohi products recommend karte hain jo genuinely value dete hain.' },
+          { icon: '🔄', title: 'Regular Updates', desc: 'Tech fast change hoti hai. Hum apne articles regularly update karte hain taaki information outdated na ho. Har article mein "updatedDate" track hoti hai.' },
+        ].map(item => (
+          <div class="flex gap-4 p-4 bg-gray-50 dark:bg-gray-700/40 rounded-xl border border-gray-100 dark:border-gray-700">
+            <span class="text-xl flex-shrink-0 mt-0.5">{item.icon}</span>
+            <div>
+              <div class="font-bold text-gray-800 dark:text-white mb-1 text-sm">{item.title}</div>
+              <div class="text-sm text-gray-500 dark:text-gray-400 leading-relaxed">{item.desc}</div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+
+    <!-- Trust Signals -->
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+      {[
+        { icon: '🏆', label: 'Independent', sub: 'No paid rankings' },
+        { icon: '🇮🇳', label: 'Made in India', sub: 'Shamli, UP' },
+        { icon: '🔍', label: 'Research First', sub: 'Verified facts only' },
+        { icon: '🔒', label: 'No Spam', sub: 'Privacy respected' },
+      ].map(t => (
+        <div class="bg-white dark:bg-gray-800 rounded-xl border border-gray-100 dark:border-gray-700 p-5 text-center shadow-sm">
+          <div class="text-3xl mb-2">{t.icon}</div>
+          <div class="font-bold text-gray-900 dark:text-white text-sm">{t.label}</div>
+          <div class="text-xs text-gray-500 dark:text-gray-400 mt-1">{t.sub}</div>
+        </div>
+      ))}
+    </div>
+
+    <!-- Collaborate CTA -->
+    <div class="bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl p-8 md:p-10 text-center text-white shadow-lg">
+      <h2 class="text-3xl font-bold mb-3">Humse Collaborate Karo 🤝</h2>
+      <p class="text-blue-100 mb-6 max-w-xl mx-auto">
+        Sponsored posts, product reviews, brand partnerships aur guest articles ke liye contact karo! India ke tech audience tak seedha pahuncho.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="/contact/" class="inline-block px-8 py-3.5 bg-white text-blue-600 font-bold rounded-xl hover:bg-blue-50 transition-all shadow-md">
+          Contact Karo →
+        </a>
+        <a href="mailto:contact@techverseblogs.in" class="inline-block px-8 py-3.5 bg-white/15 text-white font-bold rounded-xl hover:bg-white/25 transition-all border border-white/30">
+          ✉️ contact@techverseblogs.in
+        </a>
+      </div>
     </div>
 
   </div>
 </BaseLayout>
+
+

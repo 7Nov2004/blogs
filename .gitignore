@@ -1,5 +1,6 @@
 # dependencies
 node_modules/
+public/images/_originals_backup/
 
 # build output
 dist/

@@ -1,7 +1,8 @@
 ---
-title: "Work From Home Aur Telegram Task Scam Se Kaise Bachein? 2026 Cyber Safety Guide"
-description: "Telegram part-time job aur YouTube video like task scams se kaise bachein? Cyber crime helpline 1930 par report aur fraud bachav guide."
+title: 'Telegram Job Scam Kya Hai? ₹50,000 Se Zyada Loot Liya Jaata Hai — Abhi Alert Ho Jao!'
+description: "Telegram par 'part-time job' ke naam par lakhs ki thagi. Ye 5 warning signs pehchano aur scammers ko block karo — real examples with screenshots 2026."
 pubDate: 2026-09-11
+updatedDate: 2026-09-21
 image: "/images/telegram-job-scam-cover.jpg"
 category: "tips"
 tags: ["cyber-security", "scam-alert", "telegram-scam", "online-safety", "tech-tips"]

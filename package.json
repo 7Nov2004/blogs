@@ -16,7 +16,6 @@
     "@astrojs/sitemap": "^3.3.1",
     "@astrojs/tailwind": "^6.0.2",
     "astro": "^5.8.0",
-    "sharp": "^0.33.5",
     "tailwindcss": "^3.4.17"
   },
   "allowScripts": {
@@ -26,5 +25,8 @@
     "sharp@0.33.5": true,
     "esbuild@0.27.7": true,
     "esbuild@0.25.12": true
+  },
+  "devDependencies": {
+    "sharp": "^0.35.4"
   }
 }

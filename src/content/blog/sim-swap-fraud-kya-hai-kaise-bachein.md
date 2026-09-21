@@ -1,7 +1,8 @@
 ---
-title: "SIM Swap Scam Kya Hai? Bina OTP Ke Bank Account Kaise Khali Hota Hai Aur Kaise Bachein?"
-description: "SIM Swap Scam kya hota hai aur bina OTP bank account kaise safe rakhein? Telecom safety codes aur cyber fraud se bachne ke jaruri rules."
+title: 'SIM Swap Fraud Kya Hai? Aapka Bank Account Khaali Ho Sakta Hai — Abhi Safe Karo!'
+description: 'SIM Swap se hackers ek raat mein bank account khaali kar dete hain. Ye 6 steps se apna number aur paisa abhi secure karo — step-by-step guide 2026.'
 pubDate: 2026-09-12
+updatedDate: 2026-09-21
 image: "/images/sim-swap-fraud-cover.jpg"
 category: "tips"
 tags: ["cyber-security", "scam-alert", "sim-swap", "online-safety", "tech-tips", "banking-security"]
