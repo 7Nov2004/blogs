@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import AdBanner from '../components/AdBanner.astro';
+import AdSlot from '../components/AdSlot.astro';
 import NewsletterSignup from '../components/NewsletterSignup.astro';
 import { getCollection } from 'astro:content';
 import { Image } from 'astro:assets';
@@ -90,7 +90,7 @@ const webdevPosts = allPosts.filter(p => p.data.category === 'webdev').slice(0, 
 
   <!-- Ad Banner Header -->
   <div class="mb-12">
-    <AdBanner slot='header' />
+    <AdSlot position="top" />
   </div>
 
   <!-- Featured Posts -->
@@ -308,7 +308,7 @@ const webdevPosts = allPosts.filter(p => p.data.category === 'webdev').slice(0, 
 
   <!-- Ad Banner Footer -->
   <div class="mt-8 mb-4">
-    <AdBanner slot='footer' />
+    <AdSlot position="bottom" />
   </div>
 </BaseLayout>
 

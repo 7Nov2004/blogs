@@ -1,0 +1,40 @@
+---
+interface Props {
+  position?: 'top' | 'mid-article' | 'bottom' | 'sidebar';
+  slotId?: string;
+  format?: 'auto' | 'horizontal' | 'rectangle';
+}
+
+const { position = 'mid-article', slotId = 'XXXXXXXXXX', format = 'auto' } = Astro.props;
+
+// Controlled via environment flag (default false for review safety)
+// When false, renders NOTHING at all (clean DOM, 0 footprint, no layout shift)
+const ADS_ENABLED = (import.meta.env.PUBLIC_ADS_ENABLED === 'true' || import.meta.env.ADS_ENABLED === 'true') || false;
+
+// Height reservations per placement to guarantee zero Cumulative Layout Shift (CLS)
+const minHeightClass = {
+  'top': 'min-h-[100px]',
+  'mid-article': 'min-h-[280px]',
+  'bottom': 'min-h-[280px]',
+  'sidebar': 'min-h-[600px]',
+}[position] || 'min-h-[280px]';
+---
+
+{ADS_ENABLED && slotId !== 'XXXXXXXXXX' ? (
+  <div class={`ad-slot-wrapper my-8 mx-auto w-full max-w-4xl text-center overflow-hidden ${minHeightClass}`}>
+    <div class="text-[10px] uppercase tracking-widest text-gray-400 dark:text-gray-500 mb-1 select-none font-mono">
+      Advertisement
+    </div>
+    <ins
+      class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-3255404615799871"
+      data-ad-slot={slotId}
+      data-ad-format={format}
+      data-full-width-responsive="true"
+    ></ins>
+    <script is:inline>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+) : null}

@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import AdBanner from '../../components/AdBanner.astro';
+import AdSlot from '../../components/AdSlot.astro';
 import NewsletterSignup from '../../components/NewsletterSignup.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
 import TableOfContents from '../../components/TableOfContents.astro';
@@ -129,7 +129,7 @@ const breadcrumbItems = [
           
           <div class="flex items-center gap-4 text-gray-600 dark:text-gray-400 pb-8 border-b border-gray-200 dark:border-gray-700">
             <div class="w-10 h-10 rounded-full overflow-hidden flex items-center justify-center flex-shrink-0 border border-blue-200 dark:border-gray-700">
-              <img src="/images/author-avatar.jpg" alt={post.data.author || 'TechVerse Admin'} class="w-full h-full object-cover" width="40" height="40" />
+              <img src="/images/author-avatar.jpg" alt={post.data.author || 'TechVerse Admin'} class="w-full h-full object-cover" width="40" height="40" loading="lazy" />
             </div>
             <div>
               <p class="font-medium text-gray-900 dark:text-gray-200">{post.data.author || 'TechVerse Admin'}</p>
@@ -160,7 +160,7 @@ const breadcrumbItems = [
         <TableOfContents headings={cleanHeadings} />
 
         <div class="mb-8">
-          <AdBanner slot='in-article' />
+          <AdSlot position="top" />
         </div>
 
         <div class="prose-blog prose prose-lg dark:prose-invert max-w-none mb-12 prose-headings:font-bold prose-a:text-blue-600 dark:prose-a:text-blue-400 hover:prose-a:text-blue-500 prose-img:rounded-xl">
@@ -203,7 +203,7 @@ const breadcrumbItems = [
         </div>
 
         <div class="mb-12">
-          <AdBanner slot='in-article' />
+          <AdSlot position="bottom" />
         </div>
 
         {/* Clickable Tags */}
@@ -221,7 +221,7 @@ const breadcrumbItems = [
         <!-- Author Bio Card -->
         <div class="bg-gray-50 dark:bg-gray-800/50 rounded-2xl p-6 mb-16 border border-gray-200 dark:border-gray-700 flex flex-col sm:flex-row items-center sm:items-start gap-6">
            <div class="w-20 h-20 rounded-full overflow-hidden flex-shrink-0 border-2 border-blue-500 shadow-md">
-             <img src="/images/author-avatar.jpg" alt={post.data.author || 'TechVerse Admin'} class="w-full h-full object-cover" width="80" height="80" />
+             <img src="/images/author-avatar.jpg" alt={post.data.author || 'TechVerse Admin'} class="w-full h-full object-cover" width="80" height="80" loading="lazy" />
            </div>
         <div class="text-center sm:text-left">
              <h4 class="text-xl font-bold dark:text-white mb-2">{post.data.author || 'TechVerse Team'}</h4>
@@ -302,7 +302,7 @@ const breadcrumbItems = [
       <!-- Sidebar -->
       <aside class="hidden lg:block lg:col-span-1 space-y-10">
         <div class="sticky top-20 space-y-10">
-          <AdBanner slot='sidebar' />
+          <AdSlot position="sidebar" />
           
           <!-- Popular Posts (First 5 all posts for now) -->
           <div class="bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700 p-6">
@@ -339,7 +339,7 @@ const breadcrumbItems = [
             </ul>
           </div>
 
-          <AdBanner slot='sidebar' />
+          <AdSlot position="sidebar" />
         </div>
       </aside>
     </div>

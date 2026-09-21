@@ -1,53 +1,21 @@
 ---
+import AdSlot from './AdSlot.astro';
+
 interface Props {
   slot?: 'header' | 'sidebar' | 'in-article' | 'footer';
   format?: 'auto' | 'horizontal' | 'vertical' | 'rectangle';
 }
 const { slot = 'in-article', format = 'auto' } = Astro.props;
 
-// =====================================================
-// ADSENSE CONTROL PANEL
-// =====================================================
-// showAds = false  → Ads nahi dikhenge (approval pending mode)
-// showAds = true   → Ads dikhenge (approval milne ke baad yahan true karo)
-//
-// ⚡ JAB ADSENSE APPROVE HO JAYE:
-//   1. Neeche showAds = true karo
-//   2. Google AdSense dashboard mein 4 ad units banao
-//   3. Har adSlotIds mein real slot ID daalo (e.g., "1234567890")
-// =====================================================
-const showAds = false;
-
-// Har placement ke liye alag ad unit ID (AdSense dashboard se lena)
-// Format: "XXXXXXXXXX" (10-digit numeric)
-const adSlotIds: Record<string, string> = {
-  'header':     'XXXXXXXXXX',   // ← AdSense > Ads > By Ad Unit > Header Banner
-  'in-article': 'XXXXXXXXXX',   // ← AdSense > Ads > By Ad Unit > In-Article
-  'sidebar':    'XXXXXXXXXX',   // ← AdSense > Ads > By Ad Unit > Sidebar Rectangle
-  'footer':     'XXXXXXXXXX',   // ← AdSense > Ads > By Ad Unit > Footer Banner
+const positionMap: Record<string, 'top' | 'mid-article' | 'bottom' | 'sidebar'> = {
+  'header': 'top',
+  'in-article': 'mid-article',
+  'sidebar': 'sidebar',
+  'footer': 'bottom',
 };
 
-// Ad format per position
-const adFormats: Record<string, string> = {
-  'header':     'horizontal',
-  'in-article': 'auto',
-  'sidebar':    'rectangle',
-  'footer':     'horizontal',
-};
-
-const currentSlotId = adSlotIds[slot] || adSlotIds['in-article'];
-const currentFormat = adFormats[slot] || format;
+const position = positionMap[slot] || 'mid-article';
 ---
 
-{showAds && currentSlotId !== 'XXXXXXXXXX' ? (
-  <div class="w-full my-6 flex items-center justify-center overflow-hidden">
-    <ins class="adsbygoogle"
-      style="display:block"
-      data-ad-client="ca-pub-3255404615799871"
-      data-ad-slot={currentSlotId}
-      data-ad-format={currentFormat}
-      data-full-width-responsive="true"></ins>
-    <script is:inline>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
-) : null}
+<AdSlot position={position} format={format === 'vertical' ? 'rectangle' : format} />
 
