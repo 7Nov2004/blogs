@@ -37,6 +37,13 @@ const siteUrl = Astro.site || 'https://techverseblogs.in';
 const canonicalURL = new URL(Astro.url.pathname, siteUrl);
 const ogImageURL = new URL(image, siteUrl);
 
+// Clean title: strip existing brand suffix if any
+const cleanTitle = title.replace(/\s*(?:\||-)\s*TechVerse$/i, '').trim();
+const brandSuffix = ' | TechVerse';
+const pageTitle = (cleanTitle.length + brandSuffix.length <= 60)
+  ? `${cleanTitle}${brandSuffix}`
+  : cleanTitle;
+
 // WebSite schema (always present)
 const websiteSchema = {
   "@context": "https://schema.org",
@@ -70,7 +77,7 @@ const orgSchema = {
 const articleSchema = article ? {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": title.replace(' - TechVerse', ''),
+  "headline": cleanTitle,
   "description": description,
   "image": [ogImageURL.toString()],
   "datePublished": pubDate?.toISOString(),
@@ -140,7 +147,7 @@ const breadcrumbSchema = breadcrumbs.length > 0 ? {
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="google-site-verification" content="0jbeEAMkegAUbGnfE15LnqdZouejOzlPq_4jq168XDE" />
-    <title>{title}</title>
+    <title>{pageTitle}</title>
     <meta name="description" content={description} />
     <meta name="robots" content={noindex ? "noindex, follow" : "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"} />
     <meta name="theme-color" content="#0b0f19" />
@@ -157,12 +164,12 @@ const breadcrumbSchema = breadcrumbs.length > 0 ? {
     <!-- Open Graph -->
     <meta property="og:type" content={article ? 'article' : 'website'} />
     <meta property="og:url" content={canonicalURL} />
-    <meta property="og:title" content={title} />
+    <meta property="og:title" content={pageTitle} />
     <meta property="og:description" content={description} />
     <meta property="og:image" content={ogImageURL} />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content={title} />
+    <meta property="og:image:alt" content={pageTitle} />
     <meta property="og:site_name" content="TechVerse" />
     <meta property="og:locale" content="hi_IN" />
     
@@ -186,7 +193,7 @@ const breadcrumbSchema = breadcrumbs.length > 0 ? {
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content={canonicalURL} />
-    <meta property="twitter:title" content={title} />
+    <meta property="twitter:title" content={pageTitle} />
     <meta property="twitter:description" content={description} />
     <meta property="twitter:image" content={ogImageURL} />
 

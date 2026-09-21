@@ -1,7 +1,9 @@
 ---
 title: "GaN Chargers Kya Hain? Laptop Aur Phone Ke Liye Fast Charging Buying Guide (2026)"
-description: "GaN (Gallium Nitride) Chargers traditional chargers se kaise alag hain? 65W se 100W GaN chargers efficiency, thermal management aur multi-port buying guide."
+seoTitle: "GaN Charger Kya Hai? Best 65W–100W Chargers in India (2026)"
+description: "GaN Chargers traditional chargers se kaise alag hain? 65W se 100W GaN chargers efficiency, heating control aur multi-port fast charging buying guide."
 pubDate: 2026-09-20
+updatedDate: 2026-09-21
 category: "gadgets"
 tags: ["fast-charging-fix", "hardware-fix", "tech-guide", "gadget-tips", "reviews"]
 author: "Aayush Kumar"

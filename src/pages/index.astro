@@ -25,8 +25,8 @@ const webdevPosts = allPosts.filter(p => p.data.category === 'webdev').slice(0, 
 ---
 
 <BaseLayout 
-  title="TechVerse — Latest Tech News, AI Tools & Gadget Reviews in Hindi (2026)" 
-  description="TechVerse par payein latest AI updates (ChatGPT, DeepSeek), smartphone reviews, coding roadmaps aur tech hacks simple Hinglish mein. Read honest tech guides today!"
+  title="TechVerse: Tech News, AI Tools & Gadget Reviews (Hinglish)" 
+  description="TechVerse par payein latest AI tools, coding guides, gadget reviews aur practical tech tips simple Hinglish mein. Honest aur updated tech guides."
 >
   <!-- Hero Section -->
   <section class="relative w-full overflow-hidden rounded-3xl bg-gradient-to-br from-slate-900 via-blue-950 to-indigo-950 text-white py-20 px-6 text-center shadow-2xl mb-16 border border-blue-900/40">
@@ -42,7 +42,7 @@ const webdevPosts = allPosts.filter(p => p.data.category === 'webdev').slice(0, 
       </div>
 
       <h1 class="text-4xl sm:text-5xl md:text-6xl font-black mb-6 leading-tight tracking-tight">
-        Tech Ki Duniya, <span class="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-cyan-300 to-purple-400">Hinglish Mein!</span>
+        Hinglish Mein <span class="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-cyan-300 to-purple-400">Tech News, AI Tools Aur Gadget Reviews</span>
       </h1>
       
       <p class="text-lg md:text-xl mb-10 text-slate-300 max-w-2xl mx-auto leading-relaxed">
@@ -154,7 +154,7 @@ const webdevPosts = allPosts.filter(p => p.data.category === 'webdev').slice(0, 
     <div class="flex items-center justify-between mb-8 flex-wrap gap-4">
       <h2 class="text-3xl font-bold dark:text-white flex items-center gap-2">Latest Posts ✍️</h2>
       <a href="/blog/" class="text-sm font-semibold text-blue-600 dark:text-blue-400 hover:underline inline-flex items-center gap-1">
-        Sabhi 50+ Articles Dekhein →
+        Sabhi {allPosts.length}+ Articles Dekhein →
       </a>
     </div>
     <div class="flex flex-col gap-6">

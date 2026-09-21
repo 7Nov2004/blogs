@@ -1,6 +1,7 @@
 ---
 title: 'Call Recording Announcement Band Kaise Kare? Google Dialer Fix — 3 Working Methods 2026'
-description: 'Google Dialer mein "Recording started" announcement se pareshan? Ye 3 legal aur working methods se band karo — Android 13/14/15 tested. Step-by-step guide.'
+seoTitle: 'Google Dialer Call Recording Alert Kaise Band Karein?'
+description: 'Google Dialer mein "Recording started" announcement se pareshan? Ye 3 legal aur working methods se band karein — Android settings ki step-by-step guide.'
 pubDate: 2026-09-16
 updatedDate: 2026-09-21
 category: "tips"

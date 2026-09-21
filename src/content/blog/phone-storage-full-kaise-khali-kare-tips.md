@@ -1,6 +1,7 @@
 ---
-title: 'Phone Storage Full? 10 Tested Tricks Se 15GB+ Free Karo Abhi — Koi App Delete Mat Karo!'
-description: 'Phone mein storage space nahi? Ye 10 hidden tricks se 15GB+ free karo without deleting important apps. Android aur iPhone dono ke liye 2026 guide.'
+title: 'Phone Storage Kaise Khali Karein? 10 Easy Tricks (2026)'
+seoTitle: 'Phone Storage Kaise Khali Karein? 10 Easy Tricks (2026)'
+description: 'Phone storage full ho gaya? Ye 10 working tips se 15GB+ storage free karein bina apps delete kiye. Android aur iPhone dono ke liye step-by-step guide.'
 pubDate: 2026-09-07
 updatedDate: 2026-09-21
 image: '/images/phone-storage-cover.jpg'

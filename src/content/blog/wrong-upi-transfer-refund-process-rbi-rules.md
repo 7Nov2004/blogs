@@ -1,5 +1,6 @@
 ---
 title: "Galti Se Wrong UPI Transfer Ho Gaya? Kaise Wapas Karein (RBI Rules 2026)"
+seoTitle: "Wrong UPI Transfer Ka Paisa Wapas Kaise Layein? (2026 Steps)"
 description: "Galti se galat UPI ID ya number par paise transfer ho gaye? UTR number, bank complaint, NPCI portal aur RBI guidelines se refund pane ka official process."
 pubDate: 2026-09-20
 updatedDate: 2026-09-21

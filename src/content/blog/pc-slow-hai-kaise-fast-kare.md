@@ -1,6 +1,7 @@
 ---
 title: 'PC/Laptop 5 Minute Mein 3x Fast Karo — Ye 8 Proven Tricks Koi Nahi Batata!'
-description: 'PC ya laptop slow ho gaya? Ye 8 tested tips se koi bhi Windows PC 3 guna fast ho jaayega — bina koi software khareedein! Step-by-step guide 2026.'
+seoTitle: 'Slow PC/Laptop Fast Kaise Karein? 8 Working Tips (2026)'
+description: 'PC ya laptop slow ho gaya? Ye 8 working tips se koi bhi Windows PC 3x fast karein — startup apps, SSD aur cache cleanup simple step-by-step guide.'
 pubDate: 2026-08-16
 updatedDate: 2026-09-21
 image: '/images/pc-boost-cover.jpg'

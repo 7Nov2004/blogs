@@ -9,6 +9,16 @@ import { Image } from 'astro:assets';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog');
+  posts.forEach((post) => {
+    const title = post.data.seoTitle || post.data.title;
+    const desc = post.data.seoDescription || post.data.description;
+    if (title.length > 60) {
+      console.warn(`[SEO WARNING] Post "${post.slug}" title > 60 chars (${title.length}): "${title}"`);
+    }
+    if (desc.length < 120 || desc.length > 155) {
+      console.warn(`[SEO WARNING] Post "${post.slug}" description outside 120-155 chars (${desc.length}): "${desc}"`);
+    }
+  });
   return posts.map((post) => ({
     params: { slug: post.slug },
     props: { post },
@@ -18,6 +28,9 @@ export async function getStaticPaths() {
 const { post } = Astro.props;
 const { Content, headings } = await post.render();
 const readingTime = Math.ceil(post.body.split(/\s+/).length / 200);
+
+const postTitle = post.data.seoTitle || post.data.title;
+const postDescription = post.data.seoDescription || post.data.description;
 
 // Category display names
 const categoryNames: Record<string, string> = {
@@ -59,8 +72,8 @@ const breadcrumbItems = [
 ---
 
 <BaseLayout 
-  title={`${post.data.title} - TechVerse`} 
-  description={post.data.description}
+  title={postTitle} 
+  description={postDescription}
   image={post.data.image || post.data.coverImage}
   article={true}
   pubDate={post.data.pubDate}
