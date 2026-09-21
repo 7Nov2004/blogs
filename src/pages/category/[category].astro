@@ -24,7 +24,13 @@ const posts = (await getCollection('blog'))
   .sort((a, b) => new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime());
 ---
 
-<BaseLayout title={`${catInfo.name} - TechVerse`} description={catInfo.description}>
+<BaseLayout 
+  title={`${catInfo.name} - TechVerse`} 
+  description={catInfo.description}
+  breadcrumbs={[
+    { name: catInfo.name, href: `/category/${category}/` }
+  ]}
+>
   <div class="max-w-6xl mx-auto px-4 py-12">
     <!-- Category Hero -->
     <div class="relative overflow-hidden bg-gradient-to-br from-blue-900/20 via-indigo-950/20 to-purple-900/20 dark:from-gray-800/60 dark:to-gray-900/80 rounded-3xl p-10 md:p-14 text-center mb-12 border border-blue-100/80 dark:border-gray-700/80 shadow-sm backdrop-blur-sm">
