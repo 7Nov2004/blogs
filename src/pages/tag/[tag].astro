@@ -47,7 +47,10 @@ const categories = [
 <BaseLayout 
   title={`#${displayTag} — TechVerse`} 
   description={`TechVerse par "${displayTag}" se related sabhi articles padhein.`}
-  noindex={true}
+  noindex={allPosts.length < 3}
+  breadcrumbs={[
+    { name: `#${displayTag}`, href: `/tag/${tag}/` }
+  ]}
 >
   <div class="max-w-6xl mx-auto px-4 py-12">
     <!-- Tag Hero -->
