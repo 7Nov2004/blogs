@@ -7,9 +7,10 @@ interface Props {
   rating: number;
   affiliateLink: string;
   store?: 'Amazon' | 'Flipkart' | 'Other';
+  flipkartLink?: string;
   badge?: string;
 }
-const { productName, productImage, price, originalPrice, rating, affiliateLink, store = 'Amazon', badge } = Astro.props;
+const { productName, productImage, price, originalPrice, rating, affiliateLink, store = 'Amazon', flipkartLink, badge } = Astro.props;
 
 // Generate star rating
 const fullStars = Math.floor(rating);
@@ -68,21 +69,35 @@ if (isFlipkart) storeColor = 'bg-blue-100 text-blue-800 dark:bg-blue-900/30 dark
     </div>
 
     <div class="flex flex-col gap-3 mt-4">
-      <a 
-        href={affiliateLink} 
-        rel="nofollow noopener sponsored" 
-        target="_blank" 
-        class={`!text-white !no-underline w-full md:w-auto inline-flex justify-center items-center gap-2 px-6 py-3.5 rounded-xl font-bold shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-0.5 ${
-          isAmazon 
-            ? 'bg-gradient-to-r from-amber-500 via-orange-500 to-amber-600 hover:from-amber-600 hover:via-orange-600 hover:to-amber-700 shadow-orange-500/20' 
-            : 'bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 shadow-blue-500/20'
-        }`}
-      >
-        <span>Check Best Price on {store}</span>
-        <span class="text-base">&rarr;</span>
-      </a>
+      <div class="flex flex-col sm:flex-row gap-3">
+        <a 
+          href={affiliateLink} 
+          rel="nofollow noopener sponsored" 
+          target="_blank" 
+          class={`!text-white !no-underline flex-1 inline-flex justify-center items-center gap-2 px-5 py-3 rounded-xl font-bold text-sm shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-0.5 ${
+            isAmazon 
+              ? 'bg-gradient-to-r from-amber-500 via-orange-500 to-amber-600 hover:from-amber-600 hover:via-orange-600 hover:to-amber-700 shadow-orange-500/20' 
+              : 'bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 shadow-blue-500/20'
+          }`}
+        >
+          <span>Check Best Price on {store}</span>
+          <span class="text-base">&rarr;</span>
+        </a>
+
+        {flipkartLink && (
+          <a 
+            href={flipkartLink} 
+            rel="nofollow noopener sponsored" 
+            target="_blank" 
+            class="!text-white !no-underline flex-1 inline-flex justify-center items-center gap-2 px-5 py-3 rounded-xl font-bold text-sm shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-0.5 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 shadow-blue-500/20"
+          >
+            <span>Check on Flipkart</span>
+            <span class="text-base">&rarr;</span>
+          </a>
+        )}
+      </div>
       <p class="text-[11px] text-gray-400 dark:text-gray-500">
-        {isAmazon ? '* As an Amazon Associate, TechVerse earns from qualifying purchases.' : '* TechVerse earns an affiliate commission from qualifying purchases through verified partner links.'}
+        * TechVerse earns an affiliate commission from qualifying purchases through verified partner links.
       </p>
     </div>
   </div>
