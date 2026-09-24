@@ -1,5 +1,6 @@
 ---
 title: 'Machine Learning Kya Hai? Bilkul Simple Bhaasha Mein Samjho — No Math, No Coding!'
+seoTitle: 'Machine Learning Kya Hai? Simple Hindi Guide (2026)'
 description: 'Machine Learning ko simple examples se samjho — no jargon, no complex math. Beginner-friendly complete guide Hindi mein jo sach mein samajh aayegi! 2026.'
 pubDate: 2026-08-26
 updatedDate: 2026-09-21

@@ -1,5 +1,6 @@
 ---
 title: "Docker Kya Hai aur Kaise Kaam Karta Hai? Beginners Guide in Hindi (2026)"
+seoTitle: 'Docker Kya Hai aur Kaise Kaam Karta Hai? (2026 Guide)'
 description: "Docker kya hai aur web development mein kaise kaam karta hai? Containers vs VM, Dockerfile aur Compose ka beginners step-by-step Hindi guide."
 pubDate: 2026-09-16
 category: "webdev"

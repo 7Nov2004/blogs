@@ -1,5 +1,6 @@
 ---
 title: 'Redmi Note 17 Pro India Mein Launch: 10,000mAh Battery, Specs Aur Price (15 Sept 2026)'
+seoTitle: 'Redmi Note 17 Pro India Launch, Specs & Price (2026)'
 description: "Redmi Note 17 Pro India launch date, expected price, 200MP camera aur 120W fast charging specifications ka full Hindi breakdown."
 pubDate: 2026-09-10
 image: '/images/redmi-note-17-pro-cover.jpg'

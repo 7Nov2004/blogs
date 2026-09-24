@@ -1,5 +1,6 @@
 ---
 title: 'HTML & CSS Kya Hai? Web Development Shuru Karne Ka Tarika (2026)'
+seoTitle: 'HTML & CSS Kya Hai? Web Dev Beginner Guide (2026)'
 description: "Web development shuru karne ke liye HTML aur CSS basic tags, responsive layouts aur practical website design ka beginners Hindi guide."
 pubDate: 2026-08-22
 image: '/images/html-css-cover.jpg'

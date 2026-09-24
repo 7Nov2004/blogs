@@ -1,5 +1,6 @@
 ---
 title: 'SIM Swap Fraud Kya Hai? Aapka Bank Account Khaali Ho Sakta Hai — Abhi Safe Karo!'
+seoTitle: 'SIM Swap Fraud Kya Hai Aur Kaise Bachein? (2026 Guide)'
 description: 'SIM Swap se hackers ek raat mein bank account khaali kar dete hain. Ye 6 steps se apna number aur paisa abhi secure karo — step-by-step guide 2026.'
 pubDate: 2026-09-12
 updatedDate: 2026-09-21

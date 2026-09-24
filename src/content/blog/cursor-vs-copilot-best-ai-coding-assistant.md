@@ -1,5 +1,6 @@
 ---
 title: 'Cursor AI vs GitHub Copilot: 2026 Mein Kaunsa Best Hai? (Hinglish)'
+seoTitle: 'Cursor AI vs GitHub Copilot (2026 Best AI Assistant)'
 description: 'Janiye Cursor AI aur GitHub Copilot mein kya difference hai. Ek programmer ke liye 2026 mein kaunsa AI coding assistant sabse best hai?'
 pubDate: 2026-09-07
 image: '/images/cursor-ai-cover.jpg'

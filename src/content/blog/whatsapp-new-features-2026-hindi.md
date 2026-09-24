@@ -1,5 +1,6 @@
 ---
 title: 'WhatsApp Ke 12 Naye Hidden Features 2026 — Aadhe Log Jaante Bhi Nahi!'
+seoTitle: 'WhatsApp Ke 12 Naye Hidden Features (2026 Guide)'
 description: 'WhatsApp 2026 mein 12 powerful features laaya hai jisme secret chat, AI tools aur privacy upgrade sab hain. Ek bhi miss mat karna!'
 pubDate: 2026-09-11
 updatedDate: 2026-09-21

@@ -1,5 +1,6 @@
 ---
 title: 'Freelancing Se ₹50,000/Month Kaise Kamayein? Beginner Se Pro Tak Complete Roadmap'
+seoTitle: 'Freelancing Se Paise Kaise Kamayein? (2026 Roadmap)'
 description: 'India mein freelancing start karna chahte ho? Step-by-step guide — konsi skills chahiye, konse platforms use karo, aur pehla client kaise milega!'
 pubDate: 2026-08-15
 updatedDate: 2026-09-21

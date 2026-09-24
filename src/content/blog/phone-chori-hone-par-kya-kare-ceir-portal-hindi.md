@@ -1,5 +1,6 @@
 ---
 title: 'Phone Chori Ho Gaya? CEIR Portal Se 1 Click Mein Block Karo — Pura Data Safe Hoga!'
+seoTitle: 'Phone Chori Ho Gaya? CEIR Se Block Kaise Karein (2026)'
 description: 'Phone chori ho jaaye toh ghabrana nahi — CEIR portal se 5 minute mein block karo, data erase karo aur police FIR guide. Step-by-step 2026 guide.'
 pubDate: 2026-09-12
 updatedDate: 2026-09-21

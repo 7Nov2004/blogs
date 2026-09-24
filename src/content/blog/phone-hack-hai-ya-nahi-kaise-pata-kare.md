@@ -1,5 +1,6 @@
 ---
 title: 'Kya Aapka Phone Hack Ho Gaya? 7 Warning Signs Check Karo Abhi! (2026)'
+seoTitle: 'Phone Hack Hai Ya Nahi Kaise Pata Karein? (2026)'
 description: 'Phone hack hone ke 7 hidden signs jo log ignore karte hain. Battery drain, unknown apps, data usage — abhi check karo aur phone secure karo!'
 pubDate: 2026-09-09
 updatedDate: 2026-09-21

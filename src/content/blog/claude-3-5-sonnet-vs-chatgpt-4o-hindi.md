@@ -1,5 +1,6 @@
 ---
 title: "Claude 3.5 Sonnet vs ChatGPT-4o: Coding Aur Writing Mein Kaun Aage Hai? (2026 Comparison)"
+seoTitle: 'Claude 3.5 Sonnet vs ChatGPT-4o (2026 Comparison)'
 description: "Claude 3.5 Sonnet vs ChatGPT-4o: Coding, reasoning aur creative writing mein kaunsa AI model best hai? Complete Hindi comparison aur benchmarks."
 pubDate: 2026-09-12
 image: "/images/claude-vs-chatgpt-cover.jpg"

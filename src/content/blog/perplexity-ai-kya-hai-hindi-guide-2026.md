@@ -1,5 +1,6 @@
 ---
 title: 'Perplexity AI Kya Hai? Google Se 10 Guna Better Search — Free Mein Try Karo!'
+seoTitle: 'Perplexity AI Kya Hai? Google Se Better Search (2026)'
 description: 'Perplexity AI Google ko replace kar sakta hai? Real-time web search + AI answers + sources cited — complete guide aur comparison Hindi mein 2026.'
 pubDate: 2026-09-11
 updatedDate: 2026-09-21

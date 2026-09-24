@@ -1,5 +1,6 @@
 ---
 title: 'ChatGPT Se ₹30,000/Month Kaise Kamayein? 8 Real Ways — Beginners Bhi Kar Sakte Hain!'
+seoTitle: 'ChatGPT Se Paise Kaise Kamayein? 8 Real Ways (2026)'
 description: 'ChatGPT se paise kamane ke 8 proven tarike jo India mein actually kaam karte hain — freelancing, content, tools, affiliate. Beginner-friendly guide 2026.'
 pubDate: 2026-08-30
 updatedDate: 2026-09-21

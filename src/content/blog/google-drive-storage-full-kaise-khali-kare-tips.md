@@ -1,5 +1,6 @@
 ---
 title: "Google Drive Storage Full? Bina Paise Diye Space Khali Karne Ke 5 Practical Tarike (2026)"
+seoTitle: 'Google Drive Storage Full? 5 Free Space Tips (2026)'
 description: "Google Drive aur Gmail storage full (15GB limit) ho gayi hai? Google One subscription liye bina free storage space khali karne ke 5 practical aur safe tarike."
 pubDate: 2026-09-17
 category: "tips"

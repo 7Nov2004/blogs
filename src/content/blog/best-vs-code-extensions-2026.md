@@ -1,6 +1,8 @@
 ---
 title: 'Top 12 VS Code Extensions Jo Aapki Coding Speed 2x Kar Dengi (2026)'
+seoTitle: 'Top 12 VS Code Extensions for Faster Coding (2026)'
 description: 'Visual Studio Code ko supercharge karein! Web developers aur Python programmers ke liye 12 must-have extensions, settings.json configuration aur keyboard shortcuts.'
+seoDescription: 'Visual Studio Code ko supercharge karein! Web developers ke liye 12 must-have extensions, settings.json setup aur shortcuts guide.'
 pubDate: 2026-08-21
 image: '/images/vscode-cover.jpg'
 category: webdev

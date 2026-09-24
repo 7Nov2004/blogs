@@ -1,5 +1,6 @@
 ---
 title: 'Google NotebookLM Kya Hai? Students Ke Liye Free AI Study Tool — Exam Marks Badhaao!'
+seoTitle: 'Google NotebookLM Kya Hai? Students Study Guide (2026)'
 description: 'Google NotebookLM se PDF, books aur YouTube se instant notes, quiz aur podcast banao — bilkul free! Students ke liye complete guide 2026 mein.'
 pubDate: 2026-09-11
 updatedDate: 2026-09-21

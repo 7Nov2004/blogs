@@ -1,5 +1,6 @@
 ---
 title: 'Best Camera Phones Under ₹20,000 (2026): OIS Aur 4K Video Wale Top 5 Phones'
+seoTitle: 'Best Camera Phones Under ₹20,000 (2026 Top 5 OIS Picks)'
 description: "20000 ke andar best camera phones: OIS support, 4K video recording, low-light sensors aur Sony camera wale top 5 phones ka complete review."
 pubDate: 2026-09-07
 updatedDate: 2026-09-11

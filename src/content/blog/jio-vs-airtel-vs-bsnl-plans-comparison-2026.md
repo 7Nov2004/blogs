@@ -1,5 +1,6 @@
 ---
 title: 'Jio vs Airtel vs BSNL Plan 2026: ₹200-600 Mein Kaun Best Hai? [Updated September]'
+seoTitle: 'Jio vs Airtel vs BSNL: Best Recharge Plans (2026)'
 description: 'September 2026 mein Jio, Airtel aur BSNL ke plans compare kiye — data, validity, OTT benefits. ₹200 se ₹600 budget mein perfect plan kaun sa hai?'
 pubDate: 2026-09-09
 updatedDate: 2026-09-21

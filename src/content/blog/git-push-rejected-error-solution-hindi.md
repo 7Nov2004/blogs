@@ -1,5 +1,6 @@
 ---
 title: "Git Push Rejected (error: failed to push some refs) Solution in Hindi: Complete Step-by-Step Fix"
+seoTitle: 'Git Push Rejected Error Kaise Fix Karein? (2026)'
 description: "Git push rejected 'non-fast-forward' error kaise fix karein? Git pull, merge conflict resolve aur clean push karne ka step-by-step guide."
 pubDate: 2026-03-24
 category: "webdev"

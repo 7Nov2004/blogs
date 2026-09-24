@@ -1,5 +1,6 @@
 ---
 title: 'UPI Tap Pay Kya Hai? Phone Se Card Ki Tarah Payment Karo — India Mein Kaise Kaam Karta Hai?'
+seoTitle: 'UPI Tap Pay Kya Hai? NFC Payment Guide (2026)'
 description: 'UPI Tap Pay se phone NFC se seedha payment hoga — no QR scan, no PIN every time. Complete setup guide with compatible banks aur devices 2026.'
 pubDate: 2026-09-11
 updatedDate: 2026-09-21

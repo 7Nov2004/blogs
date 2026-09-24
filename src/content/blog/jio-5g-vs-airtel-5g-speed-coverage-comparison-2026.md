@@ -1,5 +1,6 @@
 ---
 title: "Jio 5G vs Airtel 5G: 2026 Mein Kaunsa SIM Best Hai? (Speed, Coverage & Plans Reality)"
+seoTitle: 'Jio 5G vs Airtel 5G: Kaunsa SIM Best Hai? (2026)'
 description: "Jio 5G vs Airtel 5G: Speed, indoor network coverage aur true unlimited 5G data plans mein kaunsa SIM 2026 mein best hai? Detailed reality check."
 pubDate: 2026-09-16
 category: "gadgets"

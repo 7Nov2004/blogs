@@ -87,6 +87,35 @@ Kabhi bhi public cyber cafe ya hotel check-in par apna asli 12-digit Aadhaar num
 
 ---
 
+## 🔍 Aadhaar Biometric Lock vs Masked Aadhaar vs Virtual ID (VID)
+
+Aam logon mein aksar confusion rehta hai ki UIDAI ke in teeno security features mein kya farak hai aur kab kaun sa use karna chahiye:
+
+| Feature | Kya Secure Karta Hai? | Kab Use Karein? | Kya OTP Aayega? |
+| :--- | :--- | :--- | :--- |
+| **Biometric Lock** | Fingerprints aur Eye (Iris) Scan | Rozana hamesha ON rakhein | Haan, mobile OTP 100% normal kaam karta hai. |
+| **Masked Aadhaar** | Pehle 8-digits chhupe hote hain (`xxxx xxxx 1234`) | Hotel check-in, travel ya identity proof submit karte waqt | Haan, legal identity proof ke roop mein 100% valid hai. |
+| **Virtual ID (VID)** | 16-digit temporary random code | Cyber cafe ya online KYC forms bharte waqt | Haan, asli 12-digit number share karne ki zaroorat nahi padti. |
+
+---
+
+## ⚠️ AePS (Aadhaar Enabled Payment System) Fraud Se Bachne Ka Ekmatra Ilaj
+
+Pichle kuch mahino mein poore desh mein **AePS Fingerprint Cloning Scams** ke kai mamle samne aaye hain:
+* Registry office ya land purchase documents se publically available fingerprints ke silicone clones banaye jaate hain.
+* In fake clones se chor micro-ATMs ya CSP centres se bina kisi OTP ke bank se rozana ₹10,000 tak cash nikal lete hain.
+* **Bachne Ka Tarika:** Agar aapka biometric lock ON hai, toh AePS transaction instantly reject ho jata hai kyunki UIDAI server authentication request ko block kar deta hai.
+
+---
+
+## ❓ Frequently Asked Questions (Biometric Security)
+
+* **Kya biometric lock hone ke baad ration ya PDS milne mein problem aayegi?**
+  Haan, agar aap biometric ration claim karte hain, toh dukaan par biometric authenticate karne se 5 minute pehle mAadhaar app se 'Temporary Unlock' karein. Kaam hone ke 10 minute baad system dobara lock ho jayega.
+* **Kya biometric lock lagane ke baad naya bank account khul sakta hai?**
+  Naya account kholte waqt biometric unlock karna mandatory hota hai, ya fir aap OTP-based Video KYC (V-KYC) ka rasta chun sakte hain jisme fingerprint ki zaroorat nahi padti.
+
+
 ### 🔗 Zaroori Related Articles:
 * 📌 **SIM Security:** SIM swapping scam se bachne ke liye [SIM Swap Fraud Protection Guide](/blog/sim-swap-fraud-kya-hai-kaise-bachein/) padhein.
 * 📌 **Phone Security Hacks:** Mobile hacking signs verify karne ke liye [Phone Hack Hai Ya Nahi Kaise Pata Kare](/blog/phone-hack-hai-ya-nahi-kaise-pata-kare/) check karein.
