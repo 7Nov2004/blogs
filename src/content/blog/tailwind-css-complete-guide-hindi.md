@@ -193,3 +193,18 @@ Aapki development speed 3x fast ho jayegi aur aap professional-grade beautiful r
 ---
 
 > 🌐 **Authoritative Reference & Source:** Adhik jankari aur official documentation ke liye aap [Tailwind CSS Official Documentation](https://tailwindcss.com/docs) ko visit kar sakte hain.
+
+## Production Mein Tailwind CSS Ko Clean Aur Maintainable Rakhne Ke Tips
+
+Bohot se developers complaint karte hain ki Tailwind mein HTML classes bohot lambi aur messy ho jati hain. Yahan clean code ke 2 best solutions hain:
+
+### 1. Component Extraction (React / Vue / Astro)
+Tailwind ko raw HTML ke bajaye React ya Astro components mein use karein. Ek `<Button variant="primary">` component bana lijiye jiske andar saari utility classes encapsulated rahein. Poori app mein classes repeat karne ki zaroorat nahi padegi.
+
+### 2. `@apply` Directive Ka Smart Use
+Agar aap plain CSS ke sath kaam kar rahe hain, toh common repeating patterns (jaise cards, form inputs) ke liye CSS file mein `@apply` use karke clean custom classes define kar sakte hain:
+```css
+.btn-primary {
+  @apply px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition font-medium;
+}
+```

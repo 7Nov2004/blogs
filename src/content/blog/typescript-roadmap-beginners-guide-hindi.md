@@ -336,3 +336,11 @@ TypeScript skills ab almost every React/Node job requirement mein hai:
 
 **Pro Tip:** TypeScript + React + Node.js combo aapko top 10% developers mein dalta hai India mein.
 
+## TypeScript Debugging Aur Migration Strategies
+
+Jab aap kisi existing JavaScript project ko TypeScript mein migrate karte hain, toh ek saath saari files convert karne ki galti kabhi mat karein:
+
+### Step-by-Step Incremental Migration:
+1. **AllowJS Mode Enable Karein:** `tsconfig.json` mein `"allowJs": true` rakhein taaki purani `.js` files aur nayi `.ts` files ek saath peacefully chal sakein.
+2. **Strict Mode Gradually On Karein:** Shuruwat mein utility functions aur data models ko type annotate karein, phir dhire-dhire components aur API handlers ko convert karein.
+3. **'any' Type Ka Overuse Na Karein:** Agar aap har jagah `let data: any` likh rahe hain, toh TypeScript ka koi benefit nahi hoga. Hamesha accurate interfaces define karein ya safe alternative ke tor par `unknown` use karein.

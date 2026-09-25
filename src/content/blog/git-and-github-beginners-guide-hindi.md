@@ -171,3 +171,16 @@ Apna pehla repository banayein, daily 1 commit karein aur apna green streak main
 ---
 
 > 🌐 **Authoritative Reference & Source:** Adhik jankari aur official documentation ke liye aap [Git-SCM Official Documentation](https://git-scm.com/doc) ko visit kar sakte hain.
+
+## Open Source Aur Team Collaboration Ke Golden Rules
+
+Git seekhna sirf commands yaad karna nahi hai, balki team ke saath bina kisi confusion ke kaam karne ka standard discipline hai:
+
+### Professional Commit Messages Ka Standard Format
+- ❌ Galat: `git commit -m "fix code"` ya `git commit -m "update"`
+- ✅ Sahi: `git commit -m "feat(auth): add google oauth login support"` ya `git commit -m "fix(cart): resolve discount calculation bug"`
+
+Commit message mein prefix lagane se poori team ko Git log history dekh kar 5 second mein samajh aa jata hai ki codebase mein kya change kiya gaya hai.
+
+### .gitignore Ka Must-Use Rule
+Apne project folder mein kabhi bhi `node_modules/`, `.env`, ya build artifacts push na karein. Ye repository ke size ko unnecessarily 500MB+ bana dete hain aur sensitive API keys public hone ka risk rehta hai.

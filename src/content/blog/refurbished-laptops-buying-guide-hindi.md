@@ -74,3 +74,15 @@ Refurbished laptop lena ek bohot smart decision ho sakta hai, bas shart ye hai k
 * 📌 **Related Guide:** Naye laptop ke vikalp ke liye hamara [Best Laptops Under 40000 for Students](/blog/best-laptops-under-40000-students-2026/) guide padhein.
 
 > 💻 **Laptop Speed Tips:** Naya ya refurbished laptop lene ke baad uski performance maintain rakhne ke liye hamara [PC Slow Hai Kaise Fast Kare Guide](/blog/pc-slow-hai-kaise-fast-kare/) aur [Best Laptops for Students](/blog/best-laptops-students-2026/) padhein.
+
+## Refurbished Laptop Lene Ke Baad Stress-Testing Kaise Karein?
+
+Return window 7 se 14 din ka hota hai. Delivery milte hi laptop ko in 3 hard tests se guzarein taaki koi hidden problem samne aa sake:
+
+### 1. CPU & Thermal Stress Test
+Free software **Cinebench** ya **FurMark** download karein aur 15 minute ka benchmark run karein. Is dauran check karein ki:
+- Fans ka sound abnormal toh nahi hai.
+- Laptop 95°C se upar jaakar thermal throttle ya shut down toh nahi ho raha.
+
+### 2. SSD Health & Read/Write Test
+**CrystalDiskInfo** software se check karein ki SSD ki health percentage kitni hai aur ye kitne ghante chal chuki hai. Agar health 85% se kam ho, toh turant seller se replacement demand karein.

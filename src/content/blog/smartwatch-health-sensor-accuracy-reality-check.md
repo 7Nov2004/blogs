@@ -94,3 +94,13 @@ Smartwatch ko sirf **"Lifestyle Trend Tracker"** ki tarah use karein (jaise: kya
 ### 🔗 Zaroori Related Articles:
 * 📌 **Smartwatch Buying Guide:** Top smartwatch selection ke liye hamara [Best Smartwatches Under 5000 Guide](/blog/best-smartwatches-under-5000/) padhein.
 * 📌 **Smartphone Battery Tips:** Battery health maintain karne ke liye [Phone Battery Life Hacks](/blog/phone-battery-life-tips-hindi/) check karein.
+
+## Smartwatch Data Ko Medical Advice Mat Samjhein
+
+Smartwatches fitness tracking aur habit building ke liye bohot acchi hain, lekin inki readings par 100% depend hone se pehle ye limitations jaan lijiye:
+
+### Optical Sensors Kaise Kaam Karte Hain (Photoplethysmography)
+Smartwatch ke peeche lagi green light aapke wrist ki blood vessels mein light absorb hone ke pattern se pulse count karti hai. Agar wrist par pasina hai, watch loose bandhi hai, ya aap fast दौड़ rahe hain, toh readings mein 10% se 20% tak ka variance aa sakta hai.
+
+### Kab Doctor Se Milna Zaroori Hai:
+Agar aapko chest pain, dizziness, ya shortness of breath mehsoos ho rahi ho, toh smartwatch ke ECG ya SpO2 graph par bharosa karne ke bajaye turant certified medical center ya clinic par jaakar proper hospital-grade testing karwayein.

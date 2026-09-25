@@ -415,3 +415,13 @@ Subtle animations website ko professional feel dete hain. Basic example:
 ```
 
 Clean CSS = easy maintenance = happy developer!
+
+## Beginners Ke Liye Modern Web Design Ke Golden Rules
+
+HTML aur CSS seekhte waqt in basic principles ko dhyan mein rakhna aapko ek amateur se professional frontend developer banata hai:
+
+### Mobile-First Layout Strategy
+Hamesha pehle 360px mobile screen ke liye design karein, phir `@media (min-width: 768px)` aur `@media (min-width: 1024px)` ke through desktop view expand karein. Isse mobile traffic (jo 75%+ hota hai) ke liye layout kabhi break nahi hota.
+
+### Web Accessibility (a11y) Basics
+Har image tag mein meaningful `alt=""` text likhein, buttons par clear labels dein, aur color contrast ratio check karein taaki vision disability wale users bhi aapki website smoothly browse kar sakein.
