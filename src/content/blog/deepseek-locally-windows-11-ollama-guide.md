@@ -1,7 +1,7 @@
 ---
 title: "DeepSeek Locally Windows 11 Par Kaise Chalaye: Offline AI Guide (Ollama & LM Studio)"
 seoTitle: 'DeepSeek Windows 11 Par Locally Kaise Chalaye (2026)'
-description: "DeepSeek R1 ko Windows 11 par bina internet ke offline kaise chalayein? Ollama download, installation aur local AI setup ka complete Hindi guide."
+description: 'DeepSeek R1 ko Windows 11 par bina internet ke offline kaise chalayein? Ollama download, installation aur local AI setup ka complete Hindi guide.'
 pubDate: 2026-03-24
 category: "ai"
 tags: ["deepseek", "local ai", "ollama", "windows 11", "ai tools", "offline llm"]

@@ -1,7 +1,7 @@
 ---
 title: "Git Push Rejected (error: failed to push some refs) Solution in Hindi: Complete Step-by-Step Fix"
 seoTitle: 'Git Push Rejected Error Kaise Fix Karein? (2026)'
-description: "Git push rejected 'non-fast-forward' error kaise fix karein? Git pull, merge conflict resolve aur clean push karne ka step-by-step guide."
+description: 'Git push rejected error kaise fix karein — authentication failure, non-fast-forward error aur permission denied problems ka step-by-step Hindi solution.'
 pubDate: 2026-03-24
 category: "webdev"
 tags: ["git", "github", "git push rejected", "web development", "coding errors", "programming tips"]
@@ -154,3 +154,22 @@ Aapko YouTube par ya StackOverflow par log kahenge:
 ---
 
 > 🌐 **Authoritative Reference & Source:** Adhik jankari aur official documentation ke liye aap [Git-SCM Official Documentation](https://git-scm.com/doc) ko visit kar sakte hain.
+
+## Quick Reference — Git Push Error Codes
+
+| Error Message | Cause | Fix |
+|--------------|-------|-----|
+| `rejected (non-fast-forward)` | Remote mein nayi commits hain | `git pull --rebase origin main` |
+| `Permission denied (publickey)` | SSH key issue | SSH key re-add karo ya HTTPS use karo |
+| `Authentication failed` | Wrong credentials | Token refresh karo GitHub Settings pe |
+| `remote: Repository not found` | Wrong remote URL | `git remote set-url origin <correct-url>` |
+| `Updates were rejected` | Force push needed | `git push --force-with-lease` (carefully) |
+
+Ye errors fix ho jaate hain zyada tar `git pull origin main --rebase` se pehle check karo ki remote pe kya changes hain.
+
+## Preventive Best Practices
+
+- Har kaam shuru karte waqt `git pull` karo
+- Feature branches banao — direct main pe kaam mat karo
+- Small, frequent commits karo — large monolithic commits avoid karo
+- Push karne se pehle `git status` aur `git log --oneline -5` check karo

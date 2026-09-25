@@ -1,7 +1,7 @@
 ---
 title: "Claude 3.7 Sonnet Kya Hai? Hybrid Reasoning, Coding Power Aur DeepSeek vs ChatGPT Se Comparison [2026 Guide]"
 seoTitle: 'Claude 3.7 Sonnet Kya Hai? Hybrid Reasoning Guide (2026)'
-description: "Anthropic ka Claude 3.7 Sonnet hybrid reasoning model kya hai? Instant response aur extended thinking mode ka complete Hindi guide aur features."
+description: 'Anthropic ka Claude 3.7 Sonnet hybrid reasoning model kya hai? Instant response aur extended thinking mode ka complete Hindi guide aur features.'
 pubDate: 2026-09-14
 image: "/images/claude-37-sonnet-cover.jpg"
 category: "ai"

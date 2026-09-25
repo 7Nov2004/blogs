@@ -1,7 +1,7 @@
 ---
 title: "Smartwatch Heart Rate & SpO2 Kitna Accurate Hota Hai? Medical vs Consumer Sensor Reality"
 seoTitle: 'Smartwatch Heart Rate & SpO2 Accuracy Reality (2026)'
-description: "Smartwatch Heart Rate, SpO2 (Blood Oxygen) aur ECG sensors kitne accurate hote hain? Photoplethysmography (PPG) optical sensor mechanism aur medical pulse oximeter se comparison."
+description: "Smartwatch health sensors kitne accurate hain — heart rate, SpO2, sleep tracking aur ECG की real accuracy data aur kab doctor se milna chahiye, Hindi mein."
 seoDescription: 'Smartwatch Heart Rate aur SpO2 sensors kitne accurate hote hain? PPG optical sensor mechanism aur medical pulse oximeter se real comparison.'
 pubDate: 2026-09-18
 category: "gadgets"

@@ -1,7 +1,7 @@
 ---
 title: '5G Phone Mein Battery Jaldi Khatam Hoti Hai? 8 Hidden Settings Jo Battery Life 40% Badha Dengi'
 seoTitle: '5G Phone Battery Drain Problem? 8 Best Fixes (2026)'
-description: "5G network par aate hi phone ki battery drain ho rahi hai? Jio aur Airtel 5G users ke liye 8 practical settings aur battery health saving tips."
+description: '5G network par aate hi phone ki battery drain ho rahi hai? Jio aur Airtel 5G users ke liye 8 practical settings aur battery health saving tips.'
 pubDate: 2026-09-07
 updatedDate: 2026-09-11
 image: '/images/5g-battery-drain-cover.jpg'

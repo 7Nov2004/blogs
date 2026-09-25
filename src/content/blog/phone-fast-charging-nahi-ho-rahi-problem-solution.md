@@ -1,7 +1,7 @@
 ---
 title: "Phone Me Fast Charging Kaam Kyu Nahi Kar Rahi? 7 Effective Hardware & Software Fixes"
 seoTitle: 'Phone Fast Charging Not Working? 7 Best Fixes (2026)'
-description: "Phone me fast charging kaam kyu nahi kar rahi? Charging port lint cleaning, adapter wattage aur protocol enable karne ke 7 verified fixes."
+description: 'Phone me fast charging kaam kyu nahi kar rahi? Charging port lint cleaning, adapter wattage aur protocol enable karne ke 7 verified fixes.'
 pubDate: 2026-09-14
 image: "/images/fast-charging-fix-cover.jpg"
 category: "tips"

@@ -1,7 +1,7 @@
 ---
 title: "Web Development Roadmap for College Students 2026: Zero Se Full-Stack Job-Ready Kaise Banein?"
 seoTitle: 'Web Development Roadmap for Students (2026 Guide)'
-description: "College students ke liye 2026 ka practical Web Development Roadmap: HTML, CSS, JavaScript, React, backend aur resume project ideas in Hindi."
+description: 'College students ke liye 2026 ka practical Web Development Roadmap: HTML, CSS, JavaScript, React, backend aur resume project ideas in Hindi.'
 pubDate: 2026-09-11
 image: "/images/web-dev-roadmap-2026-cover.jpg"
 category: "webdev"

@@ -1,7 +1,7 @@
 ---
 title: "ChatGPT Canvas Kya Hai? Coding Aur Writing Workspace Ka Complete Guide (2026)"
 seoTitle: 'ChatGPT Canvas Kya Hai? Complete Guide (2026)'
-description: "OpenAI ChatGPT Canvas feature kya hai aur ise writing & coding mein kaise use karein? Side-by-side editing interface, code review aur Claude Artifacts se comparison."
+description: "ChatGPT Canvas kya hai aur kaise use karein — documents, code editing aur collaborative writing ke liye complete beginner Hindi guide."
 seoDescription: 'OpenAI ChatGPT Canvas feature kya hai aur ise writing & coding mein kaise use karein? Side-by-side editing interface aur Claude comparison.'
 pubDate: 2026-09-18
 category: "ai"

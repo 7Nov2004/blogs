@@ -1,7 +1,7 @@
 ---
 title: "ChatGPT Search vs Google Search: Kya ChatGPT Google ko Khatam Kar Dega? (2026 Comparison)"
 seoTitle: 'ChatGPT Search vs Google Search (2026 Comparison)'
-description: "ChatGPT Search vs Google Search: Kaunsa search engine accurate answers aur real-time news ke liye behtar hai? Features aur speed comparison in Hindi."
+description: 'ChatGPT Search vs Google Search: Kaunsa search engine accurate answers aur real-time news ke liye behtar hai? Features aur speed comparison in Hindi.'
 pubDate: 2026-09-16
 category: "ai"
 tags: ["ChatGPT Search", "Google Search", "AI Search", "Perplexity", "SEO 2026", "Tech News", "OpenAI"]

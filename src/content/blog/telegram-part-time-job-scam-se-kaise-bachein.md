@@ -1,7 +1,7 @@
 ---
 title: 'Telegram Job Scam Kya Hai? ₹50,000 Se Zyada Loot Liya Jaata Hai — Abhi Alert Ho Jao!'
 seoTitle: 'Telegram Job Scam Kya Hai Aur Kaise Bachein? (2026)'
-description: "Telegram par 'part-time job' ke naam par lakhs ki thagi. Ye 5 warning signs pehchano aur scammers ko block karo — real examples with screenshots 2026."
+description: 'Telegram par part-time job scam se kaise bachein — fake job offers, advance fee fraud, aur money laundering traps ki pehchaan karna aur report karna seekhein.'
 pubDate: 2026-09-11
 updatedDate: 2026-09-21
 image: "/images/telegram-job-scam-cover.jpg"

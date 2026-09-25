@@ -1,7 +1,7 @@
 ---
 title: "Docker Compose vs Kubernetes: Microservices Deployment Ke Liye Kaun Sa Sikhein?"
 seoTitle: "Docker Compose vs Kubernetes: Pehle Kya Sikhein? (2026)"
-description: "2026 mein Docker Compose vs Kubernetes (K8s) mein kya farak hai? Single-host multi-container YAML orchestration vs production cluster auto-scaling."
+description: '2026 mein Docker Compose vs Kubernetes (K8s) mein kya farak hai? Single-host multi-container YAML orchestration vs production cluster auto-scaling.'
 pubDate: 2026-09-20
 updatedDate: 2026-09-21
 category: "webdev"

@@ -1,7 +1,7 @@
 ---
 title: 'Refurbished Laptops Lene Se Pehle Ye 5 Baatein Zaroor Check Karein (2026 Guide)'
 seoTitle: 'Refurbished Laptop Lene Ke 5 Zaruri Rules (2026 Guide)'
-description: "Saste me second hand ya refurbished laptop khareedne se pehle battery cycles, screen bleeding aur warranty check karne ka complete buyer guide."
+description: 'Saste me second hand ya refurbished laptop khareedne se pehle battery cycles, screen bleeding aur warranty check karne ka complete buyer guide.'
 pubDate: 2026-09-06
 image: '/images/refurbished-laptop-cover.jpg'
 category: 'gadgets'

@@ -1,7 +1,7 @@
 ---
 title: "Aadhaar Biometric Misuse Se Kaise Bachein? Lock & Unlock Karne Ka Official Tarika (2026)"
 seoTitle: "Aadhaar Biometric Lock/Unlock Kaise Karein? (mAadhaar Guide)"
-description: "AePS fraud se bank account kaise bachayein? mAadhaar app aur UIDAI portal par Aadhaar Biometric Lock aur Unlock karne ka official tarika."
+description: 'AePS fraud se bank account kaise bachayein? mAadhaar app aur UIDAI portal par Aadhaar Biometric Lock aur Unlock karne ka official tarika.'
 pubDate: 2026-09-18
 updatedDate: 2026-09-21
 category: "tips"
