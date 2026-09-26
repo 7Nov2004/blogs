@@ -5,7 +5,7 @@ description: 'Galti se galat UPI ID ya number par paise transfer ho gaye? UTR nu
 pubDate: 2026-09-20
 updatedDate: 2026-09-21
 category: "tips"
-tags: ["upi", "fintech", "payment", "india", "banking-security"]
+tags: ["fintech", "tech-tips", "banking-security"]
 author: "Aayush Kumar"
 image: "/images/wrong-upi-transfer-refund-cover.jpg"
 coverImage: "/images/wrong-upi-transfer-refund-cover.jpg"

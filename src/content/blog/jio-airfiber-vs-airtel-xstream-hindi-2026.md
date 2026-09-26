@@ -5,7 +5,7 @@ description: 'Jio AirFiber vs Airtel Xstream Fiber: Kaunsa connection home inter
 pubDate: 2026-09-07
 image: '/images/airfiber-router-cover.jpg'
 category: 'tips'
-tags: ['internet', 'tech-guide', 'smart-home', 'comparison']
+tags: ["telecom", "tech-guide", "gadgets", "reviews"]
 author: "Aayush Kumar"
 ---
 

@@ -5,7 +5,7 @@ description: 'Redmi Note 17 Pro India launch date, expected price, 200MP camera 
 pubDate: 2026-09-10
 image: '/images/redmi-note-17-pro-cover.jpg'
 category: 'gadgets'
-tags: ['redmi-note-17-pro', 'xiaomi', 'smartphone', 'budget-phone', 'mid-range']
+tags: ["smartphones"]
 author: "Aayush Kumar"
 faqs:
   - question: "Redmi Note 17 Pro kab launch hoga India mein?"

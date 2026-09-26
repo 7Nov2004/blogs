@@ -4,7 +4,7 @@ seoTitle: 'Phone Storage Full Problem Fix (Gallery Khali Trick)'
 description: 'Phone storage full hone par kya karein — hidden system files, app cache, OTA updates aur system junk delete karke 5-10 GB free karne ka tarika.'
 pubDate: 2026-03-24
 category: "tips"
-tags: ["phone storage", "android tips", "storage space running out", "clear cache", "whatsapp backup", "smartphone hacks"]
+tags: ["tech-tips", "android-tips", "smartphone-hacks"]
 author: "Aayush Kumar"
 image: "/images/phone-storage-running-out-fix-cover.jpg"
 faqs:

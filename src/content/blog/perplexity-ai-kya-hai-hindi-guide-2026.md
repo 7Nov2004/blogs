@@ -6,7 +6,7 @@ pubDate: 2026-09-11
 updatedDate: 2026-09-21
 image: "/images/perplexity-ai-cover.jpg"
 category: "ai"
-tags: ["perplexity-ai", "ai-tools", "search-engine", "artificial-intelligence", "google-vs-ai"]
+tags: ["ai", "tech-tips"]
 author: "Aayush Kumar"
 featured: true
 faqs:

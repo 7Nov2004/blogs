@@ -4,7 +4,7 @@ seoTitle: "Laptop Overheating & Fan Noise Fix (7 Working Tips)"
 description: "Laptop bohot zyada garam ho raha hai aur fan aawaz kar raha hai? Jane overheating aur thermal throttling theek karne ke 7 best working solution 2026."
 pubDate: 2026-09-26
 category: "tips"
-tags: ["laptop overheating", "fan noise", "windows 11 tips", "laptop cooling", "thermal throttling", "pc maintenance"]
+tags: ["pc-tips", "windows-11"]
 author: "Aayush Kumar"
 image: "/images/laptop-heating-fix-cover.jpg"
 coverImage: "/images/laptop-heating-fix-cover.jpg"

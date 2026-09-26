@@ -6,7 +6,7 @@ pubDate: 2026-09-09
 updatedDate: 2026-09-21
 image: '/images/sim-plans-comparison-cover.jpg'
 category: 'gadgets'
-tags: ['sim-plans', 'jio', 'airtel', 'bsnl-5g', 'telecom-deals', 'recharge-plans']
+tags: ["telecom"]
 author: "Aayush Kumar"
 faqs:
   - question: "2026 mein sabse sasta recharge plan kaunsa hai?"

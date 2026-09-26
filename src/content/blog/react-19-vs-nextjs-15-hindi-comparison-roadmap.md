@@ -4,7 +4,7 @@ seoTitle: 'React 19 vs Next.js 15: Kaunsa Seekhein? (2026)'
 description: 'React 19 vs Next.js 15: Server Actions, Compiler aur Server Components mein kya naya hai? Full-stack developer roadmap in Hindi (2026).'
 pubDate: 2026-09-16
 category: "webdev"
-tags: ["React 19", "Nextjs 15", "Web Development", "JavaScript", "Frontend Roadmap", "Full Stack 2026", "Server Components"]
+tags: ["webdev", "web-development"]
 author: "Aayush Kumar"
 image: "/images/react-vs-nextjs-cover.jpg"
 coverImage: "/images/react-vs-nextjs-cover.jpg"

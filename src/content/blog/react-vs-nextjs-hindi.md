@@ -4,7 +4,7 @@ description: 'React aur Next.js mein kya fark hai aur 2026 mein kaunsa framework
 pubDate: 2026-08-25
 image: '/images/react-nextjs-cover.jpg'
 category: webdev
-tags: ['react', 'nextjs', 'javascript', 'web-development', 'frontend']
+tags: ["webdev", "web-development"]
 author: "Aayush Kumar"
 featured: true
 ---

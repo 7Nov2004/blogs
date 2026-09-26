@@ -4,7 +4,7 @@ seoTitle: 'WhatsApp Passkeys Kya Hai? Setup Guide (2026)'
 description: 'WhatsApp Passkeys feature kya hai aur isse WhatsApp account hack hone se kaise bachayein? Fingerprint, Face ID aur Passkey setup karne ka step-by-step tarika.'
 pubDate: 2026-09-17
 category: "tips"
-tags: ["WhatsApp", "Passkeys", "Cyber Security", "Privacy Hacks", "Android Tricks"]
+tags: ["tech-tips", "cyber-safety", "cyber-security", "android-tricks"]
 author: "Aayush Kumar"
 image: "/images/whatsapp-passkey-cover.jpg"
 coverImage: "/images/whatsapp-passkey-cover.jpg"

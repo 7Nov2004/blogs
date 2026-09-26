@@ -5,7 +5,7 @@ description: "Python vs Rust backend comparison 2026 — AI/ML, web APIs aur sys
 seoDescription: '2026 mein Python vs Rust mein se kya sikhein? Backend performance, memory safety, GIL-free Python 3.13 aur career roadmap comparison.'
 pubDate: 2026-09-18
 category: "webdev"
-tags: ["Python", "Backend", "Full Stack", "Machine Learning", "DevOps"]
+tags: ["python", "webdev", "ai"]
 author: "Aayush Kumar"
 image: "/images/python-vs-rust-cover.jpg"
 coverImage: "/images/python-vs-rust-cover.jpg"

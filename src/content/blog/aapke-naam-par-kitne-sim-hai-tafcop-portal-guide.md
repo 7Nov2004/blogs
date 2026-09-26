@@ -6,7 +6,7 @@ pubDate: 2026-09-22
 updatedDate: 2026-09-22
 image: '/images/tafcop-sim-check-cover.jpg'
 category: 'tips'
-tags: ['tafcop', 'sanchar-saathi', 'aadhaar-sim-check', 'cyber-safety', 'smartphone-security', 'tips-and-tricks']
+tags: ["government-services", "sanchar-saathi", "cyber-safety", "smartphone-security", "tips-and-tricks"]
 author: "Aayush Kumar"
 featured: true
 faqs:

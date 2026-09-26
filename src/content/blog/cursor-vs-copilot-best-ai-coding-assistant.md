@@ -5,7 +5,7 @@ description: 'Janiye Cursor AI aur GitHub Copilot mein kya difference hai. Ek pr
 pubDate: 2026-09-07
 image: '/images/cursor-ai-cover.jpg'
 category: 'ai'
-tags: ['ai-tools', 'web-development', 'programming', 'developer-tools', 'vscode']
+tags: ["ai", "web-development", "programming", "developer-tools"]
 author: "Aayush Kumar"
 faqs:
   - question: "Cursor AI aur GitHub Copilot mein kya fark hai?"

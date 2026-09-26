@@ -6,7 +6,7 @@ pubDate: 2026-08-30
 updatedDate: 2026-09-21
 image: '/images/ai-money-cover.jpg'
 category: ai
-tags: ['chatgpt', 'ai', 'online-earning', 'freelancing', 'passive-income']
+tags: ["ai", "online-earning", "freelancing"]
 author: "Aayush Kumar"
 featured: true
 faqs:

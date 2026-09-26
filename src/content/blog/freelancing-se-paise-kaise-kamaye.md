@@ -6,7 +6,7 @@ pubDate: 2026-08-15
 updatedDate: 2026-09-21
 image: '/images/freelancing-cover.jpg'
 category: 'tips'
-tags: ['freelancing', 'online-earning', 'upwork', 'fiverr', 'remote-jobs', 'career-guide']
+tags: ["freelancing", "online-earning"]
 author: "Aayush Kumar"
 featured: true
 faqs:

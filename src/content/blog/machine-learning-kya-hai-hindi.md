@@ -6,7 +6,7 @@ pubDate: 2026-08-26
 updatedDate: 2026-09-21
 image: '/images/machine-learning-cover.jpg'
 category: ai
-tags: ['machine-learning', 'ai', 'data-science', 'python', 'beginners']
+tags: ["ai", "python", "webdev"]
 author: "Aayush Kumar"
 featured: false
 faqs:

@@ -4,7 +4,7 @@ seoTitle: 'Gemini Live vs ChatGPT Voice (2026 AI Comparison)'
 description: 'Google Gemini Live aur ChatGPT Advanced Voice Mode mein kaun sa real-time AI voice assistant behtar hai? Latency, Indian languages, aur conversational features.'
 pubDate: 2026-09-20
 category: "ai"
-tags: ["Google Gemini", "ChatGPT", "AI Tools", "Productivity", "Web Dev"]
+tags: ["google-gemini", "ai", "productivity", "web-dev"]
 author: "Aayush Kumar"
 image: "/images/gemini-live-vs-chatgpt-voice-cover.jpg"
 coverImage: "/images/gemini-live-vs-chatgpt-voice-cover.jpg"

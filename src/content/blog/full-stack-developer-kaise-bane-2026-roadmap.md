@@ -5,7 +5,7 @@ description: 'Full Stack Developer kaise banein? Frontend, backend, database, De
 pubDate: 2026-09-14
 image: "/images/fullstack-roadmap-2026-cover.jpg"
 category: "webdev"
-tags: ["full stack roadmap", "web development", "javascript", "react", "nextjs", "coding career", "learn to code"]
+tags: ["webdev", "web-development"]
 author: "Aayush Kumar"
 featured: true
 faqs:

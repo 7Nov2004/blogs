@@ -6,7 +6,7 @@ pubDate: 2026-08-16
 updatedDate: 2026-09-21
 image: '/images/pc-boost-cover.jpg'
 category: tips
-tags: ['windows-tips', 'pc-speed', 'laptop-performance', 'tech-hacks', 'troubleshooting']
+tags: ["windows-11", "pc-tips", "tech-hacks", "tech-tips"]
 author: "Aayush Kumar"
 featured: false
 faqs:

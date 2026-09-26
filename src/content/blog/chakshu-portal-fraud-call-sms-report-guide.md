@@ -4,7 +4,7 @@ seoTitle: "Chakshu Portal Se Fraud Call SMS Report Kaise Karein"
 description: "Sanchar Saathi ke Chakshu portal par fake call, WhatsApp scam aur fraud SMS kaise report karein? Jane step-by-step complaint guide aur number block rule."
 pubDate: 2026-09-26
 category: "tips"
-tags: ["chakshu portal", "sanchar saathi", "cyber crime", "fraud call report", "spam sms", "digital safety"]
+tags: ["government-services", "sanchar-saathi", "cyber-safety"]
 author: "Aayush Kumar"
 image: "/images/chakshu-portal-guide-cover.jpg"
 coverImage: "/images/chakshu-portal-guide-cover.jpg"

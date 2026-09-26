@@ -5,7 +5,7 @@ description: "ChatGPT Canvas kya hai aur kaise use karein — documents, code ed
 seoDescription: 'OpenAI ChatGPT Canvas feature kya hai aur ise writing & coding mein kaise use karein? Side-by-side editing interface aur Claude comparison.'
 pubDate: 2026-09-18
 category: "ai"
-tags: ["Google Gemini", "ChatGPT", "AI Tools", "Productivity", "Web Dev"]
+tags: ["google-gemini", "ai", "productivity", "web-dev"]
 author: "Aayush Kumar"
 image: "/images/chatgpt-canvas-cover.jpg"
 coverImage: "/images/chatgpt-canvas-cover.jpg"

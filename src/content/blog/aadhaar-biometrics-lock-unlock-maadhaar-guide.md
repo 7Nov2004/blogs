@@ -5,7 +5,7 @@ description: 'AePS fraud se bank account kaise bachayein? mAadhaar app aur UIDAI
 pubDate: 2026-09-18
 updatedDate: 2026-09-21
 category: "tips"
-tags: ["Cyber Security", "Banking Security", "Online Safety", "Tech Tips", "Android Tricks"]
+tags: ["cyber-security", "banking-security", "online-safety", "tech-tips", "android-tricks"]
 author: "Aayush Kumar"
 image: "/images/aadhaar-lock-unlock-cover.jpg"
 coverImage: "/images/aadhaar-lock-unlock-cover.jpg"

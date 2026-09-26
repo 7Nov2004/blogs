@@ -5,7 +5,7 @@ description: 'Android aur iPhone ki battery life badhane ke 9 practical tarike: 
 pubDate: 2026-08-17
 image: '/images/battery-tips-cover.jpg'
 category: tips
-tags: ['battery-life', 'smartphone-tips', 'android-hacks', 'iphone-tips', 'tech-guide']
+tags: ["tech-tips", "smartphone-tips", "android-hacks", "apple", "tech-guide"]
 author: "Aayush Kumar"
 featured: false
 ---

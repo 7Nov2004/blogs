@@ -5,7 +5,7 @@ description: 'Earbuds ka ek side band ho gaya? 6 proven fixes se 10 minute mein 
 pubDate: 2026-03-24
 updatedDate: 2026-09-21
 category: "gadgets"
-tags: ["earbuds", "tws fix", "boat airdopes", "realme buds", "audio problems", "gadget tips"]
+tags: ["earbuds", "gadget-tips"]
 author: "Aayush Kumar"
 image: "/images/earbuds-one-side-not-working-cover.jpg"
 faqs:

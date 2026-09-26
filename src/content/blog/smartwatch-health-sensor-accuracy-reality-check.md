@@ -5,7 +5,7 @@ description: "Smartwatch health sensors kitne accurate hain — heart rate, SpO2
 seoDescription: 'Smartwatch Heart Rate aur SpO2 sensors kitne accurate hote hain? PPG optical sensor mechanism aur medical pulse oximeter se real comparison.'
 pubDate: 2026-09-18
 category: "gadgets"
-tags: ["smartwatch", "gadget-tips", "hardware-fix", "tech-guide", "reviews"]
+tags: ["gadgets", "gadget-tips", "tech-tips", "tech-guide", "reviews"]
 author: "Aayush Kumar"
 image: "/images/smartwatch-health-accuracy-cover.jpg"
 coverImage: "/images/smartwatch-health-accuracy-cover.jpg"

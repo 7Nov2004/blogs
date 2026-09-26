@@ -6,7 +6,7 @@ pubDate: 2026-09-07
 updatedDate: 2026-09-11
 image: '/images/camera-phones-cover.jpg'
 category: 'gadgets'
-tags: ['smartphones', 'camera-phone', 'budget-smartphones', 'tech-deals', 'reviews', 'gadgets']
+tags: ["smartphones", "tech-deals", "reviews", "gadgets"]
 author: "Aayush Kumar"
 featured: true
 faqs:

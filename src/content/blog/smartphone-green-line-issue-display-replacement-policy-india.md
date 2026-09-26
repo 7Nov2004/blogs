@@ -4,7 +4,7 @@ seoTitle: "Phone Green Line Problem: Free Screen Replacement Guide"
 description: "Phone display par aayi green line se pareshan? OnePlus, Samsung, Vivo aur Xiaomi ki free screen replacement policy, root cause aur claims ka guide."
 pubDate: 2026-09-25
 category: "gadgets"
-tags: ["green line display", "smartphone repair", "oneplus green line", "samsung screen replacement", "android tips", "gadget care"]
+tags: ["smartphones", "tech-tips", "android-tips"]
 author: "Aayush Kumar"
 image: "/images/green-line-display-cover.jpg"
 coverImage: "/images/green-line-display-cover.jpg"

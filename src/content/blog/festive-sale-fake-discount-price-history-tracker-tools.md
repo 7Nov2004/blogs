@@ -6,7 +6,7 @@ pubDate: 2026-09-24
 updatedDate: 2026-09-24
 image: '/images/festive-sale-price-tracker-tools-cover.jpg'
 category: 'gadgets'
-tags: ['Flipkart Big Billion Days 2026', 'Amazon Great Indian Festival', 'gadget-deals', 'smartphone-sale', 'tips-and-tricks', 'shopping-hacks']
+tags: ["shopping-deals", "gadget-deals", "tips-and-tricks"]
 author: "Aayush Kumar"
 featured: true
 faqs:

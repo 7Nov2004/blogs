@@ -5,7 +5,7 @@ description: 'Kisi ne WhatsApp message delete kar diya? Ye 3 working tricks se d
 pubDate: 2026-09-16
 updatedDate: 2026-09-21
 category: "tips"
-tags: ["WhatsApp Tips", "Notification History", "Deleted Messages", "Android Tricks", "Privacy Hacks", "Smartphone Tips"]
+tags: ["tech-tips", "android-tricks", "cyber-safety", "smartphone-tips"]
 author: "Aayush Kumar"
 image: "/images/whatsapp-deleted-msg-cover.jpg"
 coverImage: "/images/whatsapp-deleted-msg-cover.jpg"

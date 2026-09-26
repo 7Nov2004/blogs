@@ -5,7 +5,7 @@ description: 'iPhone 18 Pro India price, specifications, under-display camera au
 pubDate: 2026-09-10
 image: '/images/iphone-18-pro-cover.jpg'
 category: 'gadgets'
-tags: ['iphone-18', 'apple', 'smartphone', 'ios-27', 'flagship-phone']
+tags: ["apple", "smartphones"]
 author: "Aayush Kumar"
 faqs:
   - question: "iPhone 18 Pro India mein kab launch hoga?"

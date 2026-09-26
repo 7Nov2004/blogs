@@ -5,7 +5,7 @@ description: 'College students ke liye 2026 ka practical Web Development Roadmap
 pubDate: 2026-09-11
 image: "/images/web-dev-roadmap-2026-cover.jpg"
 category: "webdev"
-tags: ["web-development", "programming", "javascript", "react", "nextjs", "career-guide", "coding-roadmap"]
+tags: ["web-development", "programming", "webdev", "freelancing"]
 author: "Aayush Kumar"
 featured: true
 faqs:

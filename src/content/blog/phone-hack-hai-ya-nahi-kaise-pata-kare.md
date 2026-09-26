@@ -6,7 +6,7 @@ pubDate: 2026-09-09
 updatedDate: 2026-09-21
 image: '/images/phone-security-hack-cover.jpg'
 category: 'tips'
-tags: ['cyber-security', 'smartphone-tips', 'android-hacks', 'privacy', 'security-codes']
+tags: ["cyber-security", "smartphone-tips", "android-hacks", "cyber-safety"]
 author: "Aayush Kumar"
 faqs:
   - question: "Kya *#21# dial karne se pata chalta hai ki phone hack hai?"

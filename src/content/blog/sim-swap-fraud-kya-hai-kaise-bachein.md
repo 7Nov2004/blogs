@@ -6,7 +6,7 @@ pubDate: 2026-09-12
 updatedDate: 2026-09-21
 image: "/images/sim-swap-fraud-cover.jpg"
 category: "tips"
-tags: ["cyber-security", "scam-alert", "sim-swap", "online-safety", "tech-tips", "banking-security"]
+tags: ["cyber-security", "cyber-safety", "online-safety", "tech-tips", "banking-security"]
 author: "Aayush Kumar"
 featured: true
 faqs:

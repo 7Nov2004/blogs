@@ -5,7 +5,7 @@ description: "LM Studio vs Ollama comparison Hindi mein — offline AI tools mei
 seoDescription: 'Apne PC par DeepSeek aur Llama 3 offline kaise chalayein? LM Studio (GUI) vs Ollama (CLI) comparison aur RAM/VRAM setup guide.'
 pubDate: 2026-09-19
 category: "ai"
-tags: ["Google Gemini", "ChatGPT", "AI Tools", "Productivity", "Web Dev"]
+tags: ["google-gemini", "ai", "productivity", "web-dev"]
 author: "Aayush Kumar"
 image: "/images/lm-studio-vs-ollama-cover.jpg"
 coverImage: "/images/lm-studio-vs-ollama-cover.jpg"

@@ -6,7 +6,7 @@ seoDescription: 'Visual Studio Code ko supercharge karein! Web developers ke liy
 pubDate: 2026-08-21
 image: '/images/vscode-cover.jpg'
 category: webdev
-tags: ['vscode', 'developer-tools', 'productivity', 'coding-tips', 'extensions']
+tags: ["developer-tools", "productivity"]
 author: "Aayush Kumar"
 featured: false
 faqs:

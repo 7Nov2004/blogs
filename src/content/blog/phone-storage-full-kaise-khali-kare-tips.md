@@ -6,7 +6,7 @@ pubDate: 2026-09-07
 updatedDate: 2026-09-21
 image: '/images/phone-storage-cover.jpg'
 category: 'tips'
-tags: ['android-tips', 'smartphone-hacks', 'storage-full', 'tips-and-tricks']
+tags: ["android-tips", "smartphone-hacks", "tech-tips", "tips-and-tricks"]
 author: "Aayush Kumar"
 faqs:
   - question: "Clear Cache aur Clear Data mein kya farak hota hai?"

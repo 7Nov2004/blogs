@@ -5,7 +5,7 @@ seoDescription: 'JavaScript shuru se advance tak kaise sikhein? Modern ES6+, DOM
 pubDate: 2026-08-23
 image: '/images/javascript-cover.jpg'
 category: webdev
-tags: ['javascript', 'js-roadmap', 'web-development', 'frontend', 'es6']
+tags: ["webdev", "web-development"]
 author: "Aayush Kumar"
 featured: false
 faqs:

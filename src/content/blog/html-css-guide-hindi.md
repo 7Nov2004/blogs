@@ -5,7 +5,7 @@ description: 'HTML aur CSS complete beginner guide Hindi mein — tags, selector
 pubDate: 2026-08-22
 image: '/images/html-css-cover.jpg'
 category: webdev
-tags: ['html', 'css', 'web-development', 'responsive-design', 'beginners']
+tags: ["webdev", "web-development"]
 author: "Aayush Kumar"
 featured: false
 faqs:

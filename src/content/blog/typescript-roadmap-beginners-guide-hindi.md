@@ -5,7 +5,7 @@ description: "TypeScript kya hai aur beginner ke liye complete roadmap — types
 seoDescription: 'TypeScript sikhna kyu zaroori hai? JavaScript vs TypeScript comparison, TSConfig setup aur Next.js integration ka beginner roadmap.'
 pubDate: 2026-09-17
 category: "webdev"
-tags: ["TypeScript", "JavaScript", "Web Dev", "Full Stack", "Frontend"]
+tags: ["webdev", "web-dev"]
 author: "Aayush Kumar"
 image: "/images/typescript-roadmap-cover.jpg"
 coverImage: "/images/typescript-roadmap-cover.jpg"

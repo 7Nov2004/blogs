@@ -5,7 +5,7 @@ description: 'Chori huye phone ka CEIR Request ID kho gaya hai? OTP aur phone nu
 pubDate: 2026-09-13
 image: "/images/ceir-request-id-recover-cover.jpg"
 category: "tips"
-tags: ["ceir-portal", "sanchar-saathi", "lost-phone", "smartphone-security", "troubleshooting"]
+tags: ["government-services", "sanchar-saathi", "smartphone-security", "tech-tips"]
 author: "Aayush Kumar"
 featured: true
 faqs:

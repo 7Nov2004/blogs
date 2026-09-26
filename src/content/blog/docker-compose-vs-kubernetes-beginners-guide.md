@@ -5,7 +5,7 @@ description: '2026 mein Docker Compose vs Kubernetes (K8s) mein kya farak hai? S
 pubDate: 2026-09-20
 updatedDate: 2026-09-21
 category: "webdev"
-tags: ["docker", "devops", "containers", "full-stack", "backend"]
+tags: ["webdev"]
 author: "Aayush Kumar"
 image: "/images/docker-compose-vs-kubernetes-cover.jpg"
 coverImage: "/images/docker-compose-vs-kubernetes-cover.jpg"

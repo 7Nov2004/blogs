@@ -5,7 +5,7 @@ description: 'Google Dialer call recording announcement band kaise karein 2026 m
 pubDate: 2026-09-16
 updatedDate: 2026-09-21
 category: "tips"
-tags: ["Call Recording", "Google Dialer", "Android Tips", "Tech Hacks", "Smartphone Settings", "Realme", "Vivo", "Xiaomi"]
+tags: ["tech-tips", "android-tips", "tech-hacks", "smartphones"]
 author: "Aayush Kumar"
 image: "/images/call-recording-fix-cover.jpg"
 coverImage: "/images/call-recording-fix-cover.jpg"

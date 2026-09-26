@@ -6,7 +6,7 @@ pubDate: 2026-09-01
 updatedDate: 2026-09-21
 image: '/images/chatgpt-cover.jpg'
 category: ai
-tags: ['chatgpt', 'ai', 'openai', 'gpt-5', 'artificial-intelligence']
+tags: ["ai"]
 author: "Aayush Kumar"
 featured: true
 faqs:

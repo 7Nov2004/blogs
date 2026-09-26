@@ -6,7 +6,7 @@ pubDate: 2026-09-12
 updatedDate: 2026-09-21
 image: "/images/phone-chori-ceir-cover.jpg"
 category: "tips"
-tags: ["ceir-portal", "sanchar-saathi", "lost-phone", "smartphone-security", "cyber-safety", "android-tips"]
+tags: ["government-services", "sanchar-saathi", "smartphone-security", "cyber-safety", "android-tips"]
 author: "Aayush Kumar"
 featured: true
 faqs:

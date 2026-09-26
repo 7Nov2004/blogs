@@ -5,7 +5,7 @@ description: 'Anthropic ka Claude 3.7 Sonnet hybrid reasoning model kya hai? Ins
 pubDate: 2026-09-14
 image: "/images/claude-37-sonnet-cover.jpg"
 category: "ai"
-tags: ["claude 3.7", "anthropic", "hybrid reasoning", "ai tools", "chatgpt vs claude", "deepseek r1", "coding ai"]
+tags: ["ai"]
 author: "Aayush Kumar"
 featured: true
 faqs:

@@ -5,7 +5,7 @@ description: 'College aur school students ke liye 10 sabse powerful free AI tool
 pubDate: 2026-08-27
 image: '/images/free-ai-tools-cover.jpg'
 category: ai
-tags: ['ai-tools', 'students', 'study-hacks', 'productivity', 'free-tools']
+tags: ["ai", "students", "study-hacks", "productivity", "tech-tips"]
 author: "Aayush Kumar"
 featured: false
 ---

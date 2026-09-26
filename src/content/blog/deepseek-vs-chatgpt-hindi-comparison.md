@@ -6,7 +6,7 @@ pubDate: 2026-09-07
 updatedDate: 2026-09-21
 image: '/images/deepseek-ai-cover.jpg'
 category: 'ai'
-tags: ['ai', 'deepseek', 'chatgpt', 'artificial-intelligence', 'tech-comparison']
+tags: ["ai", "tech-tips"]
 author: "Aayush Kumar"
 faqs:
   - question: "Kya DeepSeek ChatGPT se better hai?"

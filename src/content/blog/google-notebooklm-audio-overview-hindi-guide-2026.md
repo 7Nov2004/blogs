@@ -4,7 +4,7 @@ seoTitle: 'Google NotebookLM Audio Overview Guide (2026)'
 description: 'Google NotebookLM Audio Overview kya hai? Apne study PDF aur research notes se 2-host AI podcast audio generate karne ka step-by-step Hindi guide.'
 pubDate: 2026-09-16
 category: "ai"
-tags: ["NotebookLM", "Google AI", "Audio Overview", "Study Hacks", "AI Podcast", "Productivity Tools", "Gemini 2.0"]
+tags: ["ai", "study-hacks", "productivity"]
 author: "Aayush Kumar"
 image: "/images/notebooklm-audio-guide-cover.jpg"
 coverImage: "/images/notebooklm-audio-guide-cover.jpg"

@@ -5,7 +5,7 @@ description: 'Git aur GitHub kaise use karein? Beginners ke liye basic commands 
 pubDate: 2026-09-12
 image: "/images/git-github-beginners-cover.jpg"
 category: "webdev"
-tags: ["git", "github", "version-control", "programming", "developer-tools", "coding-tips"]
+tags: ["webdev", "programming", "developer-tools"]
 author: "Aayush Kumar"
 featured: true
 faqs:

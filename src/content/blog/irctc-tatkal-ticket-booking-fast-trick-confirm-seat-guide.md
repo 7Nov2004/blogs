@@ -4,7 +4,7 @@ seoTitle: "IRCTC Tatkal Ticket Fast Booking Trick (2026 Confirm Guide)"
 description: "IRCTC par Tatkal ticket confirm book karne ka secret trick — Master List setup, e-Wallet payment speed aur captcha bypass se 1 minute mein booking."
 pubDate: 2026-09-25
 category: "tips"
-tags: ["irctc", "tatkal booking", "train ticket", "travel hacks", "indian railways", "digital tips"]
+tags: ["government-services", "tech-tips"]
 author: "Aayush Kumar"
 image: "/images/irctc-tatkal-fast-booking-cover.jpg"
 coverImage: "/images/irctc-tatkal-fast-booking-cover.jpg"

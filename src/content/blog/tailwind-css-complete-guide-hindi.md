@@ -5,7 +5,7 @@ description: 'Tailwind CSS kya hai aur utility-first CSS framework kaise kaam ka
 pubDate: 2026-09-12
 image: "/images/tailwind-css-guide-cover.jpg"
 category: "webdev"
-tags: ["tailwind-css", "css", "web-development", "frontend", "responsive-design", "programming"]
+tags: ["webdev", "web-development", "programming"]
 author: "Aayush Kumar"
 featured: true
 faqs:

@@ -5,7 +5,7 @@ description: 'UPI Tap Pay se phone NFC se seedha payment hoga — no QR scan, no
 pubDate: 2026-09-11
 updatedDate: 2026-09-21
 category: "tips"
-tags: ["upi", "fintech", "payment", "nfc", "india", "digital-payment"]
+tags: ["fintech", "tech-tips"]
 image: "/images/upi-tap-pay-2026-cover.jpg"
 author: "Aayush Kumar"
 faqs:

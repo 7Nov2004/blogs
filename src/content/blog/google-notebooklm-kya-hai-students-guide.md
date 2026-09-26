@@ -6,7 +6,7 @@ pubDate: 2026-09-11
 updatedDate: 2026-09-21
 image: "/images/notebooklm-guide-cover.jpg"
 category: "tips"
-tags: ["notebooklm", "ai-tools", "study-hacks", "students", "free-tools", "exam-prep"]
+tags: ["ai", "study-hacks", "students", "tech-tips"]
 author: "Aayush Kumar"
 featured: true
 faqs:

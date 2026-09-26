@@ -6,7 +6,7 @@ seoDescription: 'Photo background remove karna ya low-res photo ko 4K mein conve
 pubDate: 2026-09-12
 image: "/images/free-ai-photo-editing-cover.jpg"
 category: "ai"
-tags: ["photo-editing", "ai-tools", "graphic-design", "free-tools", "content-creation"]
+tags: ["ai", "tech-tips"]
 author: "Aayush Kumar"
 featured: true
 faqs:

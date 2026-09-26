@@ -6,7 +6,7 @@ pubDate: 2026-09-11
 updatedDate: 2026-09-21
 image: "/images/telegram-job-scam-cover.jpg"
 category: "tips"
-tags: ["cyber-security", "scam-alert", "telegram-scam", "online-safety", "tech-tips"]
+tags: ["cyber-security", "cyber-safety", "online-safety", "tech-tips"]
 author: "Aayush Kumar"
 featured: true
 faqs:

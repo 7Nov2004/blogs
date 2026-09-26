@@ -4,7 +4,7 @@ description: 'Python kaise seekhein 2026 mein — complete beginner roadmap, fre
 pubDate: 2026-08-24
 image: '/images/python-cover.jpg'
 category: webdev
-tags: ['python', 'programming', 'coding-roadmap', 'beginners', 'web-development']
+tags: ["python", "programming", "webdev", "web-development"]
 author: "Aayush Kumar"
 featured: true
 faqs:

@@ -6,7 +6,7 @@ pubDate: 2026-09-24
 updatedDate: 2026-09-24
 image: '/images/aadhaar-authentication-history-cover.jpg'
 category: 'tips'
-tags: ['aadhaar-auth-history', 'cyber-safety', 'myaadhaar', 'aadhaar-misuse', 'sanchar-saathi', 'smartphone-security']
+tags: ["government-services", "cyber-safety", "sanchar-saathi", "smartphone-security"]
 author: "Aayush Kumar"
 featured: true
 faqs:

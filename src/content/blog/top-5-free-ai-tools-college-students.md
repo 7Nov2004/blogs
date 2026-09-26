@@ -5,7 +5,7 @@ description: 'College assignments, notes, aur presentations mein time bachana ha
 pubDate: 2026-09-07
 image: '/images/student-ai-tools-cover.jpg'
 category: 'ai'
-tags: ['ai-tools', 'students', 'productivity', 'free-tools']
+tags: ["ai", "students", "productivity", "tech-tips"]
 author: "Aayush Kumar"
 faqs:
   - question: "Kya AI tools se cheating hoti hai?"

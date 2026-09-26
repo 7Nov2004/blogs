@@ -6,7 +6,7 @@ pubDate: 2026-09-07
 updatedDate: 2026-09-21
 image: '/images/windows-11-speed-cover.jpg'
 category: 'tips'
-tags: ['windows-11', 'pc-speed', 'laptop-performance', 'tech-tips', 'computer-hacks']
+tags: ["windows-11", "pc-tips", "tech-tips"]
 author: "Aayush Kumar"
 featured: true
 faqs:

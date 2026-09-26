@@ -6,7 +6,7 @@ pubDate: 2026-09-07
 updatedDate: 2026-09-11
 image: '/images/ai-video-generator-cover.jpg'
 category: 'ai'
-tags: ['ai-tools', 'video-editing', 'youtube-shorts', 'online-earning', 'content-creation', 'ai']
+tags: ["ai", "tech-tips", "online-earning"]
 author: "Aayush Kumar"
 featured: true
 faqs:

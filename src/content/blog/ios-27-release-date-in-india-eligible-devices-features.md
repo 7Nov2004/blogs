@@ -6,7 +6,7 @@ pubDate: 2026-09-15
 updatedDate: 2026-09-21
 image: "/images/ios-27-release-india-cover.jpg"
 category: "gadgets"
-tags: ["ios 27", "apple", "iphone update", "ios 27 release date", "apple intelligence", "tech news"]
+tags: ["apple", "tech-tips"]
 author: "Aayush Kumar"
 featured: true
 faqs:

@@ -5,7 +5,7 @@ description: 'Saste me second hand ya refurbished laptop khareedne se pehle batt
 pubDate: 2026-09-06
 image: '/images/refurbished-laptop-cover.jpg'
 category: 'gadgets'
-tags: ['laptops', 'budget-laptops', 'tech-guide', 'students']
+tags: ["laptops", "tech-guide", "students"]
 author: "Aayush Kumar"
 ---
 

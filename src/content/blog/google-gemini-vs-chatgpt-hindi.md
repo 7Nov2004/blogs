@@ -6,7 +6,7 @@ pubDate: 2026-08-29
 updatedDate: 2026-09-21
 image: '/images/gemini-ai-cover.jpg'
 category: ai
-tags: ['google-gemini', 'chatgpt', 'ai-comparison', 'openai', 'gemini-advanced']
+tags: ["google-gemini", "ai"]
 author: "Aayush Kumar"
 featured: false
 faqs:
