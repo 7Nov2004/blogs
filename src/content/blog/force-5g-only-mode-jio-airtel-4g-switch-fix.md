@@ -4,7 +4,7 @@ seoTitle: "Force 5G Only Mode Android (Jio Airtel 4G Switch Fix 2026)"
 description: "Jio ya Airtel 5G baar-baar 4G par switch ho raha hai? Jane *#*#4636#*#* aur NR Only mode se 5G network permanent lock karne ka secret working trick."
 pubDate: 2026-09-28
 category: "tips"
-tags: ["force 5g only", "jio true 5g", "airtel 5g", "nr only mode", "4636 dialer code", "android network tips"]
+tags: ["telecom", "android-tips"]
 author: "Aayush Kumar"
 image: "/images/force-5g-only-mode-cover.jpg"
 coverImage: "/images/force-5g-only-mode-cover.jpg"

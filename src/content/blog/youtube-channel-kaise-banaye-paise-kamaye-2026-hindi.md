@@ -4,7 +4,7 @@ seoTitle: "YouTube Se Paise Kaise Kamaye 2026 – Complete Guide"
 description: "YouTube channel shuroo karne se paise kamane tak — monetization rules, best niche, equipment, aur India mein kitni earning hoti hai, sab Hindi mein."
 pubDate: 2026-10-05
 category: "tips"
-tags: ["tech-tips", "ai-tools", "digital-india"]
+tags: ["tech-tips", "ai", "digital-india"]
 author: "Aayush Kumar"
 image: "/images/youtube-channel-money-cover.jpg"
 coverImage: "/images/youtube-channel-money-cover.jpg"

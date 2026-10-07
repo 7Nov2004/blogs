@@ -4,7 +4,7 @@ seoTitle: "Google Pay vs PhonePe vs Paytm Best 2026 – Full Compare"
 description: "Google Pay, PhonePe aur Paytm mein se 2026 mein konsa UPI app best hai? Security, cashback, features aur speed ka honest comparison Hindi mein."
 pubDate: 2026-10-05
 category: "tips"
-tags: ["tech-tips", "digital-india", "finance"]
+tags: ["tech-tips", "digital-india", "fintech"]
 author: "Aayush Kumar"
 image: "/images/gpay-phonepe-paytm-cover.jpg"
 coverImage: "/images/gpay-phonepe-paytm-cover.jpg"

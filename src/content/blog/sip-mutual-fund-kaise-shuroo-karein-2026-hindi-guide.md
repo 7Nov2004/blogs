@@ -4,7 +4,7 @@ seoTitle: "SIP Kaise Shuroo Karein 2026 – Rs.500 Se Invest Guide"
 description: "SIP kya hai, kaise shuroo karein, konsa app use karein aur Rs. 500 se Rs. 5000 tak invest karke kitna paisa ban sakta hai — poori Hindi guide 2026."
 pubDate: 2026-10-06
 category: "tips"
-tags: ["tech-tips", "finance", "digital-india"]
+tags: ["tech-tips", "fintech", "digital-india"]
 author: "Aayush Kumar"
 image: "/images/sip-mutual-fund-cover.jpg"
 coverImage: "/images/sip-mutual-fund-cover.jpg"

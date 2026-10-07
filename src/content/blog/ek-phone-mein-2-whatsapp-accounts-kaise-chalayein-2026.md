@@ -4,7 +4,7 @@ seoTitle: "2 WhatsApp Accounts Ek Phone Mein Kaise Chalayein 2026"
 description: "Ek Android ya iPhone mein 2 WhatsApp accounts chalane ke 4 tarike — Dual SIM, WhatsApp Business, Clone App aur built-in Dual App feature se step-by-step guide."
 pubDate: 2026-10-06
 category: "tips"
-tags: ["tech-tips", "android", "smartphones"]
+tags: ["tech-tips", "android-tips", "smartphones"]
 author: "Aayush Kumar"
 image: "/images/whatsapp-dual-account-cover.jpg"
 coverImage: "/images/whatsapp-dual-account-cover.jpg"

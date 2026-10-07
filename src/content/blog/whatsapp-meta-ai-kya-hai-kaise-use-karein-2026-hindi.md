@@ -4,7 +4,7 @@ seoTitle: "WhatsApp Meta AI Kaise Use Karein 2026 – Hindi Guide"
 description: "WhatsApp Meta AI kya hai, ise chat mein kaise use karein, Hindi prompt kaise dein, photo generate karna aur group features ka full guide 2026."
 pubDate: 2026-10-07
 category: "ai"
-tags: ["ai-tools", "tech-tips", "whatsapp"]
+tags: ["ai", "tech-tips"]
 author: "Aayush Kumar"
 image: "/images/whatsapp-meta-ai-guide-cover.jpg"
 coverImage: "/images/whatsapp-meta-ai-guide-cover.jpg"

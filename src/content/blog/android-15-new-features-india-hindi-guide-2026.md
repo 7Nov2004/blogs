@@ -4,7 +4,7 @@ seoTitle: "Android 15 New Features India 2026 – Hindi Guide"
 description: "Android 15 ke sabse kaam ke naye features ka complete Hindi guide — Private Space, Live Translate, Theft Detection, battery aur camera updates."
 pubDate: 2026-10-03
 category: "tips"
-tags: ["tech-tips", "android", "smartphones"]
+tags: ["tech-tips", "android-tips", "smartphones"]
 author: "Aayush Kumar"
 image: "/images/android-15-features-cover.jpg"
 coverImage: "/images/android-15-features-cover.jpg"

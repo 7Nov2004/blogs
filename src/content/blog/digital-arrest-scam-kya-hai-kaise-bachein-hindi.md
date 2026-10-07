@@ -4,7 +4,7 @@ seoTitle: "Digital Arrest Scam Kya Hai? Fake Police Call Se Kaise Bache"
 description: "CBI, Police aur Customs ke farzi video call se Digital Arrest scam kya hai? Jane scammers ke tareeqe, MHA advisory aur 1930 helpline complaint guide."
 pubDate: 2026-09-28
 category: "tips"
-tags: ["digital arrest", "cyber crime", "police scam", "fake cbi call", "sanchar saathi", "cyber safety"]
+tags: ["cyber-safety", "sanchar-saathi"]
 author: "Aayush Kumar"
 image: "/images/digital-arrest-scam-cover.jpg"
 coverImage: "/images/digital-arrest-scam-cover.jpg"
